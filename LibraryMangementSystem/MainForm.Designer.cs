@@ -42,7 +42,6 @@ namespace LibraryManagementSystem
             this.btnSearch = new System.Windows.Forms.Button();
             this.panelExplore = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.treeViewExplore = new System.Windows.Forms.TreeView();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.btnEBissret = new System.Windows.Forms.Button();
             this.btnEBviewall = new System.Windows.Forms.Button();
@@ -252,6 +251,7 @@ namespace LibraryManagementSystem
             this.cmdIssueSubmitBook = new Glass.GlassButton();
             this.cmdManageBooks = new Glass.GlassButton();
             this.tooltipManager = new System.Windows.Forms.ToolTip(this.components);
+            this.treeViewExplore = new System.Windows.Forms.TreeView();
             this.panelExplore.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -338,8 +338,7 @@ namespace LibraryManagementSystem
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Location = new System.Drawing.Point(169, 106);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -354,19 +353,6 @@ namespace LibraryManagementSystem
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.TabStop = false;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
-            // 
-            // treeViewExplore
-            // 
-            this.treeViewExplore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.treeViewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeViewExplore.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeViewExplore.Location = new System.Drawing.Point(0, 0);
-            this.treeViewExplore.Name = "treeViewExplore";
-            this.treeViewExplore.Size = new System.Drawing.Size(197, 581);
-            this.treeViewExplore.TabIndex = 0;
-            this.treeViewExplore.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewExplore_AfterSelect);
-            this.treeViewExplore.Click += new System.EventHandler(this.treeViewExplore_Click);
-            this.treeViewExplore.Leave += new System.EventHandler(this.treeViewExplore_Leave);
             // 
             // splitContainer4
             // 
@@ -514,13 +500,13 @@ namespace LibraryManagementSystem
             this.panelMainContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelMainContainer.Controls.Add(this.panelExplore);
-            this.panelMainContainer.Controls.Add(this.panelIssueDetails);
-            this.panelMainContainer.Controls.Add(this.panelIssueSubmit);
             this.panelMainContainer.Controls.Add(this.panelBookDetails);
             this.panelMainContainer.Controls.Add(this.panelManageBooks);
             this.panelMainContainer.Controls.Add(this.panelManageMembers);
             this.panelMainContainer.Controls.Add(this.panelExtraMenu);
+            this.panelMainContainer.Controls.Add(this.panelExplore);
+            this.panelMainContainer.Controls.Add(this.panelIssueDetails);
+            this.panelMainContainer.Controls.Add(this.panelIssueSubmit);
             this.panelMainContainer.Location = new System.Drawing.Point(6, 92);
             this.panelMainContainer.Name = "panelMainContainer";
             this.panelMainContainer.Size = new System.Drawing.Size(992, 581);
@@ -2937,6 +2923,19 @@ namespace LibraryManagementSystem
             this.cmdManageBooks.Text = "Manage Books";
             this.cmdManageBooks.Click += new System.EventHandler(this.cmdManageBooks_Click);
             // 
+            // treeViewExplore
+            // 
+            this.treeViewExplore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.treeViewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeViewExplore.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeViewExplore.Location = new System.Drawing.Point(0, 0);
+            this.treeViewExplore.Name = "treeViewExplore";
+            this.treeViewExplore.Size = new System.Drawing.Size(197, 581);
+            this.treeViewExplore.TabIndex = 0;
+            this.treeViewExplore.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewExplore_AfterSelect);
+            this.treeViewExplore.Click += new System.EventHandler(this.treeViewExplore_Click);
+            this.treeViewExplore.Leave += new System.EventHandler(this.treeViewExplore_Leave);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3024,7 +3023,6 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Panel panelBookDetails;
         private System.Windows.Forms.Panel panelManageMembers;
         private System.Windows.Forms.Panel panelIssueSubmit;
-        private System.Windows.Forms.TreeView treeViewExplore;
         private System.Windows.Forms.DataGridView gridviewExplore;
         private System.Windows.Forms.ComboBox comboSearchFields;
         private System.Windows.Forms.Label label2;
@@ -3223,5 +3221,6 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Button btnAddOk;
         private System.Windows.Forms.ToolTip tooltipManager;
+        private System.Windows.Forms.TreeView treeViewExplore;
     }
 }
