@@ -83,9 +83,9 @@
             this.label8.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(7, 164);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 20);
+            this.label8.Size = new System.Drawing.Size(81, 20);
             this.label8.TabIndex = 151;
-            this.label8.Text = "Address :";
+            this.label8.Text = "Direccion :";
             // 
             // label11
             // 
@@ -93,9 +93,9 @@
             this.label11.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(7, 81);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 20);
+            this.label11.Size = new System.Drawing.Size(73, 20);
             this.label11.TabIndex = 150;
-            this.label11.Text = "Name :";
+            this.label11.Text = "Nombre :";
             // 
             // label10
             // 
@@ -103,9 +103,9 @@
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(7, 123);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 20);
+            this.label10.Size = new System.Drawing.Size(159, 20);
             this.label10.TabIndex = 145;
-            this.label10.Text = "Date of Birth :";
+            this.label10.Text = "Fecha de nacimiento :";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // txtPhone
@@ -124,9 +124,9 @@
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(7, 344);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 20);
+            this.label2.Size = new System.Drawing.Size(154, 20);
             this.label2.TabIndex = 156;
-            this.label2.Text = "Phone number :";
+            this.label2.Text = "Número de teléfono :";
             // 
             // label3
             // 
@@ -135,9 +135,9 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(302, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(236, 33);
+            this.label3.Size = new System.Drawing.Size(307, 33);
             this.label3.TabIndex = 158;
-            this.label3.Text = "Add a new Member ";
+            this.label3.Text = "Añadir un nuevo Miembro ";
             // 
             // dateDob
             // 
@@ -156,7 +156,7 @@
             this.btnPhoto.Name = "btnPhoto";
             this.btnPhoto.Size = new System.Drawing.Size(150, 37);
             this.btnPhoto.TabIndex = 8;
-            this.btnPhoto.Text = "Upload Photo";
+            this.btnPhoto.Text = "Subir foto";
             this.btnPhoto.UseVisualStyleBackColor = true;
             this.btnPhoto.Click += new System.EventHandler(this.btnPhoto_Click);
             // 
@@ -213,7 +213,7 @@
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(144, 41);
             this.btnSubmit.TabIndex = 9;
-            this.btnSubmit.Text = "Add";
+            this.btnSubmit.Text = "Añadir";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
@@ -228,7 +228,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(769, 30);
             this.lblStatus.TabIndex = 167;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estado";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cmbCourse
@@ -248,9 +248,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(7, 382);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 20);
+            this.label1.Size = new System.Drawing.Size(57, 20);
             this.label1.TabIndex = 186;
-            this.label1.Text = "Course :";
+            this.label1.Text = "Curso :";
             // 
             // label5
             // 
@@ -258,9 +258,9 @@
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(7, 425);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(122, 20);
+            this.label5.Size = new System.Drawing.Size(130, 20);
             this.label5.TabIndex = 187;
-            this.label5.Text = "Admission Year :";
+            this.label5.Text = "Año de admisión :";
             // 
             // txtRollNo
             // 
@@ -278,9 +278,9 @@
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(7, 478);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 20);
+            this.label6.Size = new System.Drawing.Size(105, 20);
             this.label6.TabIndex = 189;
-            this.label6.Text = "Roll Number :";
+            this.label6.Text = "Numero Roll  :";
             // 
             // txtAdmYear
             // 

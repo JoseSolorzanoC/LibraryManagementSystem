@@ -83,7 +83,7 @@
             this.btnEnable.Name = "btnEnable";
             this.btnEnable.Size = new System.Drawing.Size(146, 61);
             this.btnEnable.TabIndex = 0;
-            this.btnEnable.Text = "Enable Users";
+            this.btnEnable.Text = "Habilitar usuarios";
             this.btnEnable.UseVisualStyleBackColor = true;
             this.btnEnable.Click += new System.EventHandler(this.btnEnable_Click);
             // 
@@ -94,9 +94,9 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(628, 54);
             this.label1.TabIndex = 35;
-            this.label1.Text = "Enable Users for multiple users with username and password and one Administrator." +
-    "Disable it for a simple Administrator autologin without showing the login window" +
-    ".";
+            this.label1.Text = "Habilitar Usuarios para múltiples usuarios con nombre de usuario y contraseña y u" +
+    "n Administrador.Deshabilitarlo para un simple autologin de Administrador sin mos" +
+    "trar la ventana de login.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // grpUsers
@@ -123,7 +123,7 @@
             this.btnMakeDefault.Name = "btnMakeDefault";
             this.btnMakeDefault.Size = new System.Drawing.Size(164, 43);
             this.btnMakeDefault.TabIndex = 3;
-            this.btnMakeDefault.Text = "Make Default User";
+            this.btnMakeDefault.Text = "Hacer usuario por defecto";
             this.btnMakeDefault.UseVisualStyleBackColor = true;
             this.btnMakeDefault.Click += new System.EventHandler(this.btnMakeDefault_Click);
             // 
@@ -149,7 +149,7 @@
             this.btnDelUser.Name = "btnDelUser";
             this.btnDelUser.Size = new System.Drawing.Size(164, 43);
             this.btnDelUser.TabIndex = 2;
-            this.btnDelUser.Text = "Delete User";
+            this.btnDelUser.Text = "Borrar usuario";
             this.btnDelUser.UseVisualStyleBackColor = true;
             this.btnDelUser.Click += new System.EventHandler(this.btnDelUser_Click);
             // 
@@ -159,7 +159,7 @@
             this.btnEditUser.Name = "btnEditUser";
             this.btnEditUser.Size = new System.Drawing.Size(164, 43);
             this.btnEditUser.TabIndex = 1;
-            this.btnEditUser.Text = "Edit/View User";
+            this.btnEditUser.Text = "Editar/Ver Usuario";
             this.btnEditUser.UseVisualStyleBackColor = true;
             this.btnEditUser.Click += new System.EventHandler(this.btnEditUser_Click);
             // 
@@ -169,7 +169,7 @@
             this.btnAddNewUser.Name = "btnAddNewUser";
             this.btnAddNewUser.Size = new System.Drawing.Size(164, 43);
             this.btnAddNewUser.TabIndex = 0;
-            this.btnAddNewUser.Text = "Add New User";
+            this.btnAddNewUser.Text = "Añadir nuevo usuario";
             this.btnAddNewUser.UseVisualStyleBackColor = true;
             this.btnAddNewUser.Click += new System.EventHandler(this.btnAddNewUser_Click);
             // 
@@ -193,7 +193,7 @@
             this.pnlAddUser.Controls.Add(this.txtAddUname);
             this.pnlAddUser.Controls.Add(this.label3);
             this.pnlAddUser.Controls.Add(this.btnAdd);
-            this.pnlAddUser.Location = new System.Drawing.Point(169, 18);
+            this.pnlAddUser.Location = new System.Drawing.Point(203, 79);
             this.pnlAddUser.Name = "pnlAddUser";
             this.pnlAddUser.Size = new System.Drawing.Size(445, 542);
             this.pnlAddUser.TabIndex = 2;
@@ -232,9 +232,9 @@
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(23, 374);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 20);
+            this.label6.Size = new System.Drawing.Size(159, 20);
             this.label6.TabIndex = 101;
-            this.label6.Text = "Phone Number : ";
+            this.label6.Text = "Número de teléfono : ";
             // 
             // txtAddAddress
             // 
@@ -253,9 +253,9 @@
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(23, 248);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 20);
+            this.label5.Size = new System.Drawing.Size(81, 20);
             this.label5.TabIndex = 99;
-            this.label5.Text = "Address : ";
+            this.label5.Text = "Direccion :";
             // 
             // txtAddName
             // 
@@ -272,9 +272,9 @@
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(19, 195);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 20);
+            this.label4.Size = new System.Drawing.Size(62, 20);
             this.label4.TabIndex = 97;
-            this.label4.Text = "Name : ";
+            this.label4.Text = "Nombre";
             // 
             // txtAddPass2
             // 
@@ -293,9 +293,9 @@
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 20);
+            this.label2.Size = new System.Drawing.Size(163, 20);
             this.label2.TabIndex = 95;
-            this.label2.Text = "Re-type Password :";
+            this.label2.Text = "Reescribir contraseña :";
             // 
             // lblAmount
             // 
@@ -303,9 +303,9 @@
             this.lblAmount.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.Location = new System.Drawing.Point(19, 114);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(81, 20);
+            this.lblAmount.Size = new System.Drawing.Size(95, 20);
             this.lblAmount.TabIndex = 94;
-            this.lblAmount.Text = "Password :";
+            this.lblAmount.Text = "Contraseña :";
             // 
             // txtAddPass1
             // 
@@ -345,9 +345,9 @@
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 20);
+            this.label3.Size = new System.Drawing.Size(152, 20);
             this.label3.TabIndex = 87;
-            this.label3.Text = "User Name : ";
+            this.label3.Text = "Nombre de usuario : ";
             // 
             // btnAdd
             // 
@@ -356,7 +356,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(220, 37);
             this.btnAdd.TabIndex = 7;
-            this.btnAdd.Text = "Add User";
+            this.btnAdd.Text = "Añadir Usuario";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -371,7 +371,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(815, 30);
             this.lblStatus.TabIndex = 138;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estado";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlEditUsers
@@ -391,7 +391,7 @@
             this.pnlEditUsers.Controls.Add(this.txtEditUname);
             this.pnlEditUsers.Controls.Add(this.label14);
             this.pnlEditUsers.Controls.Add(this.btnEditSave);
-            this.pnlEditUsers.Location = new System.Drawing.Point(169, 18);
+            this.pnlEditUsers.Location = new System.Drawing.Point(231, 79);
             this.pnlEditUsers.Name = "pnlEditUsers";
             this.pnlEditUsers.Size = new System.Drawing.Size(445, 538);
             this.pnlEditUsers.TabIndex = 4;
@@ -404,7 +404,7 @@
             this.btnResetPass.Name = "btnResetPass";
             this.btnResetPass.Size = new System.Drawing.Size(220, 37);
             this.btnResetPass.TabIndex = 1;
-            this.btnResetPass.Text = "Reset Password";
+            this.btnResetPass.Text = "Restablecer contraseña: ";
             this.btnResetPass.UseVisualStyleBackColor = true;
             this.btnResetPass.Click += new System.EventHandler(this.txtResetPass_Click);
             // 
@@ -442,9 +442,9 @@
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(19, 335);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 20);
+            this.label9.Size = new System.Drawing.Size(159, 20);
             this.label9.TabIndex = 101;
-            this.label9.Text = "Phone Number : ";
+            this.label9.Text = "Número de teléfono : ";
             // 
             // txtEditAddress
             // 
@@ -464,9 +464,9 @@
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(19, 215);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 20);
+            this.label10.Size = new System.Drawing.Size(86, 20);
             this.label10.TabIndex = 99;
-            this.label10.Text = "Address : ";
+            this.label10.Text = "Direccion : ";
             // 
             // txtEditName
             // 
@@ -484,9 +484,9 @@
             this.label11.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(19, 164);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 20);
+            this.label11.Size = new System.Drawing.Size(73, 20);
             this.label11.TabIndex = 97;
-            this.label11.Text = "Name : ";
+            this.label11.Text = "Nombre :";
             // 
             // picCloseEdit
             // 
@@ -514,9 +514,9 @@
             this.label14.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(19, 68);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(99, 20);
+            this.label14.Size = new System.Drawing.Size(152, 20);
             this.label14.TabIndex = 87;
-            this.label14.Text = "User Name : ";
+            this.label14.Text = "Nombre de usuario : ";
             // 
             // btnEditSave
             // 
@@ -525,7 +525,7 @@
             this.btnEditSave.Name = "btnEditSave";
             this.btnEditSave.Size = new System.Drawing.Size(220, 37);
             this.btnEditSave.TabIndex = 6;
-            this.btnEditSave.Text = "Save Changes";
+            this.btnEditSave.Text = "Guardar Cambios";
             this.btnEditSave.UseVisualStyleBackColor = true;
             this.btnEditSave.Click += new System.EventHandler(this.btnEditSave_Click);
             // 
@@ -535,8 +535,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(818, 607);
             this.Controls.Add(this.pnlAddUser);
-            this.Controls.Add(this.pnlEditUsers);
             this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.pnlEditUsers);
             this.Controls.Add(this.grpUsers);
             this.Controls.Add(this.btnEnable);
             this.Controls.Add(this.label1);

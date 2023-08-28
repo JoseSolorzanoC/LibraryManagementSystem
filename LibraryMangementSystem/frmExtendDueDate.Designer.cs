@@ -45,7 +45,7 @@
             this.btnSave.Size = new System.Drawing.Size(193, 40);
             this.btnSave.TabIndex = 2;
             this.btnSave.Tag = "";
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -55,9 +55,9 @@
             this.labelIDdd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIDdd.Location = new System.Drawing.Point(80, 95);
             this.labelIDdd.Name = "labelIDdd";
-            this.labelIDdd.Size = new System.Drawing.Size(81, 20);
+            this.labelIDdd.Size = new System.Drawing.Size(102, 20);
             this.labelIDdd.TabIndex = 227;
-            this.labelIDdd.Text = "Due Date :";
+            this.labelIDdd.Text = "Fecha límite :";
             // 
             // label1
             // 
@@ -65,9 +65,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(80, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 20);
+            this.label1.Size = new System.Drawing.Size(131, 20);
             this.label1.TabIndex = 228;
-            this.label1.Text = "Days to Extend :";
+            this.label1.Text = "Días de prórroga :";
             // 
             // numericUpDown1
             // 

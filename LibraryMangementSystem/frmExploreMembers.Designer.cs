@@ -79,9 +79,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 18);
+            this.label1.Size = new System.Drawing.Size(214, 18);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Select Course and Admission Year";
+            this.label1.Text = "Seleccione curso y año de admisión";
             // 
             // treeViewExplore
             // 
@@ -130,7 +130,7 @@
             this.lblresultCount.Name = "lblresultCount";
             this.lblresultCount.Size = new System.Drawing.Size(653, 18);
             this.lblresultCount.TabIndex = 6;
-            this.lblresultCount.Text = "Members count";
+            this.lblresultCount.Text = "Recuento de miembros";
             this.lblresultCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblCourseAdmYr
@@ -140,7 +140,7 @@
             this.lblCourseAdmYr.Name = "lblCourseAdmYr";
             this.lblCourseAdmYr.Size = new System.Drawing.Size(206, 83);
             this.lblCourseAdmYr.TabIndex = 5;
-            this.lblCourseAdmYr.Text = "Select Course and Admission Year";
+            this.lblCourseAdmYr.Text = "Seleccionar curso y año de admisión";
             // 
             // label3
             // 
@@ -148,9 +148,9 @@
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 49);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.Size = new System.Drawing.Size(66, 20);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Field :";
+            this.label3.Text = "Campo :";
             // 
             // comboSearchFields
             // 
@@ -179,9 +179,9 @@
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(11, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
+            this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Search :";
+            this.label2.Text = "Buscar :";
             // 
             // textSearchTerm
             // 

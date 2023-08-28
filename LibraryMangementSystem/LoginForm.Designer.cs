@@ -73,9 +73,9 @@ namespace LibraryManagementSystem
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(96, 249);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
+            this.label2.Size = new System.Drawing.Size(95, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password :";
+            this.label2.Text = "Contraseña :";
             // 
             // label1
             // 
@@ -83,9 +83,9 @@ namespace LibraryManagementSystem
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(96, 209);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "User name :";
+            this.label1.Text = "Usuario :";
             // 
             // cmdLogin
             // 
@@ -107,7 +107,7 @@ namespace LibraryManagementSystem
             this.cmdCancel.Name = "cmdCancel";
             this.cmdCancel.Size = new System.Drawing.Size(151, 38);
             this.cmdCancel.TabIndex = 3;
-            this.cmdCancel.Text = "Cancel";
+            this.cmdCancel.Text = "Cancelar";
             this.cmdCancel.UseVisualStyleBackColor = true;
             this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
             // 
@@ -122,7 +122,7 @@ namespace LibraryManagementSystem
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(495, 30);
             this.lblStatus.TabIndex = 187;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estado";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LoginForm

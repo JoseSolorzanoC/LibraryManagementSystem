@@ -89,9 +89,9 @@
             this.label3.Location = new System.Drawing.Point(49, 26);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 184;
-            this.label3.Text = "Member ID :";
+            this.label3.Text = "ID de miembro :";
             // 
             // txtEmail
             // 
@@ -137,9 +137,9 @@
             this.label2.Location = new System.Drawing.Point(49, 317);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 20);
+            this.label2.Size = new System.Drawing.Size(154, 20);
             this.label2.TabIndex = 193;
-            this.label2.Text = "Phone number :";
+            this.label2.Text = "Número de teléfono :";
             // 
             // label1
             // 
@@ -148,9 +148,9 @@
             this.label1.Location = new System.Drawing.Point(49, 447);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 20);
+            this.label1.Size = new System.Drawing.Size(165, 20);
             this.label1.TabIndex = 192;
-            this.label1.Text = "Membership Packages :";
+            this.label1.Text = "Paquetes de afiliación :";
             // 
             // txtAddress
             // 
@@ -185,9 +185,9 @@
             this.label8.Location = new System.Drawing.Point(49, 156);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 20);
+            this.label8.Size = new System.Drawing.Size(81, 20);
             this.label8.TabIndex = 189;
-            this.label8.Text = "Address :";
+            this.label8.Text = "Dirección :";
             // 
             // label11
             // 
@@ -196,9 +196,9 @@
             this.label11.Location = new System.Drawing.Point(567, 68);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 20);
+            this.label11.Size = new System.Drawing.Size(73, 20);
             this.label11.TabIndex = 188;
-            this.label11.Text = "Name :";
+            this.label11.Text = "Nombre :";
             // 
             // label10
             // 
@@ -207,9 +207,9 @@
             this.label10.Location = new System.Drawing.Point(49, 112);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 20);
+            this.label10.Size = new System.Drawing.Size(159, 20);
             this.label10.TabIndex = 187;
-            this.label10.Text = "Date of Birth :";
+            this.label10.Text = "Fecha de nacimiento :";
             // 
             // txtmemid2
             // 
@@ -230,9 +230,9 @@
             this.label5.Location = new System.Drawing.Point(49, 68);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 20);
+            this.label5.Size = new System.Drawing.Size(119, 20);
             this.label5.TabIndex = 199;
-            this.label5.Text = "Member ID :";
+            this.label5.Text = "ID de miembro :";
             // 
             // txtdob
             // 
@@ -255,7 +255,7 @@
             this.btnCancelPkg.Name = "btnCancelPkg";
             this.btnCancelPkg.Size = new System.Drawing.Size(127, 66);
             this.btnCancelPkg.TabIndex = 3;
-            this.btnCancelPkg.Text = "Cancel Last Package";
+            this.btnCancelPkg.Text = "Cancelar el último paquete";
             this.btnCancelPkg.UseVisualStyleBackColor = true;
             this.btnCancelPkg.Click += new System.EventHandler(this.btnCancelPkg_Click);
             // 
@@ -267,7 +267,7 @@
             this.btnsummary.Name = "btnsummary";
             this.btnsummary.Size = new System.Drawing.Size(155, 45);
             this.btnsummary.TabIndex = 2;
-            this.btnsummary.Text = "Summary";
+            this.btnsummary.Text = "Resumen";
             this.btnsummary.UseVisualStyleBackColor = true;
             this.btnsummary.Click += new System.EventHandler(this.btnsummary_Click);
             // 
@@ -292,11 +292,11 @@
             // 
             this.labelenlarge.AutoSize = true;
             this.labelenlarge.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelenlarge.Location = new System.Drawing.Point(728, 102);
+            this.labelenlarge.Location = new System.Drawing.Point(705, 102);
             this.labelenlarge.Name = "labelenlarge";
-            this.labelenlarge.Size = new System.Drawing.Size(116, 20);
+            this.labelenlarge.Size = new System.Drawing.Size(159, 20);
             this.labelenlarge.TabIndex = 206;
-            this.labelenlarge.Text = "Click To Enlarge";
+            this.labelenlarge.Text = "Haga clic para ampliar";
             // 
             // label6
             // 
@@ -305,9 +305,9 @@
             this.label6.Location = new System.Drawing.Point(49, 350);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 20);
+            this.label6.Size = new System.Drawing.Size(57, 20);
             this.label6.TabIndex = 207;
-            this.label6.Text = "Course :";
+            this.label6.Text = "Curso :";
             // 
             // label7
             // 
@@ -316,9 +316,9 @@
             this.label7.Location = new System.Drawing.Point(49, 383);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 20);
+            this.label7.Size = new System.Drawing.Size(130, 20);
             this.label7.TabIndex = 208;
-            this.label7.Text = "Admission Year :";
+            this.label7.Text = "Año de admisión :";
             // 
             // label9
             // 
@@ -327,9 +327,9 @@
             this.label9.Location = new System.Drawing.Point(49, 416);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 20);
+            this.label9.Size = new System.Drawing.Size(119, 20);
             this.label9.TabIndex = 209;
-            this.label9.Text = "Roll number :";
+            this.label9.Text = "Número de roll :";
             // 
             // txtCourse
             // 

@@ -40,11 +40,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(39, 40);
+            this.label19.Location = new System.Drawing.Point(25, 40);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(105, 20);
+            this.label19.Size = new System.Drawing.Size(132, 20);
             this.label19.TabIndex = 90;
-            this.label19.Text = "Table Name : ";
+            this.label19.Text = "Nombre de tabla :";
             // 
             // btnExport
             // 
@@ -53,7 +53,7 @@
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(220, 37);
             this.btnExport.TabIndex = 1;
-            this.btnExport.Text = "Export To Excel";
+            this.btnExport.Text = "Exportar a Excel";
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
@@ -84,7 +84,7 @@
             this.btnOpenFolder.Name = "btnOpenFolder";
             this.btnOpenFolder.Size = new System.Drawing.Size(111, 37);
             this.btnOpenFolder.TabIndex = 2;
-            this.btnOpenFolder.Text = "Open Folder";
+            this.btnOpenFolder.Text = "Abrir carpeta";
             this.btnOpenFolder.UseVisualStyleBackColor = true;
             this.btnOpenFolder.Click += new System.EventHandler(this.btnOpenFolder_Click);
             // 
@@ -99,7 +99,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(565, 90);
             this.lblStatus.TabIndex = 137;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estatus";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmExport

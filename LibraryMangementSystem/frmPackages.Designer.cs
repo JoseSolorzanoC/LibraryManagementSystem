@@ -75,7 +75,7 @@
             this.grpDisable.Size = new System.Drawing.Size(780, 115);
             this.grpDisable.TabIndex = 0;
             this.grpDisable.TabStop = false;
-            this.grpDisable.Text = "Set Maximum Books";
+            this.grpDisable.Text = "Establecer el máximo de libros";
             this.grpDisable.Enter += new System.EventHandler(this.grpDisable_Enter);
             // 
             // btnSaveMaxBooks
@@ -84,7 +84,7 @@
             this.btnSaveMaxBooks.Name = "btnSaveMaxBooks";
             this.btnSaveMaxBooks.Size = new System.Drawing.Size(89, 32);
             this.btnSaveMaxBooks.TabIndex = 1;
-            this.btnSaveMaxBooks.Text = "Save";
+            this.btnSaveMaxBooks.Text = "Guardar";
             this.btnSaveMaxBooks.UseVisualStyleBackColor = true;
             this.btnSaveMaxBooks.Click += new System.EventHandler(this.btnSaveMaxBooks_Click);
             // 
@@ -93,9 +93,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(71, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 20);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Maximum Books :";
+            this.label2.Text = "Libros Máximos :";
             // 
             // txtMaxBooks
             // 
@@ -122,7 +122,7 @@
             this.grpEnable.Size = new System.Drawing.Size(780, 403);
             this.grpEnable.TabIndex = 1;
             this.grpEnable.TabStop = false;
-            this.grpEnable.Text = "Manage Packages";
+            this.grpEnable.Text = "Gestionar paquetes";
             // 
             // btnMakeDefault
             // 
@@ -131,7 +131,7 @@
             this.btnMakeDefault.Name = "btnMakeDefault";
             this.btnMakeDefault.Size = new System.Drawing.Size(145, 56);
             this.btnMakeDefault.TabIndex = 3;
-            this.btnMakeDefault.Text = "Make Default Package";
+            this.btnMakeDefault.Text = "Hacer paquete por defecto";
             this.btnMakeDefault.UseVisualStyleBackColor = true;
             this.btnMakeDefault.Click += new System.EventHandler(this.btnMakeDefault_Click);
             // 
@@ -160,9 +160,9 @@
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(19, 173);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 20);
+            this.label4.Size = new System.Drawing.Size(123, 20);
             this.label4.TabIndex = 96;
-            this.label4.Text = "Maximum Books :";
+            this.label4.Text = "Libros Máximos :";
             // 
             // txtAddPkgMaxBooks
             // 
@@ -180,9 +180,9 @@
             this.lblAmount.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.Location = new System.Drawing.Point(19, 122);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(72, 20);
+            this.lblAmount.Size = new System.Drawing.Size(73, 20);
             this.lblAmount.TabIndex = 94;
-            this.lblAmount.Text = "Amount :";
+            this.lblAmount.Text = "Importe :";
             // 
             // txtFee
             // 
@@ -199,10 +199,10 @@
             this.radioNoFee.AutoSize = true;
             this.radioNoFee.Location = new System.Drawing.Point(158, 85);
             this.radioNoFee.Name = "radioNoFee";
-            this.radioNoFee.Size = new System.Drawing.Size(74, 24);
+            this.radioNoFee.Size = new System.Drawing.Size(88, 24);
             this.radioNoFee.TabIndex = 2;
             this.radioNoFee.TabStop = true;
-            this.radioNoFee.Text = "No Fee";
+            this.radioNoFee.Text = "Sin cuota";
             this.radioNoFee.UseVisualStyleBackColor = true;
             this.radioNoFee.CheckedChanged += new System.EventHandler(this.radioNoFee_CheckedChanged);
             // 
@@ -211,10 +211,10 @@
             this.radioHasFee.AutoSize = true;
             this.radioHasFee.Location = new System.Drawing.Point(23, 85);
             this.radioHasFee.Name = "radioHasFee";
-            this.radioHasFee.Size = new System.Drawing.Size(107, 24);
+            this.radioHasFee.Size = new System.Drawing.Size(125, 24);
             this.radioHasFee.TabIndex = 1;
             this.radioHasFee.TabStop = true;
-            this.radioHasFee.Text = "Monthly Fee";
+            this.radioHasFee.Text = "Cuota mensual";
             this.radioHasFee.UseVisualStyleBackColor = true;
             this.radioHasFee.CheckedChanged += new System.EventHandler(this.radioHasFee_CheckedChanged);
             // 
@@ -244,9 +244,9 @@
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 20);
+            this.label3.Size = new System.Drawing.Size(68, 20);
             this.label3.TabIndex = 87;
-            this.label3.Text = "Title : *";
+            this.label3.Text = "Titulo : *";
             // 
             // btnAdd
             // 
@@ -255,7 +255,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(220, 37);
             this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Agregar";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -283,7 +283,7 @@
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(116, 56);
             this.btnMaximize.TabIndex = 4;
-            this.btnMaximize.Text = "Maximize Table";
+            this.btnMaximize.Text = "Maximizar tabla";
             this.btnMaximize.UseVisualStyleBackColor = true;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
@@ -293,7 +293,7 @@
             this.btnDelPkg.Name = "btnDelPkg";
             this.btnDelPkg.Size = new System.Drawing.Size(96, 43);
             this.btnDelPkg.TabIndex = 2;
-            this.btnDelPkg.Text = "Delete";
+            this.btnDelPkg.Text = "Borrar";
             this.btnDelPkg.UseVisualStyleBackColor = true;
             this.btnDelPkg.Click += new System.EventHandler(this.btnDelPkg_Click);
             // 
@@ -303,7 +303,7 @@
             this.btnEditPkg.Name = "btnEditPkg";
             this.btnEditPkg.Size = new System.Drawing.Size(96, 43);
             this.btnEditPkg.TabIndex = 1;
-            this.btnEditPkg.Text = "Edit ";
+            this.btnEditPkg.Text = "Editar";
             this.btnEditPkg.UseVisualStyleBackColor = true;
             this.btnEditPkg.Click += new System.EventHandler(this.btnEditPkg_Click);
             // 
@@ -313,7 +313,7 @@
             this.btnAddPkg.Name = "btnAddPkg";
             this.btnAddPkg.Size = new System.Drawing.Size(164, 43);
             this.btnAddPkg.TabIndex = 0;
-            this.btnAddPkg.Text = "Add New Package";
+            this.btnAddPkg.Text = "Añadir nuevo paquete";
             this.btnAddPkg.UseVisualStyleBackColor = true;
             this.btnAddPkg.Click += new System.EventHandler(this.btnAddPkg_Click);
             // 
@@ -324,9 +324,9 @@
             this.radioEnable.Location = new System.Drawing.Point(26, 211);
             this.radioEnable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioEnable.Name = "radioEnable";
-            this.radioEnable.Size = new System.Drawing.Size(221, 24);
+            this.radioEnable.Size = new System.Drawing.Size(225, 24);
             this.radioEnable.TabIndex = 33;
-            this.radioEnable.Text = "Enable Membership Packages";
+            this.radioEnable.Text = "Activar paquetes de afiliación";
             this.radioEnable.UseVisualStyleBackColor = true;
             this.radioEnable.CheckedChanged += new System.EventHandler(this.radioEnable_CheckedChanged);
             // 
@@ -337,8 +337,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(599, 41);
             this.label1.TabIndex = 34;
-            this.label1.Text = "Disable packages for just specifying the Maximum number of books that a member ca" +
-    "n take.Its more fast and simple.";
+            this.label1.Text = "Desactivar los paquetes para sólo especificar el número máximo de libros que un m" +
+    "iembro puede tomar.Es más rápido y sencillo.";
             // 
             // radioDisable
             // 
@@ -347,9 +347,9 @@
             this.radioDisable.Location = new System.Drawing.Point(26, 11);
             this.radioDisable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioDisable.Name = "radioDisable";
-            this.radioDisable.Size = new System.Drawing.Size(224, 24);
+            this.radioDisable.Size = new System.Drawing.Size(269, 24);
             this.radioDisable.TabIndex = 32;
-            this.radioDisable.Text = "Disable Membership Packages";
+            this.radioDisable.Text = "Desactivar los paquetes de afiliación";
             this.radioDisable.UseVisualStyleBackColor = true;
             this.radioDisable.CheckedChanged += new System.EventHandler(this.radioDisable_CheckedChanged);
             // 
@@ -364,7 +364,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(874, 30);
             this.lblStatus.TabIndex = 137;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estatus";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmPackages

@@ -78,9 +78,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(16, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 20);
+            this.label1.Size = new System.Drawing.Size(140, 20);
             this.label1.TabIndex = 98;
-            this.label1.Text = "Current Password :";
+            this.label1.Text = "Contraseña actual :";
             // 
             // txtCurPass
             // 
@@ -107,11 +107,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 150);
+            this.label2.Location = new System.Drawing.Point(3, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 20);
+            this.label2.Size = new System.Drawing.Size(194, 20);
             this.label2.TabIndex = 95;
-            this.label2.Text = "Re-type New Password :";
+            this.label2.Text = "Repetir Nueva Contraseña :";
             // 
             // lblAmount
             // 
@@ -119,9 +119,9 @@
             this.lblAmount.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.Location = new System.Drawing.Point(16, 107);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(115, 20);
+            this.lblAmount.Size = new System.Drawing.Size(141, 20);
             this.lblAmount.TabIndex = 94;
-            this.lblAmount.Text = "New Password :";
+            this.lblAmount.Text = "Nueva Contraseña :";
             // 
             // txtPass1
             // 
@@ -152,7 +152,7 @@
             this.btnChange.Name = "btnChange";
             this.btnChange.Size = new System.Drawing.Size(220, 37);
             this.btnChange.TabIndex = 3;
-            this.btnChange.Text = "Change Password";
+            this.btnChange.Text = "Cambiar Contraseña";
             this.btnChange.UseVisualStyleBackColor = true;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
@@ -248,9 +248,9 @@
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(62, 308);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 20);
+            this.label9.Size = new System.Drawing.Size(160, 20);
             this.label9.TabIndex = 127;
-            this.label9.Text = "Phone Number : ";
+            this.label9.Text = "Numero de Telefono : ";
             // 
             // label10
             // 

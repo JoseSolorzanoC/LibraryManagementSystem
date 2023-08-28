@@ -98,7 +98,7 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(211, 39);
             this.btnEdit.TabIndex = 1;
-            this.btnEdit.Text = "Edit ";
+            this.btnEdit.Text = "Editar";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
@@ -109,7 +109,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(220, 37);
             this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Añadir";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -121,7 +121,7 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(213, 39);
             this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = "Eliminar";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -135,7 +135,7 @@
             this.pnlAddCateg.Controls.Add(this.txtAddShelf);
             this.pnlAddCateg.Controls.Add(this.label5);
             this.pnlAddCateg.Controls.Add(this.btnAddOk);
-            this.pnlAddCateg.Location = new System.Drawing.Point(117, 72);
+            this.pnlAddCateg.Location = new System.Drawing.Point(139, 67);
             this.pnlAddCateg.Name = "pnlAddCateg";
             this.pnlAddCateg.Size = new System.Drawing.Size(445, 296);
             this.pnlAddCateg.TabIndex = 4;
@@ -164,11 +164,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(19, 43);
+            this.label19.Location = new System.Drawing.Point(3, 43);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(129, 20);
+            this.label19.Size = new System.Drawing.Size(178, 20);
             this.label19.TabIndex = 87;
-            this.label19.Text = "Category Name : ";
+            this.label19.Text = "Nombre de la categoría :";
             // 
             // txtAddShelf
             // 
@@ -187,9 +187,9 @@
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(19, 100);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 20);
+            this.label5.Size = new System.Drawing.Size(70, 20);
             this.label5.TabIndex = 85;
-            this.label5.Text = "Shelf :";
+            this.label5.Text = "Estante :";
             // 
             // btnAddOk
             // 
@@ -240,11 +240,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 43);
+            this.label2.Location = new System.Drawing.Point(3, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 20);
+            this.label2.Size = new System.Drawing.Size(178, 20);
             this.label2.TabIndex = 87;
-            this.label2.Text = "Category Name :";
+            this.label2.Text = "Nombre de la categoría :";
             // 
             // txtEditShelf
             // 
@@ -263,9 +263,9 @@
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 100);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 85;
-            this.label3.Text = "Shelf :";
+            this.label3.Text = "Estante :";
             // 
             // btnSave
             // 
@@ -274,7 +274,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(220, 37);
             this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -289,7 +289,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(677, 30);
             this.lblStatus.TabIndex = 136;
-            this.lblStatus.Text = "Status";
+            this.lblStatus.Text = "Estado";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnMakeDefault
@@ -299,7 +299,7 @@
             this.btnMakeDefault.Name = "btnMakeDefault";
             this.btnMakeDefault.Size = new System.Drawing.Size(220, 37);
             this.btnMakeDefault.TabIndex = 7;
-            this.btnMakeDefault.Text = "Set Default Catgeory";
+            this.btnMakeDefault.Text = "Establecer categoría por defecto";
             this.btnMakeDefault.UseVisualStyleBackColor = true;
             this.btnMakeDefault.Click += new System.EventHandler(this.btnMakeDefault_Click);
             // 
@@ -310,7 +310,7 @@
             this.lbldefault.Name = "lbldefault";
             this.lbldefault.Size = new System.Drawing.Size(300, 37);
             this.lbldefault.TabIndex = 191;
-            this.lbldefault.Text = "Default Category :";
+            this.lbldefault.Text = "Categoría por defecto :";
             this.lbldefault.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmCategories

@@ -49,71 +49,71 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 118);
+            this.label1.Location = new System.Drawing.Point(57, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 20);
+            this.label1.Size = new System.Drawing.Size(138, 20);
             this.label1.TabIndex = 127;
-            this.label1.Text = "Issued Books : ";
+            this.label1.Text = "Libros publicados : ";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(82, 73);
+            this.label14.Location = new System.Drawing.Point(57, 73);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(92, 20);
+            this.label14.Size = new System.Drawing.Size(108, 20);
             this.label14.TabIndex = 125;
-            this.label14.Text = "Total Books:";
+            this.label14.Text = "Total de libros:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(82, 163);
+            this.label2.Location = new System.Drawing.Point(57, 163);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 20);
+            this.label2.Size = new System.Drawing.Size(141, 20);
             this.label2.TabIndex = 203;
-            this.label2.Text = "Available Books : ";
+            this.label2.Text = "Libros disponibles : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(82, 208);
+            this.label3.Location = new System.Drawing.Point(57, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 20);
+            this.label3.Size = new System.Drawing.Size(200, 20);
             this.label3.TabIndex = 204;
-            this.label3.Text = "Library Members : ";
+            this.label3.Text = "Miembros de la biblioteca :  ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(82, 253);
+            this.label4.Location = new System.Drawing.Point(57, 253);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 20);
+            this.label4.Size = new System.Drawing.Size(181, 20);
             this.label4.TabIndex = 205;
-            this.label4.Text = "Total Cost of Books : ";
+            this.label4.Text = "Coste total de los libros : ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(82, 298);
+            this.label5.Location = new System.Drawing.Point(57, 298);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 20);
+            this.label5.Size = new System.Drawing.Size(166, 20);
             this.label5.TabIndex = 206;
-            this.label5.Text = "Total Fine Received : ";
+            this.label5.Text = "Total multa percibida : ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(82, 343);
+            this.label6.Location = new System.Drawing.Point(57, 343);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(212, 20);
+            this.label6.Size = new System.Drawing.Size(255, 20);
             this.label6.TabIndex = 207;
-            this.label6.Text = "Total Package Fee Received : ";
+            this.label6.Text = "Importe total del paquete recibido : ";
             // 
             // txtTotalBooks
             // 

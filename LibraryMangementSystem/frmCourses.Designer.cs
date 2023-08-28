@@ -74,9 +74,9 @@
             this.label14.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(40, 36);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(65, 20);
+            this.label14.Size = new System.Drawing.Size(57, 20);
             this.label14.TabIndex = 210;
-            this.label14.Text = "Course :";
+            this.label14.Text = "Curso :";
             // 
             // txtCourseName
             // 
@@ -105,7 +105,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(216, 38);
             this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Añadir";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -117,7 +117,7 @@
             this.btnDelete.Size = new System.Drawing.Size(216, 36);
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Tag = "";
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = "Eliminar";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 

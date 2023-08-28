@@ -54,7 +54,7 @@
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(130, 59);
             this.btnExport.TabIndex = 3;
-            this.btnExport.Text = "Export Selected Database";
+            this.btnExport.Text = "Exportar base de datos seleccionada";
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
@@ -65,7 +65,7 @@
             this.btnImport.Name = "btnImport";
             this.btnImport.Size = new System.Drawing.Size(184, 51);
             this.btnImport.TabIndex = 1;
-            this.btnImport.Text = "Import Database";
+            this.btnImport.Text = "Importar base de datos";
             this.btnImport.UseVisualStyleBackColor = true;
             this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
@@ -85,9 +85,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(8, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 20);
+            this.label1.Size = new System.Drawing.Size(194, 20);
             this.label1.TabIndex = 186;
-            this.label1.Text = "Available Databases :";
+            this.label1.Text = "Bases de datos disponibles :";
             // 
             // btnDelete
             // 
@@ -96,7 +96,7 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(130, 59);
             this.btnDelete.TabIndex = 4;
-            this.btnDelete.Text = "Delete Selected Database";
+            this.btnDelete.Text = "Borrar base de datos seleccionada";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -107,7 +107,7 @@
             this.btnMakeDefault.Name = "btnMakeDefault";
             this.btnMakeDefault.Size = new System.Drawing.Size(263, 62);
             this.btnMakeDefault.TabIndex = 2;
-            this.btnMakeDefault.Text = "Set Selected Database as the Default";
+            this.btnMakeDefault.Text = "Establecer la base de datos seleccionada como predeterminada";
             this.btnMakeDefault.UseVisualStyleBackColor = true;
             this.btnMakeDefault.Click += new System.EventHandler(this.btnMakeDefault_Click);
             // 
@@ -123,7 +123,7 @@
             this.pnlDbName.Controls.Add(this.txtDBname);
             this.pnlDbName.Controls.Add(this.label2);
             this.pnlDbName.Controls.Add(this.btnSave);
-            this.pnlDbName.Location = new System.Drawing.Point(12, 12);
+            this.pnlDbName.Location = new System.Drawing.Point(12, 43);
             this.pnlDbName.Name = "pnlDbName";
             this.pnlDbName.Size = new System.Drawing.Size(453, 153);
             this.pnlDbName.TabIndex = 189;
@@ -151,6 +151,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
             this.label2.Location = new System.Drawing.Point(19, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 20);
@@ -175,7 +176,7 @@
             this.lbldefault.Name = "lbldefault";
             this.lbldefault.Size = new System.Drawing.Size(185, 127);
             this.lbldefault.TabIndex = 190;
-            this.lbldefault.Text = "Default Database :";
+            this.lbldefault.Text = "Base de datos por defecto :";
             this.lbldefault.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // saveFileDialog1

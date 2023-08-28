@@ -99,9 +99,9 @@
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.Size = new System.Drawing.Size(72, 20);
             this.label1.TabIndex = 185;
-            this.label1.Text = "Book ID :";
+            this.label1.Text = "Libro ID :";
             // 
             // txtMBenterid
             // 
@@ -122,7 +122,7 @@
             this.btnMBeditdel.Name = "btnMBeditdel";
             this.btnMBeditdel.Size = new System.Drawing.Size(275, 39);
             this.btnMBeditdel.TabIndex = 1;
-            this.btnMBeditdel.Text = "Edit / Delete";
+            this.btnMBeditdel.Text = "Editar / Eliminar";
             this.btnMBeditdel.UseVisualStyleBackColor = true;
             this.btnMBeditdel.Click += new System.EventHandler(this.btnMBeditdel_Click);
             // 
@@ -174,12 +174,12 @@
             // btnMBopenpdf
             // 
             this.btnMBopenpdf.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMBopenpdf.Location = new System.Drawing.Point(804, 526);
+            this.btnMBopenpdf.Location = new System.Drawing.Point(804, 523);
             this.btnMBopenpdf.Name = "btnMBopenpdf";
-            this.btnMBopenpdf.Size = new System.Drawing.Size(101, 36);
+            this.btnMBopenpdf.Size = new System.Drawing.Size(110, 49);
             this.btnMBopenpdf.TabIndex = 13;
             this.btnMBopenpdf.Tag = "";
-            this.btnMBopenpdf.Text = "Select PDF";
+            this.btnMBopenpdf.Text = "Seleccionar PDF";
             this.btnMBopenpdf.UseVisualStyleBackColor = true;
             this.btnMBopenpdf.Click += new System.EventHandler(this.btnMBopenpdf_Click);
             // 
@@ -189,9 +189,9 @@
             this.labelMBpdfsize.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMBpdfsize.Location = new System.Drawing.Point(667, 537);
             this.labelMBpdfsize.Name = "labelMBpdfsize";
-            this.labelMBpdfsize.Size = new System.Drawing.Size(41, 20);
+            this.labelMBpdfsize.Size = new System.Drawing.Size(67, 20);
             this.labelMBpdfsize.TabIndex = 181;
-            this.labelMBpdfsize.Text = "Size:";
+            this.labelMBpdfsize.Text = "Tamaño:";
             // 
             // textMBpdfurl
             // 
@@ -223,15 +223,15 @@
             this.label48.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.Location = new System.Drawing.Point(6, 542);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(89, 20);
+            this.label48.Size = new System.Drawing.Size(103, 20);
             this.label48.TabIndex = 180;
-            this.label48.Text = "Book Type :";
+            this.label48.Text = "Tipo de libro :";
             // 
             // labelMBpicsize
             // 
             this.labelMBpicsize.AutoSize = true;
             this.labelMBpicsize.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMBpicsize.Location = new System.Drawing.Point(852, 387);
+            this.labelMBpicsize.Location = new System.Drawing.Point(842, 390);
             this.labelMBpicsize.Name = "labelMBpicsize";
             this.labelMBpicsize.Size = new System.Drawing.Size(41, 20);
             this.labelMBpicsize.TabIndex = 179;
@@ -244,18 +244,18 @@
             this.btnMBgbooksapi.Name = "btnMBgbooksapi";
             this.btnMBgbooksapi.Size = new System.Drawing.Size(129, 89);
             this.btnMBgbooksapi.TabIndex = 20;
-            this.btnMBgbooksapi.Text = "Get Book Details from Google Books";
+            this.btnMBgbooksapi.Text = "Obtener detalles del libro en Google Books";
             this.btnMBgbooksapi.UseVisualStyleBackColor = true;
             this.btnMBgbooksapi.Click += new System.EventHandler(this.btnMBgbooksapi_Click);
             // 
             // btnMBopenfile
             // 
             this.btnMBopenfile.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMBopenfile.Location = new System.Drawing.Point(846, 343);
+            this.btnMBopenfile.Location = new System.Drawing.Point(846, 336);
             this.btnMBopenfile.Name = "btnMBopenfile";
-            this.btnMBopenfile.Size = new System.Drawing.Size(101, 36);
+            this.btnMBopenfile.Size = new System.Drawing.Size(110, 51);
             this.btnMBopenfile.TabIndex = 18;
-            this.btnMBopenfile.Text = "Select Image";
+            this.btnMBopenfile.Text = "Seleccionar imagen";
             this.btnMBopenfile.UseVisualStyleBackColor = true;
             this.btnMBopenfile.Click += new System.EventHandler(this.btnMBopenfile_Click);
             // 
@@ -265,9 +265,9 @@
             this.label34.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(6, 502);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(104, 20);
+            this.label34.Size = new System.Drawing.Size(147, 20);
             this.label34.TabIndex = 176;
-            this.label34.Text = "Cover Image :";
+            this.label34.Text = "Imagen de portada :";
             // 
             // textMBimgurl
             // 
@@ -298,7 +298,7 @@
             this.btnMBdelete.Name = "btnMBdelete";
             this.btnMBdelete.Size = new System.Drawing.Size(129, 89);
             this.btnMBdelete.TabIndex = 21;
-            this.btnMBdelete.Text = "Delete Book";
+            this.btnMBdelete.Text = "Eliminar Libro";
             this.btnMBdelete.UseVisualStyleBackColor = true;
             this.btnMBdelete.Click += new System.EventHandler(this.btnMBdelete_Click);
             // 
@@ -308,9 +308,9 @@
             this.label32.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(6, 226);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(94, 20);
+            this.label32.Size = new System.Drawing.Size(90, 20);
             this.label32.TabIndex = 173;
-            this.label32.Text = "Description :";
+            this.label32.Text = "Descripcion:";
             // 
             // btnMBeditsave
             // 
@@ -319,7 +319,7 @@
             this.btnMBeditsave.Name = "btnMBeditsave";
             this.btnMBeditsave.Size = new System.Drawing.Size(129, 89);
             this.btnMBeditsave.TabIndex = 19;
-            this.btnMBeditsave.Text = "Save Changes";
+            this.btnMBeditsave.Text = "Guardar cambios";
             this.btnMBeditsave.UseVisualStyleBackColor = true;
             this.btnMBeditsave.Click += new System.EventHandler(this.btnMBeditsave_Click);
             // 
@@ -329,9 +329,9 @@
             this.label33.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(6, 377);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(80, 20);
+            this.label33.Size = new System.Drawing.Size(85, 20);
             this.label33.TabIndex = 163;
-            this.label33.Text = "Category :";
+            this.label33.Text = "Categoria :";
             // 
             // textMBdateadd
             // 
@@ -379,9 +379,9 @@
             this.label36.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(6, 62);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(70, 20);
+            this.label36.Size = new System.Drawing.Size(72, 20);
             this.label36.TabIndex = 172;
-            this.label36.Text = "Book ID :";
+            this.label36.Text = "Libro ID :";
             // 
             // label37
             // 
@@ -391,7 +391,7 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(107, 20);
             this.label37.TabIndex = 171;
-            this.label37.Text = "ISBN Number :";
+            this.label37.Text = "Numero ISBN :";
             // 
             // textMBprice
             // 
@@ -441,19 +441,19 @@
             this.label38.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(578, 459);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(97, 20);
+            this.label38.Size = new System.Drawing.Size(116, 20);
             this.label38.TabIndex = 170;
-            this.label38.Text = "Date Added :";
+            this.label38.Text = "Fecha Añadido :";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(565, 428);
+            this.label39.Location = new System.Drawing.Point(541, 428);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(110, 20);
+            this.label39.Size = new System.Drawing.Size(149, 20);
             this.label39.TabIndex = 169;
-            this.label39.Text = "Shelf Number :";
+            this.label39.Text = "Número de estante :";
             // 
             // label40
             // 
@@ -461,9 +461,9 @@
             this.label40.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(617, 402);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(58, 20);
+            this.label40.Size = new System.Drawing.Size(69, 20);
             this.label40.TabIndex = 168;
-            this.label40.Text = "Pages :";
+            this.label40.Text = "Paginas :";
             // 
             // label41
             // 
@@ -471,9 +471,9 @@
             this.label41.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(6, 477);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(58, 20);
+            this.label41.Size = new System.Drawing.Size(49, 20);
             this.label41.TabIndex = 167;
-            this.label41.Text = "Price : ";
+            this.label41.Text = "Precio";
             // 
             // label42
             // 
@@ -481,9 +481,9 @@
             this.label42.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.Location = new System.Drawing.Point(6, 443);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 20);
+            this.label42.Size = new System.Drawing.Size(71, 20);
             this.label42.TabIndex = 166;
-            this.label42.Text = "Language";
+            this.label42.Text = "Lenguaje";
             // 
             // label43
             // 
@@ -491,9 +491,9 @@
             this.label43.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(6, 413);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(68, 20);
+            this.label43.Size = new System.Drawing.Size(64, 20);
             this.label43.TabIndex = 165;
-            this.label43.Text = "Publisher";
+            this.label43.Text = "Editorial";
             // 
             // label44
             // 
@@ -501,9 +501,9 @@
             this.label44.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(624, 374);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(51, 20);
+            this.label44.Size = new System.Drawing.Size(45, 20);
             this.label44.TabIndex = 164;
-            this.label44.Text = "Year :";
+            this.label44.Text = "Año :";
             // 
             // label45
             // 
@@ -511,9 +511,9 @@
             this.label45.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(6, 196);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(65, 20);
+            this.label45.Size = new System.Drawing.Size(52, 20);
             this.label45.TabIndex = 162;
-            this.label45.Text = "Author :";
+            this.label45.Text = "Autor:";
             // 
             // label46
             // 
@@ -521,9 +521,9 @@
             this.label46.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.Location = new System.Drawing.Point(6, 128);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(50, 20);
+            this.label46.Size = new System.Drawing.Size(57, 20);
             this.label46.TabIndex = 160;
-            this.label46.Text = "Title :";
+            this.label46.Text = "Titulo :";
             // 
             // BDlabelenlarge
             // 
@@ -532,7 +532,7 @@
             this.BDlabelenlarge.Name = "BDlabelenlarge";
             this.BDlabelenlarge.Size = new System.Drawing.Size(191, 20);
             this.BDlabelenlarge.TabIndex = 187;
-            this.BDlabelenlarge.Text = "Click to Enlarge";
+            this.BDlabelenlarge.Text = "Haga clic para ampliar";
             this.BDlabelenlarge.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textMBbookno
@@ -552,9 +552,9 @@
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(4, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 20);
+            this.label2.Size = new System.Drawing.Size(128, 20);
             this.label2.TabIndex = 189;
-            this.label2.Text = "Book Number :";
+            this.label2.Text = "Número de libro :";
             // 
             // textMBbid
             // 

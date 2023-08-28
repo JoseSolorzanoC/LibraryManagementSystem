@@ -58,9 +58,9 @@
             this.label1.Location = new System.Drawing.Point(53, 175);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 20);
+            this.label1.Size = new System.Drawing.Size(159, 20);
             this.label1.TabIndex = 171;
-            this.label1.Text = "Membership Package :";
+            this.label1.Text = "Paquete de afiliación :";
             // 
             // txtMemID
             // 
@@ -79,9 +79,9 @@
             this.label11.Location = new System.Drawing.Point(53, 31);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(97, 20);
+            this.label11.Size = new System.Drawing.Size(119, 20);
             this.label11.TabIndex = 167;
-            this.label11.Text = "Member ID  :";
+            this.label11.Text = "ID de miembro :";
             // 
             // txtMemID2
             // 
@@ -103,9 +103,9 @@
             this.label3.Location = new System.Drawing.Point(53, 88);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 20);
+            this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 178;
-            this.label3.Text = "Member ID  :";
+            this.label3.Text = "ID de miembro :";
             // 
             // txtName
             // 
@@ -127,9 +127,9 @@
             this.label5.Location = new System.Drawing.Point(53, 131);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 20);
+            this.label5.Size = new System.Drawing.Size(73, 20);
             this.label5.TabIndex = 180;
-            this.label5.Text = "Name  :";
+            this.label5.Text = "Nombre :";
             // 
             // cmbPackage
             // 
@@ -150,9 +150,9 @@
             this.lblmonth.Location = new System.Drawing.Point(53, 285);
             this.lblmonth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmonth.Name = "lblmonth";
-            this.lblmonth.Size = new System.Drawing.Size(72, 20);
+            this.lblmonth.Size = new System.Drawing.Size(59, 20);
             this.lblmonth.TabIndex = 182;
-            this.lblmonth.Text = "Months  :";
+            this.lblmonth.Text = "Meses :";
             // 
             // btnPay
             // 
@@ -162,7 +162,7 @@
             this.btnPay.Name = "btnPay";
             this.btnPay.Size = new System.Drawing.Size(192, 43);
             this.btnPay.TabIndex = 4;
-            this.btnPay.Text = "Confirm";
+            this.btnPay.Text = "Confirmar";
             this.btnPay.UseVisualStyleBackColor = true;
             this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
@@ -211,7 +211,7 @@
             this.lbltotal.Location = new System.Drawing.Point(53, 331);
             this.lbltotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(59, 20);
+            this.lbltotal.Size = new System.Drawing.Size(57, 20);
             this.lbltotal.TabIndex = 185;
             this.lbltotal.Text = "Total  :";
             // 
@@ -248,9 +248,9 @@
             this.lblmfee.Location = new System.Drawing.Point(53, 220);
             this.lblmfee.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmfee.Name = "lblmfee";
-            this.lblmfee.Size = new System.Drawing.Size(100, 20);
+            this.lblmfee.Size = new System.Drawing.Size(118, 20);
             this.lblmfee.TabIndex = 188;
-            this.lblmfee.Text = "Monthly Fee :";
+            this.lblmfee.Text = "Cuota mensual :";
             // 
             // lblDuration
             // 
@@ -259,9 +259,9 @@
             this.lblDuration.Location = new System.Drawing.Point(53, 372);
             this.lblDuration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDuration.Name = "lblDuration";
-            this.lblDuration.Size = new System.Drawing.Size(77, 20);
+            this.lblDuration.Size = new System.Drawing.Size(78, 20);
             this.lblDuration.TabIndex = 190;
-            this.lblDuration.Text = "Duration :";
+            this.lblDuration.Text = "Duracion :";
             // 
             // txtMaxBooks
             // 
@@ -284,9 +284,9 @@
             this.label2.Location = new System.Drawing.Point(53, 252);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 20);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 191;
-            this.label2.Text = "Maximum Books :";
+            this.label2.Text = "Libros Máximos :";
             // 
             // btnCancel
             // 
@@ -296,7 +296,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(192, 43);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
