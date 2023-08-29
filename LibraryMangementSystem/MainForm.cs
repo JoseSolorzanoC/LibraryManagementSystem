@@ -2470,6 +2470,16 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         }
 
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer4_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
         private void btnMMexploreMembers_Click(object sender, EventArgs e)
         {
             frmExploreMembers em = new frmExploreMembers();
