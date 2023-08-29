@@ -46,8 +46,8 @@ namespace LibraryManagementSystem
         private void LoginForm_Load(object sender, EventArgs e)
         {
           //  con.Open();
-            con = MainForm.con;
-            con.Open();
+            //con = MainForm.con;
+            //con.Open();
             
         }        
         

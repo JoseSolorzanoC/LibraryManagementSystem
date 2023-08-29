@@ -14,16 +14,16 @@ namespace LibraryManagementSystem
     {
         bool pdfselected = false;
         SQLiteConnection con;
-  
-      
+
+
         public static string bid;
 
         byte[] byteArrayMBimage = null;
-     
+
         public frmEditBook()
-        {            
+        {
             con = MainForm.con;
-         
+
             InitializeComponent();
         }
         private void clearedit()
@@ -50,7 +50,7 @@ namespace LibraryManagementSystem
 
             }
 
-            
+
         }
         private void btnMBeditdel_Click(object sender, EventArgs e)
         {
@@ -60,9 +60,9 @@ namespace LibraryManagementSystem
 
             // byte[] bytearrayRead = new byte[0];
             object Imageretval = null;
-            string haspdf="False";
+            string haspdf = "False";
             // panelMBtop.Hide();                 
-            
+
             //Fill Details
             string bookid = txtMBenterid.Text;
 
@@ -70,32 +70,32 @@ namespace LibraryManagementSystem
 
             if (String.IsNullOrEmpty(bookid.Trim()))
             {
-               // MessageBox.Show("Please Enter Book ID.", "Alert !", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                // MessageBox.Show("Please Enter Book ID.", "Alert !", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 lblStatus.Text = "Please Enter Book ID.";
                 txtMBenterid.Clear();
                 clearedit();
 
-                
+
 
                 return;
             }
             string cmdtext = String.Format("select * from BookDetails where BookID='{0}';", bookid);
-        SQLiteCommand cmd = new SQLiteCommand(con);
+            SQLiteCommand cmd = new SQLiteCommand(con);
             cmd.CommandText = cmdtext;
 
             //clear
             MBclear();
-        
 
 
-           
+
+
             try
             {
-               SQLiteDataReader dr = cmd.ExecuteReader();
+                SQLiteDataReader dr = cmd.ExecuteReader();
                 if (dr.HasRows == false)
                 {
-                   MessageBox.Show("Book not found.", "Alert !", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                  //  lblStatus.Text = "Book not found.";
+                    MessageBox.Show("Book not found.", "Alert !", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    //  lblStatus.Text = "Book not found.";
                     txtMBenterid.Clear();
                     dr.Close();
                     clearedit();
@@ -125,8 +125,8 @@ namespace LibraryManagementSystem
                     textMBshelf.Text = dr["Shelf"].ToString();
 
                     textMBdateadd.Text = dr["DateAdded"].ToString();
-                   
-                   
+
+
                     MBcombobtype.Text = dr["Type"].ToString();
                     Imageretval = dr["Image"];
                     haspdf = dr["HasPdf"].ToString();
@@ -135,8 +135,8 @@ namespace LibraryManagementSystem
 
 
 
-                    
-                    
+
+
                 }
                 dr.Close();
             }
@@ -145,7 +145,7 @@ namespace LibraryManagementSystem
                 MessageBox.Show("Error Message From DataReader  :" + ex.Message + "\n Source :" + ex.Source);
             }
 
-        
+
 
 
             //Read Image
@@ -163,10 +163,10 @@ namespace LibraryManagementSystem
                 pictureMB.Show();
 
             }
-            
+
 
             //Read Pdf
-        
+
         }
         private void MBclear()
         {
@@ -179,7 +179,7 @@ namespace LibraryManagementSystem
                 }
             }
             byteArrayMBimage = null;
-          
+
             pictureMB.Image = null;
         }
         private void MBpicboxsetsizemode(PictureBox pic)
@@ -200,7 +200,7 @@ namespace LibraryManagementSystem
         private void btnMBdelete_Click(object sender, EventArgs e)
         {
             SQLiteCommand comm = new SQLiteCommand(con);
-            comm.CommandText = String.Format("select count(BookID) from IssueDetails where BookID={0};",textMBbid.Text);
+            comm.CommandText = String.Format("select count(BookID) from IssueDetails where BookID={0};", textMBbid.Text);
             int c = Convert.ToInt32(comm.ExecuteScalar());
             if (c != 0)
             {
@@ -220,69 +220,70 @@ namespace LibraryManagementSystem
 
                 SQLiteCommand cm = new SQLiteCommand(con);
                 cm.CommandText = "INSERT INTO DeletedID(tablename,deletedID) VALUES(@tabname,@delid);";
-                
-                cm.Parameters.Add(new SQLiteParameter("@tabname","BookDetails"));
-                cm.Parameters.Add(new SQLiteParameter("@delid",textMBbid.Text));
-                
+
+                cm.Parameters.Add(new SQLiteParameter("@tabname", "BookDetails"));
+                cm.Parameters.Add(new SQLiteParameter("@delid", textMBbid.Text));
+
                 cm.ExecuteNonQuery();
                 clearedit();
                 MainForm.dbsettings.hasDelBookDetails = true;
 
-                string fileName = textMBbid.Text+ ".pdf";
-              
+                string fileName = textMBbid.Text + ".pdf";
+
                 //string cur = Environment.CurrentDirectory + @"\Ebooks";
-                string cur =MainForm.datafolder + @"\Ebooks";
+                string cur = MainForm.datafolder + @"\Ebooks";
 
                 string destination = Path.Combine(cur, fileName);
 
-                
+
                 if (File.Exists(destination))
                 {
                     File.Delete(destination);
                 }
-                
+                MessageBox.Show("Libro eliminado correctamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             else
             {
                 lblStatus.Text = "DELETE Action was Cancelled.";
             }
-           
+
         }
 
         private void btnMBeditsave_Click(object sender, EventArgs e)
         {
             try
-                  {
-                    
-            string haspdf;
-            if (String.IsNullOrEmpty(textMBpdfurl.Text))
             {
-                haspdf = "False";
-            }
-            else
-            {
-                haspdf = "True";
-            }
 
-            if (string.IsNullOrEmpty(textMBtitle.Text))
-            {
-                MessageBox.Show("Enter Title");
-                return;
-            }
-            
+                string haspdf;
+                if (String.IsNullOrEmpty(textMBpdfurl.Text))
+                {
+                    haspdf = "False";
+                }
+                else
+                {
+                    haspdf = "True";
+                }
 
-            
+                if (string.IsNullOrEmpty(textMBtitle.Text))
+                {
+                    MessageBox.Show("Enter Title");
+                    return;
+                }
+
+
+
                 string price = null;
-                
-                    price = textMBprice.Text.Trim();
-                
+
+                price = textMBprice.Text.Trim();
+
 
 
                 string bookid = textMBbid.Text;
 
 
 
-             string cmdtext =@"UPDATE BookDetails SET BookNo=@bookno,ISBN=@isbn,Title=@title,Author=@author,Description=@desc,
+                string cmdtext = @"UPDATE BookDetails SET BookNo=@bookno,ISBN=@isbn,Title=@title,Author=@author,Description=@desc,
 Publisher=@pub,Category=@categ,Year=@year,Language=@lang,HasPdf=@haspdf,
 Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@bid;";
 
@@ -290,78 +291,78 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
                 SQLiteCommand comm = new SQLiteCommand(con);
 
 
-           
-                
-            comm.CommandText = cmdtext;
-            comm.Parameters.Add(new SQLiteParameter("@bid",bookid));
-            comm.Parameters.Add(new SQLiteParameter("@bookno",textMBbookno.Text));
-            comm.Parameters.Add(new SQLiteParameter("@isbn",textMBisbn.Text));
-            comm.Parameters.Add(new SQLiteParameter("@title",textMBtitle.Text));
-            comm.Parameters.Add(new SQLiteParameter("@author",textMBauthor.Text));
 
-            comm.Parameters.Add(new SQLiteParameter("@desc",textMBdesc.Text));
-            comm.Parameters.Add(new SQLiteParameter("@categ",comboMBcateg.Text));
-            comm.Parameters.Add(new SQLiteParameter("@pub",textMBpub.Text));
-            comm.Parameters.Add(new SQLiteParameter("@lang",comboMBlang.Text));
-            
-            comm.Parameters.Add(new SQLiteParameter("@year",textMByear.Text));
-            comm.Parameters.Add(new SQLiteParameter("@pages",textMBpage.Text));
-            comm.Parameters.Add(new SQLiteParameter("@shelf",textMBshelf.Text));
-            comm.Parameters.Add(new SQLiteParameter("@date",textMBdateadd.Text));
 
-            comm.Parameters.Add(new SQLiteParameter("@type",MBcombobtype.Text));
-            comm.Parameters.Add(new SQLiteParameter("@avail","True"));
-            comm.Parameters.Add(new SQLiteParameter("@price",price));
-            comm.Parameters.Add(new SQLiteParameter("@haspdf",haspdf));
+                comm.CommandText = cmdtext;
+                comm.Parameters.Add(new SQLiteParameter("@bid", bookid));
+                comm.Parameters.Add(new SQLiteParameter("@bookno", textMBbookno.Text));
+                comm.Parameters.Add(new SQLiteParameter("@isbn", textMBisbn.Text));
+                comm.Parameters.Add(new SQLiteParameter("@title", textMBtitle.Text));
+                comm.Parameters.Add(new SQLiteParameter("@author", textMBauthor.Text));
 
-            
-               
+                comm.Parameters.Add(new SQLiteParameter("@desc", textMBdesc.Text));
+                comm.Parameters.Add(new SQLiteParameter("@categ", comboMBcateg.Text));
+                comm.Parameters.Add(new SQLiteParameter("@pub", textMBpub.Text));
+                comm.Parameters.Add(new SQLiteParameter("@lang", comboMBlang.Text));
+
+                comm.Parameters.Add(new SQLiteParameter("@year", textMByear.Text));
+                comm.Parameters.Add(new SQLiteParameter("@pages", textMBpage.Text));
+                comm.Parameters.Add(new SQLiteParameter("@shelf", textMBshelf.Text));
+                comm.Parameters.Add(new SQLiteParameter("@date", textMBdateadd.Text));
+
+                comm.Parameters.Add(new SQLiteParameter("@type", MBcombobtype.Text));
+                comm.Parameters.Add(new SQLiteParameter("@avail", "True"));
+                comm.Parameters.Add(new SQLiteParameter("@price", price));
+                comm.Parameters.Add(new SQLiteParameter("@haspdf", haspdf));
 
 
 
 
-              comm.ExecuteNonQuery();
+
+
+
+                comm.ExecuteNonQuery();
                 //Null values cannot be passed into binary type
 
-              if (pdfselected && !String.IsNullOrEmpty(textMBpdfurl.Text))
-              {
-                  try
-                  {
-                      /*
-                      string fileName = bookid.ToString() + ".pdf"; ;
-                      string source = textMBpdfurl.Text;
-                      string cur = MainForm.datafolder+ @"\Ebooks";
+                if (pdfselected && !String.IsNullOrEmpty(textMBpdfurl.Text))
+                {
+                    try
+                    {
+                        /*
+                        string fileName = bookid.ToString() + ".pdf"; ;
+                        string source = textMBpdfurl.Text;
+                        string cur = MainForm.datafolder+ @"\Ebooks";
 
-                      string destination = Path.Combine(cur, fileName);
+                        string destination = Path.Combine(cur, fileName);
 
-                      File.Copy(source, destination, true);*/
+                        File.Copy(source, destination, true);*/
 
-                      string strFn = textMBpdfurl.Text;
-                      byte[] byteArrayMBpdf = null;
-                      long pdfFileLength = 0;
-                      FileInfo fipdf = new FileInfo(strFn);
-                      pdfFileLength = fipdf.Length;
+                        string strFn = textMBpdfurl.Text;
+                        byte[] byteArrayMBpdf = null;
+                        long pdfFileLength = 0;
+                        FileInfo fipdf = new FileInfo(strFn);
+                        pdfFileLength = fipdf.Length;
 
-                      FileStream fs = new FileStream(strFn, FileMode.Open, FileAccess.Read, FileShare.Read);
-                      byteArrayMBpdf = new byte[Convert.ToInt32(pdfFileLength)];
-                      fs.Read(byteArrayMBpdf, 0, Convert.ToInt32(pdfFileLength));
-                      fs.Close();
+                        FileStream fs = new FileStream(strFn, FileMode.Open, FileAccess.Read, FileShare.Read);
+                        byteArrayMBpdf = new byte[Convert.ToInt32(pdfFileLength)];
+                        fs.Read(byteArrayMBpdf, 0, Convert.ToInt32(pdfFileLength));
+                        fs.Close();
 
-                      comm.CommandText = string.Format("UPDATE BookDetails SET Ebook=@pdf WHERE BookID={0};", bookid);
-                      comm.Connection = con;
-                      comm.Parameters.Add("@pdf", System.Data.DbType.Binary);
-                      comm.Parameters["@pdf"].Value = byteArrayMBpdf;
-                      comm.ExecuteNonQuery();
+                        comm.CommandText = string.Format("UPDATE BookDetails SET Ebook=@pdf WHERE BookID={0};", bookid);
+                        comm.Connection = con;
+                        comm.Parameters.Add("@pdf", System.Data.DbType.Binary);
+                        comm.Parameters["@pdf"].Value = byteArrayMBpdf;
+                        comm.ExecuteNonQuery();
 
-                  }
-                  
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error Message From DataReader  :" + ex.Message + "\n Source :" + ex.Source);
-            }
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error Message From DataReader  :" + ex.Message + "\n Source :" + ex.Source);
+                    }
 
 
-              }
+                }
 
                 if (byteArrayMBimage != null)
                 {
@@ -374,19 +375,20 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
 
                 }
 
-                
+
                 lblStatus.Text = "The Book '" + textMBtitle.Text + "' ID: " + textMBbid.Text + " was MODIFIED successfully. ";
+                MessageBox.Show("Libro actualizado correctamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
-          
-            //UPDATE Persons SET Address='Nissestien 67', City='Sandnes'WHERE LastName='Tjessem' AND FirstName='Jakob'
+
+                //UPDATE Persons SET Address='Nissestien 67', City='Sandnes'WHERE LastName='Tjessem' AND FirstName='Jakob'
 
 
-            //    textMBenterbid.Text = textMBbid.Text;
+                //    textMBenterbid.Text = textMBbid.Text;
 
                 txtMBenterid.Clear();
                 clearedit();
-                  }
+            }
 
             catch (Exception ex)
             {
@@ -397,41 +399,41 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
         private void btnMBgbooksapi_Click(object sender, EventArgs e)
         {
 
-           /* if (MainForm.bform == null)
-            {
-                MainForm.bform = new BooksAPIForm();
+            /* if (MainForm.bform == null)
+             {
+                 MainForm.bform = new BooksAPIForm();
 
-            }*/
+             }*/
             MainForm.bform = new BooksAPIForm();
-           MainForm.bform.ShowDialog();
-           textMBtitle.Text = MainForm.gtitle;
-           textMBauthor.Text = MainForm.gauthor;
-           textMBdesc.Text = MainForm.gdesc;
-           textMBpub.Text = MainForm.gpublisher;
-           textMBpage.Text = MainForm.gpages;
-           textMByear.Text = MainForm.gpubyear;
-           textMBisbn.Text = MainForm.gisbn;
-           if (MainForm.gimg != null)
+            MainForm.bform.ShowDialog();
+            textMBtitle.Text = MainForm.gtitle;
+            textMBauthor.Text = MainForm.gauthor;
+            textMBdesc.Text = MainForm.gdesc;
+            textMBpub.Text = MainForm.gpublisher;
+            textMBpage.Text = MainForm.gpages;
+            textMByear.Text = MainForm.gpubyear;
+            textMBisbn.Text = MainForm.gisbn;
+            if (MainForm.gimg != null)
             {
                 pictureMB.Image = MainForm.gimg;
 
                 MemoryStream ms = new MemoryStream();
                 MainForm.gimg.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
                 byteArrayMBimage = ms.ToArray();
-                
+
                 MBpicboxsetsizemode(pictureMB);
             }
             if (pictureMB.SizeMode != PictureBoxSizeMode.CenterImage)
-             BDlabelenlarge.Text = "Click to Enlarge";
+                BDlabelenlarge.Text = "Click to Enlarge";
             else
-               BDlabelenlarge.Text = "";
+                BDlabelenlarge.Text = "";
         }
 
         private void frmEditBook_Load(object sender, EventArgs e)
         {
-           
-           SQLiteCommand cmd = new SQLiteCommand("select Category from Categories", con);
-           SQLiteDataReader dr = cmd.ExecuteReader();
+
+            SQLiteCommand cmd = new SQLiteCommand("select Category from Categories", con);
+            SQLiteDataReader dr = cmd.ExecuteReader();
             comboMBcateg.Items.Clear();
             while (dr.Read())
             {
@@ -449,7 +451,7 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
             {
                 txtMBenterid.Text = bid;
                 btnMBeditdel_Click(null, null);
-            
+
             }
 
 
@@ -463,7 +465,7 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
 
 
             }
-        
+
         }
 
         private void pictureMB_Click(object sender, EventArgs e)
@@ -490,14 +492,14 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
         {
             if (MBcombobtype.Text == "Hardcopy Only")
             {
-               
+
                 btnMBopenpdf.Hide();
                 pdfselected = false;
-              
+
             }
             else
             {
-               
+
                 btnMBopenpdf.Show();
             }
         }
@@ -528,11 +530,11 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
                 openFileDialogMBpic.FileName = "";
 
                 MBpicboxsetsizemode(pictureMB);
-           
+
             }
             catch (Exception ex)
             {
-               // MessageBox.Show("Error with opening file :" + ex.Message);
+                // MessageBox.Show("Error with opening file :" + ex.Message);
             }
         }
 
@@ -553,11 +555,11 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
                     return;
                 }
 
-               
+
                 FileInfo fiImage = new FileInfo(strFn);
                 imageFileLength = fiImage.Length;
 
-               
+
 
                 textMBpdfurl.Text = strFn;
                 labelMBpdfsize.Text = "Size : " + Convert.ToString(Math.Round(imageFileLength / 1024.00, 2)) + " KB ";
@@ -567,7 +569,7 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
                 pdfselected = true;
                 labelMBpdfsize.Show();
                 textMBpdfurl.Show();
-                 
+
             }
             catch (Exception ex)
             {
@@ -577,7 +579,7 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
 
         private void btnMBViewpdf_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void comboMBcateg_SelectedIndexChanged(object sender, EventArgs e)
@@ -588,7 +590,7 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
                 textMBpdfurl.Hide();
                 labelMBpdfsize.Hide();
                 btnMBopenpdf.Hide();
-           
+
                 textMBpdfurl.Clear();
             }
             else
@@ -599,6 +601,6 @@ Price=@price,Pages=@pages,Shelf=@shelf,DateAdded=@date,Type=@type WHERE BookID=@
             }
         }
 
-        
+
     }
 }

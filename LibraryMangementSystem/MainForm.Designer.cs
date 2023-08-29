@@ -52,6 +52,86 @@ namespace LibraryManagementSystem
             this.textSearchTerm = new System.Windows.Forms.TextBox();
             this.gridviewExplore = new System.Windows.Forms.DataGridView();
             this.panelMainContainer = new System.Windows.Forms.Panel();
+            this.panelExtraMenu = new System.Windows.Forms.Panel();
+            this.btnMenuMngDB = new System.Windows.Forms.Button();
+            this.btnMenuCourses = new System.Windows.Forms.Button();
+            this.btnMenuHelp = new System.Windows.Forms.Button();
+            this.btnMenuExport = new System.Windows.Forms.Button();
+            this.lblUserType = new System.Windows.Forms.Label();
+            this.btnMenuLang = new System.Windows.Forms.Button();
+            this.btnMenuLibInfo = new System.Windows.Forms.Button();
+            this.btnMenuOptions = new System.Windows.Forms.Button();
+            this.lblUsersStatus = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMenuUserDetails = new System.Windows.Forms.Button();
+            this.btnMenuUsers = new System.Windows.Forms.Button();
+            this.btnMenuPackages = new System.Windows.Forms.Button();
+            this.btnMenuCateg = new System.Windows.Forms.Button();
+            this.btnMenuAbout = new System.Windows.Forms.Button();
+            this.panelIssueDetails = new System.Windows.Forms.Panel();
+            this.dataGridID = new System.Windows.Forms.DataGridView();
+            this.btnIDextendDD = new System.Windows.Forms.Button();
+            this.textIDdd = new System.Windows.Forms.TextBox();
+            this.grpissue_details_search = new System.Windows.Forms.GroupBox();
+            this.comboIDfield = new System.Windows.Forms.ComboBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.textIDsearch = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.btnIDsubmitbook = new System.Windows.Forms.Button();
+            this.textIDname = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.textIDmid = new System.Windows.Forms.TextBox();
+            this.textIDidate = new System.Windows.Forms.TextBox();
+            this.textIDsubdate = new System.Windows.Forms.TextBox();
+            this.textIDfine = new System.Windows.Forms.TextBox();
+            this.textIDtitle = new System.Windows.Forms.TextBox();
+            this.textIDbid = new System.Windows.Forms.TextBox();
+            this.labelIDsubd = new System.Windows.Forms.Label();
+            this.labelIDfine = new System.Windows.Forms.Label();
+            this.labelIDdd = new System.Windows.Forms.Label();
+            this.labelIDid = new System.Windows.Forms.Label();
+            this.labelIDmid = new System.Windows.Forms.Label();
+            this.labelIDbid = new System.Windows.Forms.Label();
+            this.btnIDisudet = new System.Windows.Forms.Button();
+            this.btnIDsubdet = new System.Windows.Forms.Button();
+            this.panelIssueSubmit = new System.Windows.Forms.Panel();
+            this.pnlISshow = new System.Windows.Forms.Panel();
+            this.textIsName = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textISmid2 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textISauthor = new System.Windows.Forms.TextBox();
+            this.textISbid2 = new System.Windows.Forms.TextBox();
+            this.textIStitle = new System.Windows.Forms.TextBox();
+            this.btnISok = new System.Windows.Forms.Button();
+            this.panelIScontainer = new System.Windows.Forms.Panel();
+            this.groupSubmit = new System.Windows.Forms.GroupBox();
+            this.dpISSBsubmitdate = new System.Windows.Forms.DateTimePicker();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textISSBfine = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textISSBduedate = new System.Windows.Forms.TextBox();
+            this.btnISsubmitbook = new System.Windows.Forms.Button();
+            this.textISSBissuedate = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.groupIssue = new System.Windows.Forms.GroupBox();
+            this.dpISIBissuedate = new System.Windows.Forms.DateTimePicker();
+            this.btnISIBchgdue = new System.Windows.Forms.Button();
+            this.textISIBdays = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.btnISissue = new System.Windows.Forms.Button();
+            this.textISIBduedate = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textISbid = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textISmid = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.panelBookDetails = new System.Windows.Forms.Panel();
             this.btnBDebookfolder = new System.Windows.Forms.Button();
             this.picBookCover = new System.Windows.Forms.PictureBox();
@@ -162,86 +242,6 @@ namespace LibraryManagementSystem
             this.textMMsearchterm = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
             this.btnMMadd = new System.Windows.Forms.Button();
-            this.panelExtraMenu = new System.Windows.Forms.Panel();
-            this.btnMenuMngDB = new System.Windows.Forms.Button();
-            this.btnMenuCourses = new System.Windows.Forms.Button();
-            this.btnMenuHelp = new System.Windows.Forms.Button();
-            this.btnMenuExport = new System.Windows.Forms.Button();
-            this.lblUserType = new System.Windows.Forms.Label();
-            this.btnMenuLang = new System.Windows.Forms.Button();
-            this.btnMenuLibInfo = new System.Windows.Forms.Button();
-            this.btnMenuOptions = new System.Windows.Forms.Button();
-            this.lblUsersStatus = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnMenuUserDetails = new System.Windows.Forms.Button();
-            this.btnMenuUsers = new System.Windows.Forms.Button();
-            this.btnMenuPackages = new System.Windows.Forms.Button();
-            this.btnMenuCateg = new System.Windows.Forms.Button();
-            this.btnMenuAbout = new System.Windows.Forms.Button();
-            this.panelIssueDetails = new System.Windows.Forms.Panel();
-            this.dataGridID = new System.Windows.Forms.DataGridView();
-            this.btnIDextendDD = new System.Windows.Forms.Button();
-            this.textIDdd = new System.Windows.Forms.TextBox();
-            this.grpissue_details_search = new System.Windows.Forms.GroupBox();
-            this.comboIDfield = new System.Windows.Forms.ComboBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.textIDsearch = new System.Windows.Forms.TextBox();
-            this.label63 = new System.Windows.Forms.Label();
-            this.btnIDsubmitbook = new System.Windows.Forms.Button();
-            this.textIDname = new System.Windows.Forms.TextBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.textIDmid = new System.Windows.Forms.TextBox();
-            this.textIDidate = new System.Windows.Forms.TextBox();
-            this.textIDsubdate = new System.Windows.Forms.TextBox();
-            this.textIDfine = new System.Windows.Forms.TextBox();
-            this.textIDtitle = new System.Windows.Forms.TextBox();
-            this.textIDbid = new System.Windows.Forms.TextBox();
-            this.labelIDsubd = new System.Windows.Forms.Label();
-            this.labelIDfine = new System.Windows.Forms.Label();
-            this.labelIDdd = new System.Windows.Forms.Label();
-            this.labelIDid = new System.Windows.Forms.Label();
-            this.labelIDmid = new System.Windows.Forms.Label();
-            this.labelIDbid = new System.Windows.Forms.Label();
-            this.btnIDisudet = new System.Windows.Forms.Button();
-            this.btnIDsubdet = new System.Windows.Forms.Button();
-            this.panelIssueSubmit = new System.Windows.Forms.Panel();
-            this.pnlISshow = new System.Windows.Forms.Panel();
-            this.textIsName = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.textISmid2 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textISauthor = new System.Windows.Forms.TextBox();
-            this.textISbid2 = new System.Windows.Forms.TextBox();
-            this.textIStitle = new System.Windows.Forms.TextBox();
-            this.btnISok = new System.Windows.Forms.Button();
-            this.panelIScontainer = new System.Windows.Forms.Panel();
-            this.groupSubmit = new System.Windows.Forms.GroupBox();
-            this.dpISSBsubmitdate = new System.Windows.Forms.DateTimePicker();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textISSBfine = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textISSBduedate = new System.Windows.Forms.TextBox();
-            this.btnISsubmitbook = new System.Windows.Forms.Button();
-            this.textISSBissuedate = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.groupIssue = new System.Windows.Forms.GroupBox();
-            this.dpISIBissuedate = new System.Windows.Forms.DateTimePicker();
-            this.btnISIBchgdue = new System.Windows.Forms.Button();
-            this.textISIBdays = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.btnISissue = new System.Windows.Forms.Button();
-            this.textISIBduedate = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textISbid = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textISmid = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.openFileDialogMBpic = new System.Windows.Forms.OpenFileDialog();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.cmdMenu = new Glass.GlassButton();
@@ -252,9 +252,6 @@ namespace LibraryManagementSystem
             this.cmdIssueSubmitBook = new Glass.GlassButton();
             this.cmdManageBooks = new Glass.GlassButton();
             this.tooltipManager = new System.Windows.Forms.ToolTip(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.panelExplore.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -266,15 +263,6 @@ namespace LibraryManagementSystem
             this.splitContainer4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).BeginInit();
             this.panelMainContainer.SuspendLayout();
-            this.panelBookDetails.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBookCover)).BeginInit();
-            this.panelManageBooks.SuspendLayout();
-            this.pnlAddCateg.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).BeginInit();
-            this.panelManageMembers.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).BeginInit();
-            this.grpMM_search.SuspendLayout();
             this.panelExtraMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelIssueDetails.SuspendLayout();
@@ -285,6 +273,15 @@ namespace LibraryManagementSystem
             this.panelIScontainer.SuspendLayout();
             this.groupSubmit.SuspendLayout();
             this.groupIssue.SuspendLayout();
+            this.panelBookDetails.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBookCover)).BeginInit();
+            this.panelManageBooks.SuspendLayout();
+            this.pnlAddCateg.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).BeginInit();
+            this.panelManageMembers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).BeginInit();
+            this.grpMM_search.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -341,7 +338,7 @@ namespace LibraryManagementSystem
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(46, 20);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -352,7 +349,7 @@ namespace LibraryManagementSystem
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer4);
             this.splitContainer1.Size = new System.Drawing.Size(992, 581);
-            this.splitContainer1.SplitterDistance = 200;
+            this.splitContainer1.SplitterDistance = 197;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.TabStop = false;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
@@ -364,7 +361,7 @@ namespace LibraryManagementSystem
             this.treeViewExplore.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeViewExplore.Location = new System.Drawing.Point(0, 0);
             this.treeViewExplore.Name = "treeViewExplore";
-            this.treeViewExplore.Size = new System.Drawing.Size(200, 581);
+            this.treeViewExplore.Size = new System.Drawing.Size(197, 581);
             this.treeViewExplore.TabIndex = 0;
             this.treeViewExplore.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewExplore_AfterSelect);
             this.treeViewExplore.Click += new System.EventHandler(this.treeViewExplore_Click);
@@ -380,7 +377,6 @@ namespace LibraryManagementSystem
             // 
             // splitContainer4.Panel1
             // 
-            this.splitContainer4.Panel1.Controls.Add(this.button3);
             this.splitContainer4.Panel1.Controls.Add(this.btnEBissret);
             this.splitContainer4.Panel1.Controls.Add(this.btnEBviewall);
             this.splitContainer4.Panel1.Controls.Add(this.label3);
@@ -391,20 +387,19 @@ namespace LibraryManagementSystem
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.gridviewExplore);
-            this.splitContainer4.Size = new System.Drawing.Size(788, 581);
+            this.splitContainer4.Size = new System.Drawing.Size(791, 581);
             this.splitContainer4.SplitterDistance = 83;
             this.splitContainer4.TabIndex = 0;
             this.splitContainer4.TabStop = false;
-            this.splitContainer4.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer4_SplitterMoved);
             // 
             // btnEBissret
             // 
             this.btnEBissret.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEBissret.Location = new System.Drawing.Point(615, 6);
+            this.btnEBissret.Location = new System.Drawing.Point(642, 5);
             this.btnEBissret.Name = "btnEBissret";
-            this.btnEBissret.Size = new System.Drawing.Size(110, 67);
+            this.btnEBissret.Size = new System.Drawing.Size(128, 70);
             this.btnEBissret.TabIndex = 3;
-            this.btnEBissret.Text = "Prestar/Devolver";
+            this.btnEBissret.Text = "Issue / Return";
             this.btnEBissret.UseVisualStyleBackColor = true;
             this.btnEBissret.Click += new System.EventHandler(this.btnEBissret_Click);
             // 
@@ -413,9 +408,9 @@ namespace LibraryManagementSystem
             this.btnEBviewall.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEBviewall.Location = new System.Drawing.Point(502, 5);
             this.btnEBviewall.Name = "btnEBviewall";
-            this.btnEBviewall.Size = new System.Drawing.Size(107, 67);
+            this.btnEBviewall.Size = new System.Drawing.Size(128, 70);
             this.btnEBviewall.TabIndex = 2;
-            this.btnEBviewall.Text = "Ver todos";
+            this.btnEBviewall.Text = "View All";
             this.btnEBviewall.UseVisualStyleBackColor = true;
             this.btnEBviewall.Click += new System.EventHandler(this.btnEBviewall_Click);
             // 
@@ -425,9 +420,9 @@ namespace LibraryManagementSystem
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 49);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 20);
+            this.label3.Size = new System.Drawing.Size(51, 20);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Campo :";
+            this.label3.Text = "Field :";
             // 
             // comboSearchFields
             // 
@@ -459,9 +454,9 @@ namespace LibraryManagementSystem
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(11, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 20);
+            this.label2.Size = new System.Drawing.Size(64, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Buscar :";
+            this.label2.Text = "Search :";
             // 
             // textSearchTerm
             // 
@@ -508,7 +503,7 @@ namespace LibraryManagementSystem
             this.gridviewExplore.RowHeadersVisible = false;
             this.gridviewExplore.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.gridviewExplore.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridviewExplore.Size = new System.Drawing.Size(786, 492);
+            this.gridviewExplore.Size = new System.Drawing.Size(789, 492);
             this.gridviewExplore.StandardTab = true;
             this.gridviewExplore.TabIndex = 0;
             this.gridviewExplore.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridviewExplore_CellDoubleClick);
@@ -518,17 +513,972 @@ namespace LibraryManagementSystem
             this.panelMainContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelMainContainer.Controls.Add(this.panelExplore);
             this.panelMainContainer.Controls.Add(this.panelIssueDetails);
             this.panelMainContainer.Controls.Add(this.panelIssueSubmit);
             this.panelMainContainer.Controls.Add(this.panelBookDetails);
             this.panelMainContainer.Controls.Add(this.panelManageBooks);
             this.panelMainContainer.Controls.Add(this.panelManageMembers);
             this.panelMainContainer.Controls.Add(this.panelExtraMenu);
-            this.panelMainContainer.Controls.Add(this.panelExplore);
             this.panelMainContainer.Location = new System.Drawing.Point(6, 92);
             this.panelMainContainer.Name = "panelMainContainer";
             this.panelMainContainer.Size = new System.Drawing.Size(992, 581);
             this.panelMainContainer.TabIndex = 1;
+            // 
+            // panelExtraMenu
+            // 
+            this.panelExtraMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelExtraMenu.Controls.Add(this.btnMenuMngDB);
+            this.panelExtraMenu.Controls.Add(this.btnMenuCourses);
+            this.panelExtraMenu.Controls.Add(this.btnMenuHelp);
+            this.panelExtraMenu.Controls.Add(this.btnMenuExport);
+            this.panelExtraMenu.Controls.Add(this.lblUserType);
+            this.panelExtraMenu.Controls.Add(this.btnMenuLang);
+            this.panelExtraMenu.Controls.Add(this.btnMenuLibInfo);
+            this.panelExtraMenu.Controls.Add(this.btnMenuOptions);
+            this.panelExtraMenu.Controls.Add(this.lblUsersStatus);
+            this.panelExtraMenu.Controls.Add(this.pictureBox1);
+            this.panelExtraMenu.Controls.Add(this.btnMenuUserDetails);
+            this.panelExtraMenu.Controls.Add(this.btnMenuUsers);
+            this.panelExtraMenu.Controls.Add(this.btnMenuPackages);
+            this.panelExtraMenu.Controls.Add(this.btnMenuCateg);
+            this.panelExtraMenu.Controls.Add(this.btnMenuAbout);
+            this.panelExtraMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelExtraMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelExtraMenu.Name = "panelExtraMenu";
+            this.panelExtraMenu.Size = new System.Drawing.Size(992, 581);
+            this.panelExtraMenu.TabIndex = 6;
+            this.panelExtraMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelExtraMenu_Paint);
+            // 
+            // btnMenuMngDB
+            // 
+            this.btnMenuMngDB.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuMngDB.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuMngDB.Location = new System.Drawing.Point(507, 342);
+            this.btnMenuMngDB.Name = "btnMenuMngDB";
+            this.btnMenuMngDB.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuMngDB.TabIndex = 9;
+            this.btnMenuMngDB.Text = "Manage Database";
+            this.btnMenuMngDB.UseVisualStyleBackColor = false;
+            this.btnMenuMngDB.Click += new System.EventHandler(this.btnMenuMngDB_Click);
+            // 
+            // btnMenuCourses
+            // 
+            this.btnMenuCourses.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuCourses.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCourses.Location = new System.Drawing.Point(333, 482);
+            this.btnMenuCourses.Name = "btnMenuCourses";
+            this.btnMenuCourses.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuCourses.TabIndex = 5;
+            this.btnMenuCourses.Text = "Member Courses";
+            this.btnMenuCourses.UseVisualStyleBackColor = false;
+            this.btnMenuCourses.Click += new System.EventHandler(this.btnMenuCourses_Click);
+            // 
+            // btnMenuHelp
+            // 
+            this.btnMenuHelp.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuHelp.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuHelp.Location = new System.Drawing.Point(507, 412);
+            this.btnMenuHelp.Name = "btnMenuHelp";
+            this.btnMenuHelp.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuHelp.TabIndex = 10;
+            this.btnMenuHelp.Text = "Help";
+            this.btnMenuHelp.UseVisualStyleBackColor = false;
+            this.btnMenuHelp.Click += new System.EventHandler(this.btnMenuHelp_Click);
+            // 
+            // btnMenuExport
+            // 
+            this.btnMenuExport.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuExport.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuExport.Location = new System.Drawing.Point(333, 412);
+            this.btnMenuExport.Name = "btnMenuExport";
+            this.btnMenuExport.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuExport.TabIndex = 4;
+            this.btnMenuExport.Text = "Export Tables";
+            this.btnMenuExport.UseVisualStyleBackColor = false;
+            this.btnMenuExport.Click += new System.EventHandler(this.btnMenuExport_Click);
+            // 
+            // lblUserType
+            // 
+            this.lblUserType.AutoSize = true;
+            this.lblUserType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserType.Location = new System.Drawing.Point(103, 73);
+            this.lblUserType.Name = "lblUserType";
+            this.lblUserType.Size = new System.Drawing.Size(106, 19);
+            this.lblUserType.TabIndex = 30;
+            this.lblUserType.Text = "Administrator";
+            // 
+            // btnMenuLang
+            // 
+            this.btnMenuLang.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuLang.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuLang.Location = new System.Drawing.Point(333, 343);
+            this.btnMenuLang.Name = "btnMenuLang";
+            this.btnMenuLang.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuLang.TabIndex = 3;
+            this.btnMenuLang.Text = "Book Languages";
+            this.btnMenuLang.UseVisualStyleBackColor = false;
+            this.btnMenuLang.Click += new System.EventHandler(this.btnMenuLang_Click);
+            // 
+            // btnMenuLibInfo
+            // 
+            this.btnMenuLibInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuLibInfo.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuLibInfo.Location = new System.Drawing.Point(506, 271);
+            this.btnMenuLibInfo.Name = "btnMenuLibInfo";
+            this.btnMenuLibInfo.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuLibInfo.TabIndex = 8;
+            this.btnMenuLibInfo.Text = "Library Info";
+            this.btnMenuLibInfo.UseVisualStyleBackColor = false;
+            this.btnMenuLibInfo.Click += new System.EventHandler(this.btnMenuLibInfo_Click);
+            // 
+            // btnMenuOptions
+            // 
+            this.btnMenuOptions.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuOptions.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuOptions.Location = new System.Drawing.Point(507, 201);
+            this.btnMenuOptions.Name = "btnMenuOptions";
+            this.btnMenuOptions.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuOptions.TabIndex = 7;
+            this.btnMenuOptions.Text = "Options";
+            this.btnMenuOptions.UseVisualStyleBackColor = false;
+            this.btnMenuOptions.Click += new System.EventHandler(this.btnMenuOptions_Click);
+            // 
+            // lblUsersStatus
+            // 
+            this.lblUsersStatus.AutoSize = true;
+            this.lblUsersStatus.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsersStatus.Location = new System.Drawing.Point(102, 40);
+            this.lblUsersStatus.Name = "lblUsersStatus";
+            this.lblUsersStatus.Size = new System.Drawing.Size(130, 25);
+            this.lblUsersStatus.TabIndex = 25;
+            this.lblUsersStatus.Text = "NameOfUser";
+            this.lblUsersStatus.Click += new System.EventHandler(this.lblUsersStatus_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LibraryManagementSystem.Properties.Resources.user;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMenuUserDetails
+            // 
+            this.btnMenuUserDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuUserDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuUserDetails.Location = new System.Drawing.Point(333, 271);
+            this.btnMenuUserDetails.Name = "btnMenuUserDetails";
+            this.btnMenuUserDetails.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuUserDetails.TabIndex = 2;
+            this.btnMenuUserDetails.Text = "User Details";
+            this.btnMenuUserDetails.UseVisualStyleBackColor = false;
+            this.btnMenuUserDetails.Click += new System.EventHandler(this.btnMenuUserDetails_Click);
+            // 
+            // btnMenuUsers
+            // 
+            this.btnMenuUsers.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuUsers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuUsers.Location = new System.Drawing.Point(333, 201);
+            this.btnMenuUsers.Name = "btnMenuUsers";
+            this.btnMenuUsers.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuUsers.TabIndex = 1;
+            this.btnMenuUsers.Text = "Manage Users";
+            this.btnMenuUsers.UseVisualStyleBackColor = false;
+            this.btnMenuUsers.Click += new System.EventHandler(this.btnMenuUsers_Click);
+            // 
+            // btnMenuPackages
+            // 
+            this.btnMenuPackages.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuPackages.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuPackages.Location = new System.Drawing.Point(331, 125);
+            this.btnMenuPackages.Name = "btnMenuPackages";
+            this.btnMenuPackages.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuPackages.TabIndex = 0;
+            this.btnMenuPackages.Text = "Membership Packages";
+            this.btnMenuPackages.UseVisualStyleBackColor = false;
+            this.btnMenuPackages.Click += new System.EventHandler(this.btnMenuPackages_Click);
+            // 
+            // btnMenuCateg
+            // 
+            this.btnMenuCateg.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuCateg.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCateg.Location = new System.Drawing.Point(507, 125);
+            this.btnMenuCateg.Name = "btnMenuCateg";
+            this.btnMenuCateg.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuCateg.TabIndex = 6;
+            this.btnMenuCateg.Text = "Book Categories";
+            this.btnMenuCateg.UseVisualStyleBackColor = false;
+            this.btnMenuCateg.Click += new System.EventHandler(this.btnMenuCateg_Click);
+            // 
+            // btnMenuAbout
+            // 
+            this.btnMenuAbout.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuAbout.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuAbout.Location = new System.Drawing.Point(507, 482);
+            this.btnMenuAbout.Name = "btnMenuAbout";
+            this.btnMenuAbout.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuAbout.TabIndex = 11;
+            this.btnMenuAbout.Text = "About";
+            this.btnMenuAbout.UseVisualStyleBackColor = false;
+            this.btnMenuAbout.Click += new System.EventHandler(this.btnMenuAbout_Click);
+            // 
+            // panelIssueDetails
+            // 
+            this.panelIssueDetails.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelIssueDetails.Controls.Add(this.dataGridID);
+            this.panelIssueDetails.Controls.Add(this.btnIDextendDD);
+            this.panelIssueDetails.Controls.Add(this.textIDdd);
+            this.panelIssueDetails.Controls.Add(this.grpissue_details_search);
+            this.panelIssueDetails.Controls.Add(this.btnIDsubmitbook);
+            this.panelIssueDetails.Controls.Add(this.textIDname);
+            this.panelIssueDetails.Controls.Add(this.label65);
+            this.panelIssueDetails.Controls.Add(this.label64);
+            this.panelIssueDetails.Controls.Add(this.textIDmid);
+            this.panelIssueDetails.Controls.Add(this.textIDidate);
+            this.panelIssueDetails.Controls.Add(this.textIDsubdate);
+            this.panelIssueDetails.Controls.Add(this.textIDfine);
+            this.panelIssueDetails.Controls.Add(this.textIDtitle);
+            this.panelIssueDetails.Controls.Add(this.textIDbid);
+            this.panelIssueDetails.Controls.Add(this.labelIDsubd);
+            this.panelIssueDetails.Controls.Add(this.labelIDfine);
+            this.panelIssueDetails.Controls.Add(this.labelIDdd);
+            this.panelIssueDetails.Controls.Add(this.labelIDid);
+            this.panelIssueDetails.Controls.Add(this.labelIDmid);
+            this.panelIssueDetails.Controls.Add(this.labelIDbid);
+            this.panelIssueDetails.Controls.Add(this.btnIDisudet);
+            this.panelIssueDetails.Controls.Add(this.btnIDsubdet);
+            this.panelIssueDetails.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelIssueDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelIssueDetails.Location = new System.Drawing.Point(0, 0);
+            this.panelIssueDetails.Name = "panelIssueDetails";
+            this.panelIssueDetails.Size = new System.Drawing.Size(992, 581);
+            this.panelIssueDetails.TabIndex = 3;
+            // 
+            // dataGridID
+            // 
+            this.dataGridID.AllowUserToAddRows = false;
+            this.dataGridID.AllowUserToDeleteRows = false;
+            this.dataGridID.AllowUserToResizeRows = false;
+            this.dataGridID.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dataGridID.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridID.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridID.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridID.Location = new System.Drawing.Point(261, 295);
+            this.dataGridID.Name = "dataGridID";
+            this.dataGridID.ReadOnly = true;
+            this.dataGridID.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dataGridID.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridID.Size = new System.Drawing.Size(724, 273);
+            this.dataGridID.StandardTab = true;
+            this.dataGridID.TabIndex = 3;
+            this.dataGridID.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellClick);
+            this.dataGridID.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellContentClick);
+            this.dataGridID.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellDoubleClick);
+            // 
+            // btnIDextendDD
+            // 
+            this.btnIDextendDD.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIDextendDD.Location = new System.Drawing.Point(778, 161);
+            this.btnIDextendDD.Name = "btnIDextendDD";
+            this.btnIDextendDD.Size = new System.Drawing.Size(193, 71);
+            this.btnIDextendDD.TabIndex = 4;
+            this.btnIDextendDD.Text = "Extend Due Date";
+            this.btnIDextendDD.UseVisualStyleBackColor = true;
+            this.btnIDextendDD.Click += new System.EventHandler(this.btnIDextendDD_Click);
+            // 
+            // textIDdd
+            // 
+            this.textIDdd.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDdd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDdd.Location = new System.Drawing.Point(168, 159);
+            this.textIDdd.Name = "textIDdd";
+            this.textIDdd.ReadOnly = true;
+            this.textIDdd.Size = new System.Drawing.Size(234, 25);
+            this.textIDdd.TabIndex = 225;
+            this.textIDdd.TabStop = false;
+            // 
+            // grpissue_details_search
+            // 
+            this.grpissue_details_search.Controls.Add(this.comboIDfield);
+            this.grpissue_details_search.Controls.Add(this.label61);
+            this.grpissue_details_search.Controls.Add(this.textIDsearch);
+            this.grpissue_details_search.Controls.Add(this.label63);
+            this.grpissue_details_search.Location = new System.Drawing.Point(29, 233);
+            this.grpissue_details_search.Name = "grpissue_details_search";
+            this.grpissue_details_search.Size = new System.Drawing.Size(959, 56);
+            this.grpissue_details_search.TabIndex = 0;
+            this.grpissue_details_search.TabStop = false;
+            // 
+            // comboIDfield
+            // 
+            this.comboIDfield.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboIDfield.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboIDfield.FormattingEnabled = true;
+            this.comboIDfield.Items.AddRange(new object[] {
+            "BookID",
+            "MemberID",
+            "BookTitle",
+            "MemberName",
+            "IssueDate",
+            "DueDate"});
+            this.comboIDfield.Location = new System.Drawing.Point(535, 16);
+            this.comboIDfield.Name = "comboIDfield";
+            this.comboIDfield.Size = new System.Drawing.Size(190, 28);
+            this.comboIDfield.TabIndex = 1;
+            this.comboIDfield.SelectedIndexChanged += new System.EventHandler(this.comboIDfield_SelectedIndexChanged);
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(463, 20);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(56, 20);
+            this.label61.TabIndex = 52;
+            this.label61.Text = "Field : ";
+            // 
+            // textIDsearch
+            // 
+            this.textIDsearch.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDsearch.Location = new System.Drawing.Point(139, 20);
+            this.textIDsearch.Name = "textIDsearch";
+            this.textIDsearch.Size = new System.Drawing.Size(233, 25);
+            this.textIDsearch.TabIndex = 0;
+            this.textIDsearch.TextChanged += new System.EventHandler(this.textIDsearch_TextChanged);
+            this.textIDsearch.Enter += new System.EventHandler(this.textIDsearch_Enter_1);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(49, 19);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(69, 20);
+            this.label63.TabIndex = 50;
+            this.label63.Text = "Search : ";
+            // 
+            // btnIDsubmitbook
+            // 
+            this.btnIDsubmitbook.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIDsubmitbook.Location = new System.Drawing.Point(778, 76);
+            this.btnIDsubmitbook.Name = "btnIDsubmitbook";
+            this.btnIDsubmitbook.Size = new System.Drawing.Size(193, 78);
+            this.btnIDsubmitbook.TabIndex = 5;
+            this.btnIDsubmitbook.Text = "Return Book";
+            this.btnIDsubmitbook.UseVisualStyleBackColor = true;
+            this.btnIDsubmitbook.Click += new System.EventHandler(this.btnIDsubmitbook_Click);
+            // 
+            // textIDname
+            // 
+            this.textIDname.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDname.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDname.Location = new System.Drawing.Point(564, 77);
+            this.textIDname.Name = "textIDname";
+            this.textIDname.ReadOnly = true;
+            this.textIDname.Size = new System.Drawing.Size(190, 25);
+            this.textIDname.TabIndex = 0;
+            this.textIDname.TabStop = false;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Location = new System.Drawing.Point(55, 35);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(86, 20);
+            this.label65.TabIndex = 57;
+            this.label65.Text = "Book Title :";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(412, 77);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(118, 20);
+            this.label64.TabIndex = 56;
+            this.label64.Text = "Member Name :";
+            // 
+            // textIDmid
+            // 
+            this.textIDmid.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDmid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDmid.Location = new System.Drawing.Point(564, 119);
+            this.textIDmid.Name = "textIDmid";
+            this.textIDmid.ReadOnly = true;
+            this.textIDmid.Size = new System.Drawing.Size(190, 25);
+            this.textIDmid.TabIndex = 55;
+            this.textIDmid.TabStop = false;
+            // 
+            // textIDidate
+            // 
+            this.textIDidate.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDidate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDidate.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDidate.Location = new System.Drawing.Point(168, 119);
+            this.textIDidate.Name = "textIDidate";
+            this.textIDidate.ReadOnly = true;
+            this.textIDidate.Size = new System.Drawing.Size(234, 25);
+            this.textIDidate.TabIndex = 54;
+            this.textIDidate.TabStop = false;
+            // 
+            // textIDsubdate
+            // 
+            this.textIDsubdate.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDsubdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDsubdate.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDsubdate.Location = new System.Drawing.Point(565, 159);
+            this.textIDsubdate.Name = "textIDsubdate";
+            this.textIDsubdate.ReadOnly = true;
+            this.textIDsubdate.Size = new System.Drawing.Size(190, 25);
+            this.textIDsubdate.TabIndex = 53;
+            this.textIDsubdate.TabStop = false;
+            // 
+            // textIDfine
+            // 
+            this.textIDfine.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDfine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDfine.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDfine.Location = new System.Drawing.Point(167, 196);
+            this.textIDfine.Name = "textIDfine";
+            this.textIDfine.ReadOnly = true;
+            this.textIDfine.Size = new System.Drawing.Size(234, 25);
+            this.textIDfine.TabIndex = 52;
+            this.textIDfine.TabStop = false;
+            // 
+            // textIDtitle
+            // 
+            this.textIDtitle.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDtitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDtitle.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDtitle.Location = new System.Drawing.Point(168, 26);
+            this.textIDtitle.Multiline = true;
+            this.textIDtitle.Name = "textIDtitle";
+            this.textIDtitle.ReadOnly = true;
+            this.textIDtitle.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textIDtitle.Size = new System.Drawing.Size(609, 39);
+            this.textIDtitle.TabIndex = 51;
+            this.textIDtitle.TabStop = false;
+            // 
+            // textIDbid
+            // 
+            this.textIDbid.BackColor = System.Drawing.SystemColors.Window;
+            this.textIDbid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIDbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIDbid.Location = new System.Drawing.Point(168, 77);
+            this.textIDbid.Name = "textIDbid";
+            this.textIDbid.ReadOnly = true;
+            this.textIDbid.Size = new System.Drawing.Size(234, 25);
+            this.textIDbid.TabIndex = 50;
+            this.textIDbid.TabStop = false;
+            // 
+            // labelIDsubd
+            // 
+            this.labelIDsubd.AutoSize = true;
+            this.labelIDsubd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDsubd.Location = new System.Drawing.Point(428, 159);
+            this.labelIDsubd.Name = "labelIDsubd";
+            this.labelIDsubd.Size = new System.Drawing.Size(102, 20);
+            this.labelIDsubd.TabIndex = 9;
+            this.labelIDsubd.Text = "Submit Date :";
+            // 
+            // labelIDfine
+            // 
+            this.labelIDfine.AutoSize = true;
+            this.labelIDfine.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDfine.Location = new System.Drawing.Point(94, 199);
+            this.labelIDfine.Name = "labelIDfine";
+            this.labelIDfine.Size = new System.Drawing.Size(48, 20);
+            this.labelIDfine.TabIndex = 8;
+            this.labelIDfine.Text = "Fine :";
+            // 
+            // labelIDdd
+            // 
+            this.labelIDdd.AutoSize = true;
+            this.labelIDdd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDdd.Location = new System.Drawing.Point(61, 159);
+            this.labelIDdd.Name = "labelIDdd";
+            this.labelIDdd.Size = new System.Drawing.Size(81, 20);
+            this.labelIDdd.TabIndex = 6;
+            this.labelIDdd.Text = "Due Date :";
+            // 
+            // labelIDid
+            // 
+            this.labelIDid.AutoSize = true;
+            this.labelIDid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDid.Location = new System.Drawing.Point(54, 120);
+            this.labelIDid.Name = "labelIDid";
+            this.labelIDid.Size = new System.Drawing.Size(88, 20);
+            this.labelIDid.TabIndex = 5;
+            this.labelIDid.Text = "Issue Date :";
+            // 
+            // labelIDmid
+            // 
+            this.labelIDmid.AutoSize = true;
+            this.labelIDmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDmid.Location = new System.Drawing.Point(438, 120);
+            this.labelIDmid.Name = "labelIDmid";
+            this.labelIDmid.Size = new System.Drawing.Size(92, 20);
+            this.labelIDmid.TabIndex = 4;
+            this.labelIDmid.Text = "Member ID :";
+            // 
+            // labelIDbid
+            // 
+            this.labelIDbid.AutoSize = true;
+            this.labelIDbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIDbid.Location = new System.Drawing.Point(72, 76);
+            this.labelIDbid.Name = "labelIDbid";
+            this.labelIDbid.Size = new System.Drawing.Size(70, 20);
+            this.labelIDbid.TabIndex = 3;
+            this.labelIDbid.Text = "Book ID :";
+            // 
+            // btnIDisudet
+            // 
+            this.btnIDisudet.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnIDisudet.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIDisudet.Location = new System.Drawing.Point(29, 345);
+            this.btnIDisudet.Name = "btnIDisudet";
+            this.btnIDisudet.Size = new System.Drawing.Size(225, 83);
+            this.btnIDisudet.TabIndex = 1;
+            this.btnIDisudet.Text = "Issued Books";
+            this.btnIDisudet.UseVisualStyleBackColor = false;
+            this.btnIDisudet.Click += new System.EventHandler(this.btnIDisudet_Click);
+            // 
+            // btnIDsubdet
+            // 
+            this.btnIDsubdet.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnIDsubdet.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIDsubdet.Location = new System.Drawing.Point(29, 458);
+            this.btnIDsubdet.Name = "btnIDsubdet";
+            this.btnIDsubdet.Size = new System.Drawing.Size(225, 83);
+            this.btnIDsubdet.TabIndex = 2;
+            this.btnIDsubdet.Text = "Returned Books";
+            this.btnIDsubdet.UseVisualStyleBackColor = false;
+            this.btnIDsubdet.Click += new System.EventHandler(this.btnIDsubdet_Click);
+            // 
+            // panelIssueSubmit
+            // 
+            this.panelIssueSubmit.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelIssueSubmit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelIssueSubmit.Controls.Add(this.pnlISshow);
+            this.panelIssueSubmit.Controls.Add(this.btnISok);
+            this.panelIssueSubmit.Controls.Add(this.panelIScontainer);
+            this.panelIssueSubmit.Controls.Add(this.textISbid);
+            this.panelIssueSubmit.Controls.Add(this.label15);
+            this.panelIssueSubmit.Controls.Add(this.textISmid);
+            this.panelIssueSubmit.Controls.Add(this.label22);
+            this.panelIssueSubmit.Location = new System.Drawing.Point(0, 0);
+            this.panelIssueSubmit.Name = "panelIssueSubmit";
+            this.panelIssueSubmit.Size = new System.Drawing.Size(992, 581);
+            this.panelIssueSubmit.TabIndex = 2;
+            // 
+            // pnlISshow
+            // 
+            this.pnlISshow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlISshow.Controls.Add(this.textIsName);
+            this.pnlISshow.Controls.Add(this.label30);
+            this.pnlISshow.Controls.Add(this.label23);
+            this.pnlISshow.Controls.Add(this.textISmid2);
+            this.pnlISshow.Controls.Add(this.label21);
+            this.pnlISshow.Controls.Add(this.label20);
+            this.pnlISshow.Controls.Add(this.label17);
+            this.pnlISshow.Controls.Add(this.textISauthor);
+            this.pnlISshow.Controls.Add(this.textISbid2);
+            this.pnlISshow.Controls.Add(this.textIStitle);
+            this.pnlISshow.Location = new System.Drawing.Point(48, 75);
+            this.pnlISshow.Name = "pnlISshow";
+            this.pnlISshow.Size = new System.Drawing.Size(798, 193);
+            this.pnlISshow.TabIndex = 56;
+            // 
+            // textIsName
+            // 
+            this.textIsName.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textIsName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIsName.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIsName.Location = new System.Drawing.Point(566, 55);
+            this.textIsName.Name = "textIsName";
+            this.textIsName.ReadOnly = true;
+            this.textIsName.Size = new System.Drawing.Size(220, 25);
+            this.textIsName.TabIndex = 55;
+            this.textIsName.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(442, 58);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(118, 20);
+            this.label30.TabIndex = 54;
+            this.label30.Text = "Member Name :";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(6, 58);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(92, 20);
+            this.label23.TabIndex = 53;
+            this.label23.Text = "Member ID :";
+            // 
+            // textISmid2
+            // 
+            this.textISmid2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISmid2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISmid2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISmid2.Location = new System.Drawing.Point(109, 56);
+            this.textISmid2.Name = "textISmid2";
+            this.textISmid2.ReadOnly = true;
+            this.textISmid2.Size = new System.Drawing.Size(295, 25);
+            this.textISmid2.TabIndex = 52;
+            this.textISmid2.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(3, 136);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 20);
+            this.label21.TabIndex = 51;
+            this.label21.Text = "Author :";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 95);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(49, 20);
+            this.label20.TabIndex = 50;
+            this.label20.Text = "Title :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(6, 21);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(70, 20);
+            this.label17.TabIndex = 49;
+            this.label17.Text = "Book ID :";
+            // 
+            // textISauthor
+            // 
+            this.textISauthor.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISauthor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISauthor.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISauthor.Location = new System.Drawing.Point(109, 134);
+            this.textISauthor.Name = "textISauthor";
+            this.textISauthor.ReadOnly = true;
+            this.textISauthor.Size = new System.Drawing.Size(678, 25);
+            this.textISauthor.TabIndex = 48;
+            this.textISauthor.TabStop = false;
+            // 
+            // textISbid2
+            // 
+            this.textISbid2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISbid2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISbid2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISbid2.Location = new System.Drawing.Point(109, 19);
+            this.textISbid2.Name = "textISbid2";
+            this.textISbid2.ReadOnly = true;
+            this.textISbid2.Size = new System.Drawing.Size(294, 25);
+            this.textISbid2.TabIndex = 47;
+            this.textISbid2.TabStop = false;
+            // 
+            // textIStitle
+            // 
+            this.textIStitle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textIStitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textIStitle.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIStitle.Location = new System.Drawing.Point(110, 94);
+            this.textIStitle.Name = "textIStitle";
+            this.textIStitle.ReadOnly = true;
+            this.textIStitle.Size = new System.Drawing.Size(678, 25);
+            this.textIStitle.TabIndex = 46;
+            this.textIStitle.TabStop = false;
+            // 
+            // btnISok
+            // 
+            this.btnISok.Font = new System.Drawing.Font("Trebuchet MS", 11.25F);
+            this.btnISok.Location = new System.Drawing.Point(855, 19);
+            this.btnISok.Name = "btnISok";
+            this.btnISok.Size = new System.Drawing.Size(93, 43);
+            this.btnISok.TabIndex = 2;
+            this.btnISok.Text = "OK";
+            this.btnISok.UseVisualStyleBackColor = true;
+            this.btnISok.Click += new System.EventHandler(this.btnISok_Click);
+            // 
+            // panelIScontainer
+            // 
+            this.panelIScontainer.Controls.Add(this.groupSubmit);
+            this.panelIScontainer.Controls.Add(this.groupIssue);
+            this.panelIScontainer.Location = new System.Drawing.Point(55, 283);
+            this.panelIScontainer.Name = "panelIScontainer";
+            this.panelIScontainer.Size = new System.Drawing.Size(784, 251);
+            this.panelIScontainer.TabIndex = 3;
+            // 
+            // groupSubmit
+            // 
+            this.groupSubmit.Controls.Add(this.dpISSBsubmitdate);
+            this.groupSubmit.Controls.Add(this.label29);
+            this.groupSubmit.Controls.Add(this.textISSBfine);
+            this.groupSubmit.Controls.Add(this.label28);
+            this.groupSubmit.Controls.Add(this.textISSBduedate);
+            this.groupSubmit.Controls.Add(this.btnISsubmitbook);
+            this.groupSubmit.Controls.Add(this.textISSBissuedate);
+            this.groupSubmit.Controls.Add(this.label26);
+            this.groupSubmit.Controls.Add(this.label27);
+            this.groupSubmit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupSubmit.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupSubmit.Location = new System.Drawing.Point(0, 0);
+            this.groupSubmit.Name = "groupSubmit";
+            this.groupSubmit.Size = new System.Drawing.Size(784, 251);
+            this.groupSubmit.TabIndex = 1;
+            this.groupSubmit.TabStop = false;
+            this.groupSubmit.Text = "Return Book";
+            // 
+            // dpISSBsubmitdate
+            // 
+            this.dpISSBsubmitdate.CustomFormat = "dd/MM/yyyy";
+            this.dpISSBsubmitdate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpISSBsubmitdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dpISSBsubmitdate.Location = new System.Drawing.Point(147, 101);
+            this.dpISSBsubmitdate.Name = "dpISSBsubmitdate";
+            this.dpISSBsubmitdate.Size = new System.Drawing.Size(225, 26);
+            this.dpISSBsubmitdate.TabIndex = 1;
+            this.dpISSBsubmitdate.ValueChanged += new System.EventHandler(this.dpISSBsubmitdate_ValueChanged);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(28, 103);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(108, 22);
+            this.label29.TabIndex = 12;
+            this.label29.Text = "Submit Date :";
+            // 
+            // textISSBfine
+            // 
+            this.textISSBfine.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISSBfine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISSBfine.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISSBfine.Location = new System.Drawing.Point(509, 101);
+            this.textISSBfine.Name = "textISSBfine";
+            this.textISSBfine.ReadOnly = true;
+            this.textISSBfine.Size = new System.Drawing.Size(199, 26);
+            this.textISSBfine.TabIndex = 1;
+            this.textISSBfine.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(437, 103);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(61, 22);
+            this.label28.TabIndex = 10;
+            this.label28.Text = "Fine  : ";
+            // 
+            // textISSBduedate
+            // 
+            this.textISSBduedate.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISSBduedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISSBduedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISSBduedate.Location = new System.Drawing.Point(509, 46);
+            this.textISSBduedate.Name = "textISSBduedate";
+            this.textISSBduedate.ReadOnly = true;
+            this.textISSBduedate.Size = new System.Drawing.Size(199, 26);
+            this.textISSBduedate.TabIndex = 8;
+            this.textISSBduedate.TabStop = false;
+            // 
+            // btnISsubmitbook
+            // 
+            this.btnISsubmitbook.Location = new System.Drawing.Point(266, 160);
+            this.btnISsubmitbook.Name = "btnISsubmitbook";
+            this.btnISsubmitbook.Size = new System.Drawing.Size(252, 36);
+            this.btnISsubmitbook.TabIndex = 0;
+            this.btnISsubmitbook.Text = "Return";
+            this.btnISsubmitbook.UseVisualStyleBackColor = true;
+            this.btnISsubmitbook.Click += new System.EventHandler(this.btnISsubmitbook_Click);
+            // 
+            // textISSBissuedate
+            // 
+            this.textISSBissuedate.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISSBissuedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISSBissuedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISSBissuedate.Location = new System.Drawing.Point(147, 46);
+            this.textISSBissuedate.Name = "textISSBissuedate";
+            this.textISSBissuedate.ReadOnly = true;
+            this.textISSBissuedate.Size = new System.Drawing.Size(225, 26);
+            this.textISSBissuedate.TabIndex = 7;
+            this.textISSBissuedate.TabStop = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(407, 48);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(86, 22);
+            this.label26.TabIndex = 6;
+            this.label26.Text = "Due Date :";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(46, 48);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(92, 22);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "Issue Date :";
+            // 
+            // groupIssue
+            // 
+            this.groupIssue.Controls.Add(this.dpISIBissuedate);
+            this.groupIssue.Controls.Add(this.btnISIBchgdue);
+            this.groupIssue.Controls.Add(this.textISIBdays);
+            this.groupIssue.Controls.Add(this.label31);
+            this.groupIssue.Controls.Add(this.btnISissue);
+            this.groupIssue.Controls.Add(this.textISIBduedate);
+            this.groupIssue.Controls.Add(this.label25);
+            this.groupIssue.Controls.Add(this.label24);
+            this.groupIssue.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupIssue.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupIssue.Location = new System.Drawing.Point(0, 0);
+            this.groupIssue.Name = "groupIssue";
+            this.groupIssue.Size = new System.Drawing.Size(784, 251);
+            this.groupIssue.TabIndex = 0;
+            this.groupIssue.TabStop = false;
+            this.groupIssue.Text = "Issue Book";
+            // 
+            // dpISIBissuedate
+            // 
+            this.dpISIBissuedate.CustomFormat = "dd/MM/yyyy";
+            this.dpISIBissuedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpISIBissuedate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dpISIBissuedate.Location = new System.Drawing.Point(126, 61);
+            this.dpISIBissuedate.Name = "dpISIBissuedate";
+            this.dpISIBissuedate.Size = new System.Drawing.Size(225, 26);
+            this.dpISIBissuedate.TabIndex = 3;
+            this.dpISIBissuedate.ValueChanged += new System.EventHandler(this.dpISIBissuedate_ValueChanged);
+            // 
+            // btnISIBchgdue
+            // 
+            this.btnISIBchgdue.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnISIBchgdue.Location = new System.Drawing.Point(237, 117);
+            this.btnISIBchgdue.Name = "btnISIBchgdue";
+            this.btnISIBchgdue.Size = new System.Drawing.Size(149, 35);
+            this.btnISIBchgdue.TabIndex = 2;
+            this.btnISIBchgdue.Text = "Change Due Date ";
+            this.btnISIBchgdue.UseVisualStyleBackColor = true;
+            this.btnISIBchgdue.Click += new System.EventHandler(this.btnISIBchgdue_Click);
+            // 
+            // textISIBdays
+            // 
+            this.textISIBdays.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISIBdays.Location = new System.Drawing.Point(162, 121);
+            this.textISIBdays.Name = "textISIBdays";
+            this.textISIBdays.Size = new System.Drawing.Size(70, 26);
+            this.textISIBdays.TabIndex = 1;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(28, 123);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(128, 22);
+            this.label31.TabIndex = 5;
+            this.label31.Text = "Days Issued For :";
+            // 
+            // btnISissue
+            // 
+            this.btnISissue.Location = new System.Drawing.Point(266, 176);
+            this.btnISissue.Name = "btnISissue";
+            this.btnISissue.Size = new System.Drawing.Size(252, 36);
+            this.btnISissue.TabIndex = 0;
+            this.btnISissue.Text = "Issue";
+            this.btnISissue.UseVisualStyleBackColor = true;
+            this.btnISissue.Click += new System.EventHandler(this.btnISissue_Click);
+            // 
+            // textISIBduedate
+            // 
+            this.textISIBduedate.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textISIBduedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textISIBduedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISIBduedate.Location = new System.Drawing.Point(496, 61);
+            this.textISIBduedate.Name = "textISIBduedate";
+            this.textISIBduedate.ReadOnly = true;
+            this.textISIBduedate.Size = new System.Drawing.Size(199, 26);
+            this.textISIBduedate.TabIndex = 3;
+            this.textISIBduedate.TabStop = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(394, 63);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(86, 22);
+            this.label25.TabIndex = 1;
+            this.label25.Text = "Due Date :";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(28, 63);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(92, 22);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Issue Date :";
+            // 
+            // textISbid
+            // 
+            this.textISbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISbid.Location = new System.Drawing.Point(147, 26);
+            this.textISbid.Name = "textISbid";
+            this.textISbid.Size = new System.Drawing.Size(294, 25);
+            this.textISbid.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(41, 32);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(70, 20);
+            this.label15.TabIndex = 27;
+            this.label15.Text = "Book ID :";
+            // 
+            // textISmid
+            // 
+            this.textISmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textISmid.Location = new System.Drawing.Point(596, 27);
+            this.textISmid.Name = "textISmid";
+            this.textISmid.Size = new System.Drawing.Size(238, 25);
+            this.textISmid.TabIndex = 1;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(497, 30);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(92, 20);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Member ID :";
             // 
             // panelBookDetails
             // 
@@ -1031,7 +1981,7 @@ namespace LibraryManagementSystem
             this.textBDdescription.Name = "textBDdescription";
             this.textBDdescription.ReadOnly = true;
             this.textBDdescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBDdescription.Size = new System.Drawing.Size(580, 162);
+            this.textBDdescription.Size = new System.Drawing.Size(578, 162);
             this.textBDdescription.TabIndex = 0;
             this.textBDdescription.TabStop = false;
             // 
@@ -1101,7 +2051,7 @@ namespace LibraryManagementSystem
             this.pnlAddCateg.Controls.Add(this.txtAddShelf);
             this.pnlAddCateg.Controls.Add(this.label51);
             this.pnlAddCateg.Controls.Add(this.btnAddOk);
-            this.pnlAddCateg.Location = new System.Drawing.Point(914, 11);
+            this.pnlAddCateg.Location = new System.Drawing.Point(255, 105);
             this.pnlAddCateg.Name = "pnlAddCateg";
             this.pnlAddCateg.Size = new System.Drawing.Size(445, 296);
             this.pnlAddCateg.TabIndex = 136;
@@ -1129,11 +2079,11 @@ namespace LibraryManagementSystem
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 43);
+            this.label4.Location = new System.Drawing.Point(19, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(183, 20);
+            this.label4.Size = new System.Drawing.Size(129, 20);
             this.label4.TabIndex = 87;
-            this.label4.Text = "Nombre de la categoría : ";
+            this.label4.Text = "Category Name : ";
             // 
             // txtAddShelf
             // 
@@ -1152,9 +2102,9 @@ namespace LibraryManagementSystem
             this.label51.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.Location = new System.Drawing.Point(19, 100);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(70, 20);
+            this.label51.Size = new System.Drawing.Size(52, 20);
             this.label51.TabIndex = 85;
-            this.label51.Text = "Estante :";
+            this.label51.Text = "Shelf :";
             // 
             // btnAddOk
             // 
@@ -1232,7 +2182,7 @@ namespace LibraryManagementSystem
             this.btnMBcopy.Name = "btnMBcopy";
             this.btnMBcopy.Size = new System.Drawing.Size(129, 84);
             this.btnMBcopy.TabIndex = 20;
-            this.btnMBcopy.Text = "Detalles del libro de copias";
+            this.btnMBcopy.Text = "Copy Book Details";
             this.btnMBcopy.UseVisualStyleBackColor = true;
             this.btnMBcopy.Click += new System.EventHandler(this.btnMBcopy_Click);
             // 
@@ -1242,9 +2192,9 @@ namespace LibraryManagementSystem
             this.label35.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(5, 51);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(72, 20);
+            this.label35.Size = new System.Drawing.Size(70, 20);
             this.label35.TabIndex = 130;
-            this.label35.Text = "Libro ID :";
+            this.label35.Text = "Book ID :";
             // 
             // btnMBadd2
             // 
@@ -1253,7 +2203,7 @@ namespace LibraryManagementSystem
             this.btnMBadd2.Name = "btnMBadd2";
             this.btnMBadd2.Size = new System.Drawing.Size(129, 102);
             this.btnMBadd2.TabIndex = 19;
-            this.btnMBadd2.Text = "Añadir Libro";
+            this.btnMBadd2.Text = "Add Book";
             this.btnMBadd2.UseVisualStyleBackColor = true;
             this.btnMBadd2.Click += new System.EventHandler(this.btnMBadd2_Click);
             // 
@@ -1265,7 +2215,7 @@ namespace LibraryManagementSystem
             this.btnMBeditdel.Name = "btnMBeditdel";
             this.btnMBeditdel.Size = new System.Drawing.Size(275, 39);
             this.btnMBeditdel.TabIndex = 0;
-            this.btnMBeditdel.Text = "Editar / Eliminar";
+            this.btnMBeditdel.Text = "Edit / Delete";
             this.btnMBeditdel.UseVisualStyleBackColor = true;
             this.btnMBeditdel.Click += new System.EventHandler(this.btnMBeditdel_Click);
             // 
@@ -1307,9 +2257,9 @@ namespace LibraryManagementSystem
             this.labelMBenlarge.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMBenlarge.Location = new System.Drawing.Point(851, 321);
             this.labelMBenlarge.Name = "labelMBenlarge";
-            this.labelMBenlarge.Size = new System.Drawing.Size(136, 20);
+            this.labelMBenlarge.Size = new System.Drawing.Size(93, 20);
             this.labelMBenlarge.TabIndex = 128;
-            this.labelMBenlarge.Text = "Imagen de portada";
+            this.labelMBenlarge.Text = "Cover Image";
             // 
             // btnMBopenpdf
             // 
@@ -1319,7 +2269,7 @@ namespace LibraryManagementSystem
             this.btnMBopenpdf.Size = new System.Drawing.Size(101, 36);
             this.btnMBopenpdf.TabIndex = 16;
             this.btnMBopenpdf.Tag = "";
-            this.btnMBopenpdf.Text = "Seleccionar PDF";
+            this.btnMBopenpdf.Text = "Select PDF";
             this.btnMBopenpdf.UseVisualStyleBackColor = true;
             this.btnMBopenpdf.Click += new System.EventHandler(this.btnMBopenpdf_Click);
             // 
@@ -1329,9 +2279,9 @@ namespace LibraryManagementSystem
             this.labelMBpdfsize.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMBpdfsize.Location = new System.Drawing.Point(661, 540);
             this.labelMBpdfsize.Name = "labelMBpdfsize";
-            this.labelMBpdfsize.Size = new System.Drawing.Size(67, 20);
+            this.labelMBpdfsize.Size = new System.Drawing.Size(41, 20);
             this.labelMBpdfsize.TabIndex = 126;
-            this.labelMBpdfsize.Text = "Tamaño:";
+            this.labelMBpdfsize.Text = "Size:";
             // 
             // textMBpdfurl
             // 
@@ -1365,9 +2315,9 @@ namespace LibraryManagementSystem
             this.label48.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.Location = new System.Drawing.Point(5, 545);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(103, 20);
+            this.label48.Size = new System.Drawing.Size(87, 20);
             this.label48.TabIndex = 123;
-            this.label48.Text = "Tipo de libro :";
+            this.label48.Text = "Book Type :";
             // 
             // btnMBclear
             // 
@@ -1376,7 +2326,7 @@ namespace LibraryManagementSystem
             this.btnMBclear.Name = "btnMBclear";
             this.btnMBclear.Size = new System.Drawing.Size(267, 37);
             this.btnMBclear.TabIndex = 1;
-            this.btnMBclear.Text = "Limpiar";
+            this.btnMBclear.Text = "Clear";
             this.btnMBclear.UseVisualStyleBackColor = true;
             this.btnMBclear.Click += new System.EventHandler(this.btnMBclear_Click);
             // 
@@ -1384,11 +2334,11 @@ namespace LibraryManagementSystem
             // 
             this.labelMBpicsize.AutoSize = true;
             this.labelMBpicsize.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMBpicsize.Location = new System.Drawing.Point(823, 420);
+            this.labelMBpicsize.Location = new System.Drawing.Point(845, 417);
             this.labelMBpicsize.Name = "labelMBpicsize";
-            this.labelMBpicsize.Size = new System.Drawing.Size(67, 20);
+            this.labelMBpicsize.Size = new System.Drawing.Size(41, 20);
             this.labelMBpicsize.TabIndex = 122;
-            this.labelMBpicsize.Text = "Tamaño:";
+            this.labelMBpicsize.Text = "Size:";
             this.labelMBpicsize.Visible = false;
             // 
             // btnMBgbooksapi
@@ -1398,7 +2348,7 @@ namespace LibraryManagementSystem
             this.btnMBgbooksapi.Name = "btnMBgbooksapi";
             this.btnMBgbooksapi.Size = new System.Drawing.Size(129, 89);
             this.btnMBgbooksapi.TabIndex = 18;
-            this.btnMBgbooksapi.Text = "Obtener detalles del libro en Google Books";
+            this.btnMBgbooksapi.Text = "Get Book Details from Google Books";
             this.btnMBgbooksapi.UseVisualStyleBackColor = true;
             this.btnMBgbooksapi.Click += new System.EventHandler(this.btnMBgbooksapi_Click);
             // 
@@ -1409,7 +2359,7 @@ namespace LibraryManagementSystem
             this.btnMBopenfile.Name = "btnMBopenfile";
             this.btnMBopenfile.Size = new System.Drawing.Size(101, 64);
             this.btnMBopenfile.TabIndex = 17;
-            this.btnMBopenfile.Text = "Seleccionar imagen";
+            this.btnMBopenfile.Text = "Select Image";
             this.btnMBopenfile.UseVisualStyleBackColor = true;
             this.btnMBopenfile.Click += new System.EventHandler(this.btnMBopenfile_Click);
             // 
@@ -1419,9 +2369,9 @@ namespace LibraryManagementSystem
             this.label34.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(5, 506);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(147, 20);
+            this.label34.Size = new System.Drawing.Size(104, 20);
             this.label34.TabIndex = 114;
-            this.label34.Text = "Imagen de portada :";
+            this.label34.Text = "Cover Image :";
             // 
             // textMBimgurl
             // 
@@ -1453,9 +2403,9 @@ namespace LibraryManagementSystem
             this.label32.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(5, 219);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(95, 20);
+            this.label32.Size = new System.Drawing.Size(94, 20);
             this.label32.TabIndex = 105;
-            this.label32.Text = "Descripción :";
+            this.label32.Text = "Description :";
             // 
             // label33
             // 
@@ -1463,9 +2413,9 @@ namespace LibraryManagementSystem
             this.label33.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(5, 372);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(85, 20);
+            this.label33.Size = new System.Drawing.Size(80, 20);
             this.label33.TabIndex = 83;
-            this.label33.Text = "Categoría :";
+            this.label33.Text = "Category :";
             // 
             // textMBdateadd
             // 
@@ -1515,7 +2465,7 @@ namespace LibraryManagementSystem
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(107, 20);
             this.label37.TabIndex = 98;
-            this.label37.Text = "Número ISBN :";
+            this.label37.Text = "ISBN Number :";
             // 
             // textMBprice
             // 
@@ -1564,9 +2514,9 @@ namespace LibraryManagementSystem
             this.label38.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(571, 469);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(116, 20);
+            this.label38.Size = new System.Drawing.Size(96, 20);
             this.label38.TabIndex = 90;
-            this.label38.Text = "Fecha Añadido :";
+            this.label38.Text = "Date Added :";
             // 
             // label39
             // 
@@ -1574,9 +2524,9 @@ namespace LibraryManagementSystem
             this.label39.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(571, 437);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(70, 20);
+            this.label39.Size = new System.Drawing.Size(52, 20);
             this.label39.TabIndex = 89;
-            this.label39.Text = "Estante :";
+            this.label39.Text = "Shelf :";
             // 
             // label40
             // 
@@ -1584,9 +2534,9 @@ namespace LibraryManagementSystem
             this.label40.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(571, 408);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(69, 20);
+            this.label40.Size = new System.Drawing.Size(57, 20);
             this.label40.TabIndex = 88;
-            this.label40.Text = "Paginas :";
+            this.label40.Text = "Pages :";
             // 
             // label41
             // 
@@ -1594,9 +2544,9 @@ namespace LibraryManagementSystem
             this.label41.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(5, 480);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(65, 20);
+            this.label41.Size = new System.Drawing.Size(57, 20);
             this.label41.TabIndex = 87;
-            this.label41.Text = "Precio : ";
+            this.label41.Text = "Price : ";
             // 
             // label42
             // 
@@ -1604,9 +2554,9 @@ namespace LibraryManagementSystem
             this.label42.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.Location = new System.Drawing.Point(5, 446);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(65, 20);
+            this.label42.Size = new System.Drawing.Size(84, 20);
             this.label42.TabIndex = 86;
-            this.label42.Text = "Idioma :";
+            this.label42.Text = "Language :";
             // 
             // label43
             // 
@@ -1614,9 +2564,9 @@ namespace LibraryManagementSystem
             this.label43.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(5, 416);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(60, 20);
+            this.label43.Size = new System.Drawing.Size(79, 20);
             this.label43.TabIndex = 85;
-            this.label43.Text = "Editor :";
+            this.label43.Text = "Publisher :";
             // 
             // label44
             // 
@@ -1624,9 +2574,9 @@ namespace LibraryManagementSystem
             this.label44.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(571, 379);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(45, 20);
+            this.label44.Size = new System.Drawing.Size(49, 20);
             this.label44.TabIndex = 84;
-            this.label44.Text = "Año :";
+            this.label44.Text = "Year :";
             // 
             // label45
             // 
@@ -1634,9 +2584,9 @@ namespace LibraryManagementSystem
             this.label45.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(5, 184);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(57, 20);
+            this.label45.Size = new System.Drawing.Size(65, 20);
             this.label45.TabIndex = 82;
-            this.label45.Text = "Autor :";
+            this.label45.Text = "Author :";
             // 
             // label46
             // 
@@ -1644,9 +2594,9 @@ namespace LibraryManagementSystem
             this.label46.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.Location = new System.Drawing.Point(5, 121);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(58, 20);
+            this.label46.Size = new System.Drawing.Size(49, 20);
             this.label46.TabIndex = 81;
-            this.label46.Text = "Título :";
+            this.label46.Text = "Title :";
             // 
             // panelManageMembers
             // 
@@ -1674,7 +2624,7 @@ namespace LibraryManagementSystem
             this.btnMMexploreMembers.Name = "btnMMexploreMembers";
             this.btnMMexploreMembers.Size = new System.Drawing.Size(153, 47);
             this.btnMMexploreMembers.TabIndex = 7;
-            this.btnMMexploreMembers.Text = "Explorar miembros";
+            this.btnMMexploreMembers.Text = "Explore Members";
             this.btnMMexploreMembers.UseVisualStyleBackColor = true;
             this.btnMMexploreMembers.Click += new System.EventHandler(this.btnMMexploreMembers_Click);
             // 
@@ -1687,7 +2637,7 @@ namespace LibraryManagementSystem
             this.btnMMBooksToSubmit.Name = "btnMMBooksToSubmit";
             this.btnMMBooksToSubmit.Size = new System.Drawing.Size(82, 78);
             this.btnMMBooksToSubmit.TabIndex = 1;
-            this.btnMMBooksToSubmit.Text = "Ver libros para enviar";
+            this.btnMMBooksToSubmit.Text = "View Books to Submit";
             this.btnMMBooksToSubmit.UseVisualStyleBackColor = true;
             this.btnMMBooksToSubmit.Click += new System.EventHandler(this.btnMMBooksToSubmit_Click);
             // 
@@ -1698,7 +2648,7 @@ namespace LibraryManagementSystem
             this.btnMMissret.Name = "btnMMissret";
             this.btnMMissret.Size = new System.Drawing.Size(153, 47);
             this.btnMMissret.TabIndex = 6;
-            this.btnMMissret.Text = "Emisión/Devolución";
+            this.btnMMissret.Text = "Issue / Return";
             this.btnMMissret.UseVisualStyleBackColor = true;
             this.btnMMissret.Click += new System.EventHandler(this.btnMMissret_Click);
             // 
@@ -1709,7 +2659,7 @@ namespace LibraryManagementSystem
             this.btnEditDetails.Name = "btnEditDetails";
             this.btnEditDetails.Size = new System.Drawing.Size(153, 47);
             this.btnEditDetails.TabIndex = 5;
-            this.btnEditDetails.Text = "Editar detalles";
+            this.btnEditDetails.Text = "Edit Details";
             this.btnEditDetails.UseVisualStyleBackColor = true;
             this.btnEditDetails.Click += new System.EventHandler(this.btnEditDetails_Click);
             // 
@@ -1720,7 +2670,7 @@ namespace LibraryManagementSystem
             this.btnSetPackage.Name = "btnSetPackage";
             this.btnSetPackage.Size = new System.Drawing.Size(153, 47);
             this.btnSetPackage.TabIndex = 3;
-            this.btnSetPackage.Text = "Paquete";
+            this.btnSetPackage.Text = "Set Package";
             this.btnSetPackage.UseVisualStyleBackColor = true;
             this.btnSetPackage.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -1731,7 +2681,7 @@ namespace LibraryManagementSystem
             this.btnMMdetails.Name = "btnMMdetails";
             this.btnMMdetails.Size = new System.Drawing.Size(153, 47);
             this.btnMMdetails.TabIndex = 4;
-            this.btnMMdetails.Text = "Miembros";
+            this.btnMMdetails.Text = "Member Details";
             this.btnMMdetails.UseVisualStyleBackColor = true;
             this.btnMMdetails.Click += new System.EventHandler(this.btnMMdetails_Click);
             // 
@@ -1797,7 +2747,7 @@ namespace LibraryManagementSystem
             this.btnMMviewall.Name = "btnMMviewall";
             this.btnMMviewall.Size = new System.Drawing.Size(177, 35);
             this.btnMMviewall.TabIndex = 2;
-            this.btnMMviewall.Text = "Ver todos";
+            this.btnMMviewall.Text = "View All";
             this.btnMMviewall.UseVisualStyleBackColor = true;
             this.btnMMviewall.Click += new System.EventHandler(this.btnMMviewall_Click);
             // 
@@ -1828,9 +2778,9 @@ namespace LibraryManagementSystem
             this.label55.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.Location = new System.Drawing.Point(489, 25);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(71, 20);
+            this.label55.Size = new System.Drawing.Size(56, 20);
             this.label55.TabIndex = 27;
-            this.label55.Text = "Campo : ";
+            this.label55.Text = "Field : ";
             // 
             // textMMsearchterm
             // 
@@ -1848,9 +2798,9 @@ namespace LibraryManagementSystem
             this.label50.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.Location = new System.Drawing.Point(70, 27);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(63, 20);
+            this.label50.Size = new System.Drawing.Size(69, 20);
             this.label50.TabIndex = 25;
-            this.label50.Text = "Buscar :";
+            this.label50.Text = "Search : ";
             // 
             // btnMMadd
             // 
@@ -1859,966 +2809,9 @@ namespace LibraryManagementSystem
             this.btnMMadd.Name = "btnMMadd";
             this.btnMMadd.Size = new System.Drawing.Size(153, 47);
             this.btnMMadd.TabIndex = 2;
-            this.btnMMadd.Text = "Añadir nuevo";
+            this.btnMMadd.Text = "Add New";
             this.btnMMadd.UseVisualStyleBackColor = true;
             this.btnMMadd.Click += new System.EventHandler(this.btnMMadd_Click);
-            // 
-            // panelExtraMenu
-            // 
-            this.panelExtraMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelExtraMenu.Controls.Add(this.button2);
-            this.panelExtraMenu.Controls.Add(this.btnMenuMngDB);
-            this.panelExtraMenu.Controls.Add(this.btnMenuCourses);
-            this.panelExtraMenu.Controls.Add(this.btnMenuHelp);
-            this.panelExtraMenu.Controls.Add(this.btnMenuExport);
-            this.panelExtraMenu.Controls.Add(this.lblUserType);
-            this.panelExtraMenu.Controls.Add(this.btnMenuLang);
-            this.panelExtraMenu.Controls.Add(this.btnMenuLibInfo);
-            this.panelExtraMenu.Controls.Add(this.btnMenuOptions);
-            this.panelExtraMenu.Controls.Add(this.lblUsersStatus);
-            this.panelExtraMenu.Controls.Add(this.pictureBox1);
-            this.panelExtraMenu.Controls.Add(this.btnMenuUserDetails);
-            this.panelExtraMenu.Controls.Add(this.btnMenuUsers);
-            this.panelExtraMenu.Controls.Add(this.btnMenuPackages);
-            this.panelExtraMenu.Controls.Add(this.btnMenuCateg);
-            this.panelExtraMenu.Controls.Add(this.btnMenuAbout);
-            this.panelExtraMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelExtraMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelExtraMenu.Name = "panelExtraMenu";
-            this.panelExtraMenu.Size = new System.Drawing.Size(992, 581);
-            this.panelExtraMenu.TabIndex = 6;
-            this.panelExtraMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelExtraMenu_Paint);
-            // 
-            // btnMenuMngDB
-            // 
-            this.btnMenuMngDB.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuMngDB.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuMngDB.Location = new System.Drawing.Point(507, 342);
-            this.btnMenuMngDB.Name = "btnMenuMngDB";
-            this.btnMenuMngDB.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuMngDB.TabIndex = 9;
-            this.btnMenuMngDB.Text = "Gestionar base de datos";
-            this.btnMenuMngDB.UseVisualStyleBackColor = false;
-            this.btnMenuMngDB.Click += new System.EventHandler(this.btnMenuMngDB_Click);
-            // 
-            // btnMenuCourses
-            // 
-            this.btnMenuCourses.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuCourses.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuCourses.Location = new System.Drawing.Point(333, 482);
-            this.btnMenuCourses.Name = "btnMenuCourses";
-            this.btnMenuCourses.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuCourses.TabIndex = 5;
-            this.btnMenuCourses.Text = "Cursos para miembros";
-            this.btnMenuCourses.UseVisualStyleBackColor = false;
-            this.btnMenuCourses.Click += new System.EventHandler(this.btnMenuCourses_Click);
-            // 
-            // btnMenuHelp
-            // 
-            this.btnMenuHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuHelp.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuHelp.Location = new System.Drawing.Point(507, 412);
-            this.btnMenuHelp.Name = "btnMenuHelp";
-            this.btnMenuHelp.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuHelp.TabIndex = 10;
-            this.btnMenuHelp.Text = "Ayuda";
-            this.btnMenuHelp.UseVisualStyleBackColor = false;
-            this.btnMenuHelp.Click += new System.EventHandler(this.btnMenuHelp_Click);
-            // 
-            // btnMenuExport
-            // 
-            this.btnMenuExport.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuExport.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuExport.Location = new System.Drawing.Point(333, 412);
-            this.btnMenuExport.Name = "btnMenuExport";
-            this.btnMenuExport.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuExport.TabIndex = 4;
-            this.btnMenuExport.Text = "Exportar tablas";
-            this.btnMenuExport.UseVisualStyleBackColor = false;
-            this.btnMenuExport.Click += new System.EventHandler(this.btnMenuExport_Click);
-            // 
-            // lblUserType
-            // 
-            this.lblUserType.AutoSize = true;
-            this.lblUserType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserType.Location = new System.Drawing.Point(103, 73);
-            this.lblUserType.Name = "lblUserType";
-            this.lblUserType.Size = new System.Drawing.Size(106, 19);
-            this.lblUserType.TabIndex = 30;
-            this.lblUserType.Text = "Administrator";
-            // 
-            // btnMenuLang
-            // 
-            this.btnMenuLang.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuLang.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuLang.Location = new System.Drawing.Point(333, 343);
-            this.btnMenuLang.Name = "btnMenuLang";
-            this.btnMenuLang.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuLang.TabIndex = 3;
-            this.btnMenuLang.Text = "Idiomas del libro";
-            this.btnMenuLang.UseVisualStyleBackColor = false;
-            this.btnMenuLang.Click += new System.EventHandler(this.btnMenuLang_Click);
-            // 
-            // btnMenuLibInfo
-            // 
-            this.btnMenuLibInfo.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuLibInfo.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuLibInfo.Location = new System.Drawing.Point(506, 271);
-            this.btnMenuLibInfo.Name = "btnMenuLibInfo";
-            this.btnMenuLibInfo.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuLibInfo.TabIndex = 8;
-            this.btnMenuLibInfo.Text = "Información de la biblioteca";
-            this.btnMenuLibInfo.UseVisualStyleBackColor = false;
-            this.btnMenuLibInfo.Click += new System.EventHandler(this.btnMenuLibInfo_Click);
-            // 
-            // btnMenuOptions
-            // 
-            this.btnMenuOptions.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuOptions.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuOptions.Location = new System.Drawing.Point(507, 201);
-            this.btnMenuOptions.Name = "btnMenuOptions";
-            this.btnMenuOptions.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuOptions.TabIndex = 7;
-            this.btnMenuOptions.Text = "Opciones";
-            this.btnMenuOptions.UseVisualStyleBackColor = false;
-            this.btnMenuOptions.Click += new System.EventHandler(this.btnMenuOptions_Click);
-            // 
-            // lblUsersStatus
-            // 
-            this.lblUsersStatus.AutoSize = true;
-            this.lblUsersStatus.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsersStatus.Location = new System.Drawing.Point(102, 40);
-            this.lblUsersStatus.Name = "lblUsersStatus";
-            this.lblUsersStatus.Size = new System.Drawing.Size(130, 25);
-            this.lblUsersStatus.TabIndex = 25;
-            this.lblUsersStatus.Text = "NameOfUser";
-            this.lblUsersStatus.Click += new System.EventHandler(this.lblUsersStatus_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LibraryManagementSystem.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnMenuUserDetails
-            // 
-            this.btnMenuUserDetails.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuUserDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuUserDetails.Location = new System.Drawing.Point(333, 271);
-            this.btnMenuUserDetails.Name = "btnMenuUserDetails";
-            this.btnMenuUserDetails.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuUserDetails.TabIndex = 2;
-            this.btnMenuUserDetails.Text = "Detalles del usuario";
-            this.btnMenuUserDetails.UseVisualStyleBackColor = false;
-            this.btnMenuUserDetails.Click += new System.EventHandler(this.btnMenuUserDetails_Click);
-            // 
-            // btnMenuUsers
-            // 
-            this.btnMenuUsers.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuUsers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuUsers.Location = new System.Drawing.Point(333, 201);
-            this.btnMenuUsers.Name = "btnMenuUsers";
-            this.btnMenuUsers.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuUsers.TabIndex = 1;
-            this.btnMenuUsers.Text = "Gestionar usuarios";
-            this.btnMenuUsers.UseVisualStyleBackColor = false;
-            this.btnMenuUsers.Click += new System.EventHandler(this.btnMenuUsers_Click);
-            // 
-            // btnMenuPackages
-            // 
-            this.btnMenuPackages.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuPackages.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuPackages.Location = new System.Drawing.Point(331, 125);
-            this.btnMenuPackages.Name = "btnMenuPackages";
-            this.btnMenuPackages.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuPackages.TabIndex = 0;
-            this.btnMenuPackages.Text = "Paquetes de afiliación";
-            this.btnMenuPackages.UseVisualStyleBackColor = false;
-            this.btnMenuPackages.Click += new System.EventHandler(this.btnMenuPackages_Click);
-            // 
-            // btnMenuCateg
-            // 
-            this.btnMenuCateg.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuCateg.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuCateg.Location = new System.Drawing.Point(507, 125);
-            this.btnMenuCateg.Name = "btnMenuCateg";
-            this.btnMenuCateg.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuCateg.TabIndex = 6;
-            this.btnMenuCateg.Text = "Categorías de libros";
-            this.btnMenuCateg.UseVisualStyleBackColor = false;
-            this.btnMenuCateg.Click += new System.EventHandler(this.btnMenuCateg_Click);
-            // 
-            // btnMenuAbout
-            // 
-            this.btnMenuAbout.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuAbout.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuAbout.Location = new System.Drawing.Point(507, 482);
-            this.btnMenuAbout.Name = "btnMenuAbout";
-            this.btnMenuAbout.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuAbout.TabIndex = 11;
-            this.btnMenuAbout.Text = "Acerca de";
-            this.btnMenuAbout.UseVisualStyleBackColor = false;
-            this.btnMenuAbout.Click += new System.EventHandler(this.btnMenuAbout_Click);
-            // 
-            // panelIssueDetails
-            // 
-            this.panelIssueDetails.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelIssueDetails.Controls.Add(this.button4);
-            this.panelIssueDetails.Controls.Add(this.dataGridID);
-            this.panelIssueDetails.Controls.Add(this.btnIDextendDD);
-            this.panelIssueDetails.Controls.Add(this.textIDdd);
-            this.panelIssueDetails.Controls.Add(this.grpissue_details_search);
-            this.panelIssueDetails.Controls.Add(this.btnIDsubmitbook);
-            this.panelIssueDetails.Controls.Add(this.textIDname);
-            this.panelIssueDetails.Controls.Add(this.label65);
-            this.panelIssueDetails.Controls.Add(this.label64);
-            this.panelIssueDetails.Controls.Add(this.textIDmid);
-            this.panelIssueDetails.Controls.Add(this.textIDidate);
-            this.panelIssueDetails.Controls.Add(this.textIDsubdate);
-            this.panelIssueDetails.Controls.Add(this.textIDfine);
-            this.panelIssueDetails.Controls.Add(this.textIDtitle);
-            this.panelIssueDetails.Controls.Add(this.textIDbid);
-            this.panelIssueDetails.Controls.Add(this.labelIDsubd);
-            this.panelIssueDetails.Controls.Add(this.labelIDfine);
-            this.panelIssueDetails.Controls.Add(this.labelIDdd);
-            this.panelIssueDetails.Controls.Add(this.labelIDid);
-            this.panelIssueDetails.Controls.Add(this.labelIDmid);
-            this.panelIssueDetails.Controls.Add(this.labelIDbid);
-            this.panelIssueDetails.Controls.Add(this.btnIDisudet);
-            this.panelIssueDetails.Controls.Add(this.btnIDsubdet);
-            this.panelIssueDetails.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelIssueDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelIssueDetails.Location = new System.Drawing.Point(0, 0);
-            this.panelIssueDetails.Name = "panelIssueDetails";
-            this.panelIssueDetails.Size = new System.Drawing.Size(992, 581);
-            this.panelIssueDetails.TabIndex = 3;
-            // 
-            // dataGridID
-            // 
-            this.dataGridID.AllowUserToAddRows = false;
-            this.dataGridID.AllowUserToDeleteRows = false;
-            this.dataGridID.AllowUserToResizeRows = false;
-            this.dataGridID.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dataGridID.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridID.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridID.Location = new System.Drawing.Point(261, 295);
-            this.dataGridID.Name = "dataGridID";
-            this.dataGridID.ReadOnly = true;
-            this.dataGridID.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridID.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridID.Size = new System.Drawing.Size(724, 273);
-            this.dataGridID.StandardTab = true;
-            this.dataGridID.TabIndex = 3;
-            this.dataGridID.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellClick);
-            this.dataGridID.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellContentClick);
-            this.dataGridID.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridID_CellDoubleClick);
-            // 
-            // btnIDextendDD
-            // 
-            this.btnIDextendDD.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIDextendDD.Location = new System.Drawing.Point(778, 161);
-            this.btnIDextendDD.Name = "btnIDextendDD";
-            this.btnIDextendDD.Size = new System.Drawing.Size(193, 71);
-            this.btnIDextendDD.TabIndex = 4;
-            this.btnIDextendDD.Text = "Ampliar la fecha de vencimiento";
-            this.btnIDextendDD.UseVisualStyleBackColor = true;
-            this.btnIDextendDD.Click += new System.EventHandler(this.btnIDextendDD_Click);
-            // 
-            // textIDdd
-            // 
-            this.textIDdd.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDdd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDdd.Location = new System.Drawing.Point(168, 159);
-            this.textIDdd.Name = "textIDdd";
-            this.textIDdd.ReadOnly = true;
-            this.textIDdd.Size = new System.Drawing.Size(234, 25);
-            this.textIDdd.TabIndex = 225;
-            this.textIDdd.TabStop = false;
-            // 
-            // grpissue_details_search
-            // 
-            this.grpissue_details_search.Controls.Add(this.comboIDfield);
-            this.grpissue_details_search.Controls.Add(this.label61);
-            this.grpissue_details_search.Controls.Add(this.textIDsearch);
-            this.grpissue_details_search.Controls.Add(this.label63);
-            this.grpissue_details_search.Location = new System.Drawing.Point(29, 233);
-            this.grpissue_details_search.Name = "grpissue_details_search";
-            this.grpissue_details_search.Size = new System.Drawing.Size(959, 56);
-            this.grpissue_details_search.TabIndex = 0;
-            this.grpissue_details_search.TabStop = false;
-            // 
-            // comboIDfield
-            // 
-            this.comboIDfield.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboIDfield.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboIDfield.FormattingEnabled = true;
-            this.comboIDfield.Items.AddRange(new object[] {
-            "BookID",
-            "MemberID",
-            "BookTitle",
-            "MemberName",
-            "IssueDate",
-            "DueDate"});
-            this.comboIDfield.Location = new System.Drawing.Point(535, 16);
-            this.comboIDfield.Name = "comboIDfield";
-            this.comboIDfield.Size = new System.Drawing.Size(190, 28);
-            this.comboIDfield.TabIndex = 1;
-            this.comboIDfield.SelectedIndexChanged += new System.EventHandler(this.comboIDfield_SelectedIndexChanged);
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(463, 20);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(71, 20);
-            this.label61.TabIndex = 52;
-            this.label61.Text = "Campo : ";
-            // 
-            // textIDsearch
-            // 
-            this.textIDsearch.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDsearch.Location = new System.Drawing.Point(139, 20);
-            this.textIDsearch.Name = "textIDsearch";
-            this.textIDsearch.Size = new System.Drawing.Size(233, 25);
-            this.textIDsearch.TabIndex = 0;
-            this.textIDsearch.TextChanged += new System.EventHandler(this.textIDsearch_TextChanged);
-            this.textIDsearch.Enter += new System.EventHandler(this.textIDsearch_Enter_1);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(49, 19);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(68, 20);
-            this.label63.TabIndex = 50;
-            this.label63.Text = "Buscar : ";
-            // 
-            // btnIDsubmitbook
-            // 
-            this.btnIDsubmitbook.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIDsubmitbook.Location = new System.Drawing.Point(778, 76);
-            this.btnIDsubmitbook.Name = "btnIDsubmitbook";
-            this.btnIDsubmitbook.Size = new System.Drawing.Size(193, 78);
-            this.btnIDsubmitbook.TabIndex = 5;
-            this.btnIDsubmitbook.Text = "Devolver Libro";
-            this.btnIDsubmitbook.UseVisualStyleBackColor = true;
-            this.btnIDsubmitbook.Click += new System.EventHandler(this.btnIDsubmitbook_Click);
-            // 
-            // textIDname
-            // 
-            this.textIDname.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDname.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDname.Location = new System.Drawing.Point(564, 77);
-            this.textIDname.Name = "textIDname";
-            this.textIDname.ReadOnly = true;
-            this.textIDname.Size = new System.Drawing.Size(190, 25);
-            this.textIDname.TabIndex = 0;
-            this.textIDname.TabStop = false;
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(25, 37);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(116, 20);
-            this.label65.TabIndex = 57;
-            this.label65.Text = "Título del libro :";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(403, 77);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(162, 20);
-            this.label64.TabIndex = 56;
-            this.label64.Text = "Nombre del miembro :";
-            // 
-            // textIDmid
-            // 
-            this.textIDmid.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDmid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDmid.Location = new System.Drawing.Point(564, 119);
-            this.textIDmid.Name = "textIDmid";
-            this.textIDmid.ReadOnly = true;
-            this.textIDmid.Size = new System.Drawing.Size(190, 25);
-            this.textIDmid.TabIndex = 55;
-            this.textIDmid.TabStop = false;
-            // 
-            // textIDidate
-            // 
-            this.textIDidate.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDidate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDidate.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDidate.Location = new System.Drawing.Point(168, 119);
-            this.textIDidate.Name = "textIDidate";
-            this.textIDidate.ReadOnly = true;
-            this.textIDidate.Size = new System.Drawing.Size(234, 25);
-            this.textIDidate.TabIndex = 54;
-            this.textIDidate.TabStop = false;
-            // 
-            // textIDsubdate
-            // 
-            this.textIDsubdate.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDsubdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDsubdate.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDsubdate.Location = new System.Drawing.Point(565, 159);
-            this.textIDsubdate.Name = "textIDsubdate";
-            this.textIDsubdate.ReadOnly = true;
-            this.textIDsubdate.Size = new System.Drawing.Size(190, 25);
-            this.textIDsubdate.TabIndex = 53;
-            this.textIDsubdate.TabStop = false;
-            // 
-            // textIDfine
-            // 
-            this.textIDfine.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDfine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDfine.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDfine.Location = new System.Drawing.Point(167, 196);
-            this.textIDfine.Name = "textIDfine";
-            this.textIDfine.ReadOnly = true;
-            this.textIDfine.Size = new System.Drawing.Size(234, 25);
-            this.textIDfine.TabIndex = 52;
-            this.textIDfine.TabStop = false;
-            // 
-            // textIDtitle
-            // 
-            this.textIDtitle.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDtitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDtitle.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDtitle.Location = new System.Drawing.Point(168, 26);
-            this.textIDtitle.Multiline = true;
-            this.textIDtitle.Name = "textIDtitle";
-            this.textIDtitle.ReadOnly = true;
-            this.textIDtitle.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textIDtitle.Size = new System.Drawing.Size(609, 39);
-            this.textIDtitle.TabIndex = 51;
-            this.textIDtitle.TabStop = false;
-            // 
-            // textIDbid
-            // 
-            this.textIDbid.BackColor = System.Drawing.SystemColors.Window;
-            this.textIDbid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIDbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIDbid.Location = new System.Drawing.Point(168, 77);
-            this.textIDbid.Name = "textIDbid";
-            this.textIDbid.ReadOnly = true;
-            this.textIDbid.Size = new System.Drawing.Size(234, 25);
-            this.textIDbid.TabIndex = 50;
-            this.textIDbid.TabStop = false;
-            // 
-            // labelIDsubd
-            // 
-            this.labelIDsubd.AutoSize = true;
-            this.labelIDsubd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDsubd.Location = new System.Drawing.Point(410, 159);
-            this.labelIDsubd.Name = "labelIDsubd";
-            this.labelIDsubd.Size = new System.Drawing.Size(149, 20);
-            this.labelIDsubd.TabIndex = 9;
-            this.labelIDsubd.Text = "Fecha presentación :";
-            // 
-            // labelIDfine
-            // 
-            this.labelIDfine.AutoSize = true;
-            this.labelIDfine.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDfine.Location = new System.Drawing.Point(94, 199);
-            this.labelIDfine.Name = "labelIDfine";
-            this.labelIDfine.Size = new System.Drawing.Size(48, 20);
-            this.labelIDfine.TabIndex = 8;
-            this.labelIDfine.Text = "Fino :";
-            // 
-            // labelIDdd
-            // 
-            this.labelIDdd.AutoSize = true;
-            this.labelIDdd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDdd.Location = new System.Drawing.Point(44, 159);
-            this.labelIDdd.Name = "labelIDdd";
-            this.labelIDdd.Size = new System.Drawing.Size(102, 20);
-            this.labelIDdd.TabIndex = 6;
-            this.labelIDdd.Text = "Fecha límite :";
-            // 
-            // labelIDid
-            // 
-            this.labelIDid.AutoSize = true;
-            this.labelIDid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDid.Location = new System.Drawing.Point(10, 115);
-            this.labelIDid.Name = "labelIDid";
-            this.labelIDid.Size = new System.Drawing.Size(137, 20);
-            this.labelIDid.TabIndex = 5;
-            this.labelIDid.Text = "Fecha publicación :";
-            // 
-            // labelIDmid
-            // 
-            this.labelIDmid.AutoSize = true;
-            this.labelIDmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDmid.Location = new System.Drawing.Point(438, 120);
-            this.labelIDmid.Name = "labelIDmid";
-            this.labelIDmid.Size = new System.Drawing.Size(119, 20);
-            this.labelIDmid.TabIndex = 4;
-            this.labelIDmid.Text = "ID de miembro :";
-            // 
-            // labelIDbid
-            // 
-            this.labelIDbid.AutoSize = true;
-            this.labelIDbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDbid.Location = new System.Drawing.Point(72, 76);
-            this.labelIDbid.Name = "labelIDbid";
-            this.labelIDbid.Size = new System.Drawing.Size(72, 20);
-            this.labelIDbid.TabIndex = 3;
-            this.labelIDbid.Text = "Libro ID :";
-            // 
-            // btnIDisudet
-            // 
-            this.btnIDisudet.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnIDisudet.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIDisudet.Location = new System.Drawing.Point(29, 345);
-            this.btnIDisudet.Name = "btnIDisudet";
-            this.btnIDisudet.Size = new System.Drawing.Size(225, 83);
-            this.btnIDisudet.TabIndex = 1;
-            this.btnIDisudet.Text = "Libros alquilados";
-            this.btnIDisudet.UseVisualStyleBackColor = false;
-            this.btnIDisudet.Click += new System.EventHandler(this.btnIDisudet_Click);
-            // 
-            // btnIDsubdet
-            // 
-            this.btnIDsubdet.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnIDsubdet.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIDsubdet.Location = new System.Drawing.Point(29, 458);
-            this.btnIDsubdet.Name = "btnIDsubdet";
-            this.btnIDsubdet.Size = new System.Drawing.Size(225, 83);
-            this.btnIDsubdet.TabIndex = 2;
-            this.btnIDsubdet.Text = "Libros devueltos";
-            this.btnIDsubdet.UseVisualStyleBackColor = false;
-            this.btnIDsubdet.Click += new System.EventHandler(this.btnIDsubdet_Click);
-            // 
-            // panelIssueSubmit
-            // 
-            this.panelIssueSubmit.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelIssueSubmit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelIssueSubmit.Controls.Add(this.pnlISshow);
-            this.panelIssueSubmit.Controls.Add(this.btnISok);
-            this.panelIssueSubmit.Controls.Add(this.panelIScontainer);
-            this.panelIssueSubmit.Controls.Add(this.textISbid);
-            this.panelIssueSubmit.Controls.Add(this.label15);
-            this.panelIssueSubmit.Controls.Add(this.textISmid);
-            this.panelIssueSubmit.Controls.Add(this.label22);
-            this.panelIssueSubmit.Location = new System.Drawing.Point(0, 0);
-            this.panelIssueSubmit.Name = "panelIssueSubmit";
-            this.panelIssueSubmit.Size = new System.Drawing.Size(992, 581);
-            this.panelIssueSubmit.TabIndex = 2;
-            // 
-            // pnlISshow
-            // 
-            this.pnlISshow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlISshow.Controls.Add(this.textIsName);
-            this.pnlISshow.Controls.Add(this.label30);
-            this.pnlISshow.Controls.Add(this.label23);
-            this.pnlISshow.Controls.Add(this.textISmid2);
-            this.pnlISshow.Controls.Add(this.label21);
-            this.pnlISshow.Controls.Add(this.label20);
-            this.pnlISshow.Controls.Add(this.label17);
-            this.pnlISshow.Controls.Add(this.textISauthor);
-            this.pnlISshow.Controls.Add(this.textISbid2);
-            this.pnlISshow.Controls.Add(this.textIStitle);
-            this.pnlISshow.Location = new System.Drawing.Point(48, 75);
-            this.pnlISshow.Name = "pnlISshow";
-            this.pnlISshow.Size = new System.Drawing.Size(798, 193);
-            this.pnlISshow.TabIndex = 56;
-            // 
-            // textIsName
-            // 
-            this.textIsName.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textIsName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIsName.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIsName.Location = new System.Drawing.Point(566, 55);
-            this.textIsName.Name = "textIsName";
-            this.textIsName.ReadOnly = true;
-            this.textIsName.Size = new System.Drawing.Size(220, 25);
-            this.textIsName.TabIndex = 55;
-            this.textIsName.TabStop = false;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(410, 57);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(157, 20);
-            this.label30.TabIndex = 54;
-            this.label30.Text = "Nombre del mienbro :";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(6, 58);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(91, 20);
-            this.label23.TabIndex = 53;
-            this.label23.Text = "Mienbro ID :";
-            // 
-            // textISmid2
-            // 
-            this.textISmid2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISmid2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISmid2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISmid2.Location = new System.Drawing.Point(109, 56);
-            this.textISmid2.Name = "textISmid2";
-            this.textISmid2.ReadOnly = true;
-            this.textISmid2.Size = new System.Drawing.Size(295, 25);
-            this.textISmid2.TabIndex = 52;
-            this.textISmid2.TabStop = false;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(3, 136);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(57, 20);
-            this.label21.TabIndex = 51;
-            this.label21.Text = "Autor :";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 95);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(57, 20);
-            this.label20.TabIndex = 50;
-            this.label20.Text = "Titulo :";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(6, 21);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 20);
-            this.label17.TabIndex = 49;
-            this.label17.Text = "Libro ID :";
-            // 
-            // textISauthor
-            // 
-            this.textISauthor.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISauthor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISauthor.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISauthor.Location = new System.Drawing.Point(109, 134);
-            this.textISauthor.Name = "textISauthor";
-            this.textISauthor.ReadOnly = true;
-            this.textISauthor.Size = new System.Drawing.Size(678, 25);
-            this.textISauthor.TabIndex = 48;
-            this.textISauthor.TabStop = false;
-            // 
-            // textISbid2
-            // 
-            this.textISbid2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISbid2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISbid2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISbid2.Location = new System.Drawing.Point(109, 19);
-            this.textISbid2.Name = "textISbid2";
-            this.textISbid2.ReadOnly = true;
-            this.textISbid2.Size = new System.Drawing.Size(294, 25);
-            this.textISbid2.TabIndex = 47;
-            this.textISbid2.TabStop = false;
-            // 
-            // textIStitle
-            // 
-            this.textIStitle.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textIStitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textIStitle.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textIStitle.Location = new System.Drawing.Point(110, 94);
-            this.textIStitle.Name = "textIStitle";
-            this.textIStitle.ReadOnly = true;
-            this.textIStitle.Size = new System.Drawing.Size(678, 25);
-            this.textIStitle.TabIndex = 46;
-            this.textIStitle.TabStop = false;
-            // 
-            // btnISok
-            // 
-            this.btnISok.Font = new System.Drawing.Font("Trebuchet MS", 11.25F);
-            this.btnISok.Location = new System.Drawing.Point(855, 19);
-            this.btnISok.Name = "btnISok";
-            this.btnISok.Size = new System.Drawing.Size(93, 43);
-            this.btnISok.TabIndex = 2;
-            this.btnISok.Text = "OK";
-            this.btnISok.UseVisualStyleBackColor = true;
-            this.btnISok.Click += new System.EventHandler(this.btnISok_Click);
-            // 
-            // panelIScontainer
-            // 
-            this.panelIScontainer.Controls.Add(this.groupSubmit);
-            this.panelIScontainer.Controls.Add(this.groupIssue);
-            this.panelIScontainer.Location = new System.Drawing.Point(55, 283);
-            this.panelIScontainer.Name = "panelIScontainer";
-            this.panelIScontainer.Size = new System.Drawing.Size(784, 251);
-            this.panelIScontainer.TabIndex = 3;
-            // 
-            // groupSubmit
-            // 
-            this.groupSubmit.Controls.Add(this.dpISSBsubmitdate);
-            this.groupSubmit.Controls.Add(this.label29);
-            this.groupSubmit.Controls.Add(this.textISSBfine);
-            this.groupSubmit.Controls.Add(this.label28);
-            this.groupSubmit.Controls.Add(this.textISSBduedate);
-            this.groupSubmit.Controls.Add(this.btnISsubmitbook);
-            this.groupSubmit.Controls.Add(this.textISSBissuedate);
-            this.groupSubmit.Controls.Add(this.label26);
-            this.groupSubmit.Controls.Add(this.label27);
-            this.groupSubmit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupSubmit.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupSubmit.Location = new System.Drawing.Point(0, 0);
-            this.groupSubmit.Name = "groupSubmit";
-            this.groupSubmit.Size = new System.Drawing.Size(784, 251);
-            this.groupSubmit.TabIndex = 1;
-            this.groupSubmit.TabStop = false;
-            this.groupSubmit.Text = "Devolver Libro";
-            // 
-            // dpISSBsubmitdate
-            // 
-            this.dpISSBsubmitdate.CustomFormat = "dd/MM/yyyy";
-            this.dpISSBsubmitdate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dpISSBsubmitdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dpISSBsubmitdate.Location = new System.Drawing.Point(147, 101);
-            this.dpISSBsubmitdate.Name = "dpISSBsubmitdate";
-            this.dpISSBsubmitdate.Size = new System.Drawing.Size(225, 26);
-            this.dpISSBsubmitdate.TabIndex = 1;
-            this.dpISSBsubmitdate.ValueChanged += new System.EventHandler(this.dpISSBsubmitdate_ValueChanged);
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(28, 103);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(110, 22);
-            this.label29.TabIndex = 12;
-            this.label29.Text = "Fecha límite :";
-            // 
-            // textISSBfine
-            // 
-            this.textISSBfine.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISSBfine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISSBfine.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISSBfine.Location = new System.Drawing.Point(509, 101);
-            this.textISSBfine.Name = "textISSBfine";
-            this.textISSBfine.ReadOnly = true;
-            this.textISSBfine.Size = new System.Drawing.Size(199, 26);
-            this.textISSBfine.TabIndex = 1;
-            this.textISSBfine.TabStop = false;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(437, 103);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(73, 22);
-            this.label28.TabIndex = 10;
-            this.label28.Text = "Estado : ";
-            // 
-            // textISSBduedate
-            // 
-            this.textISSBduedate.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISSBduedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISSBduedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISSBduedate.Location = new System.Drawing.Point(509, 46);
-            this.textISSBduedate.Name = "textISSBduedate";
-            this.textISSBduedate.ReadOnly = true;
-            this.textISSBduedate.Size = new System.Drawing.Size(199, 26);
-            this.textISSBduedate.TabIndex = 8;
-            this.textISSBduedate.TabStop = false;
-            // 
-            // btnISsubmitbook
-            // 
-            this.btnISsubmitbook.Location = new System.Drawing.Point(266, 160);
-            this.btnISsubmitbook.Name = "btnISsubmitbook";
-            this.btnISsubmitbook.Size = new System.Drawing.Size(252, 36);
-            this.btnISsubmitbook.TabIndex = 0;
-            this.btnISsubmitbook.Text = "Devolver";
-            this.btnISsubmitbook.UseVisualStyleBackColor = true;
-            this.btnISsubmitbook.Click += new System.EventHandler(this.btnISsubmitbook_Click);
-            // 
-            // textISSBissuedate
-            // 
-            this.textISSBissuedate.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISSBissuedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISSBissuedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISSBissuedate.Location = new System.Drawing.Point(147, 46);
-            this.textISSBissuedate.Name = "textISSBissuedate";
-            this.textISSBissuedate.ReadOnly = true;
-            this.textISSBissuedate.Size = new System.Drawing.Size(225, 26);
-            this.textISSBissuedate.TabIndex = 7;
-            this.textISSBissuedate.TabStop = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(398, 48);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(110, 22);
-            this.label26.TabIndex = 6;
-            this.label26.Text = "Fecha límite :";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(6, 50);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(135, 22);
-            this.label27.TabIndex = 5;
-            this.label27.Text = "Fecha de Emision";
-            // 
-            // groupIssue
-            // 
-            this.groupIssue.Controls.Add(this.dpISIBissuedate);
-            this.groupIssue.Controls.Add(this.btnISIBchgdue);
-            this.groupIssue.Controls.Add(this.textISIBdays);
-            this.groupIssue.Controls.Add(this.label31);
-            this.groupIssue.Controls.Add(this.btnISissue);
-            this.groupIssue.Controls.Add(this.textISIBduedate);
-            this.groupIssue.Controls.Add(this.label25);
-            this.groupIssue.Controls.Add(this.label24);
-            this.groupIssue.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupIssue.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupIssue.Location = new System.Drawing.Point(0, 0);
-            this.groupIssue.Name = "groupIssue";
-            this.groupIssue.Size = new System.Drawing.Size(784, 251);
-            this.groupIssue.TabIndex = 0;
-            this.groupIssue.TabStop = false;
-            this.groupIssue.Text = "Issue Book";
-            // 
-            // dpISIBissuedate
-            // 
-            this.dpISIBissuedate.CustomFormat = "dd/MM/yyyy";
-            this.dpISIBissuedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dpISIBissuedate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dpISIBissuedate.Location = new System.Drawing.Point(126, 61);
-            this.dpISIBissuedate.Name = "dpISIBissuedate";
-            this.dpISIBissuedate.Size = new System.Drawing.Size(225, 26);
-            this.dpISIBissuedate.TabIndex = 3;
-            this.dpISIBissuedate.ValueChanged += new System.EventHandler(this.dpISIBissuedate_ValueChanged);
-            // 
-            // btnISIBchgdue
-            // 
-            this.btnISIBchgdue.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnISIBchgdue.Location = new System.Drawing.Point(237, 117);
-            this.btnISIBchgdue.Name = "btnISIBchgdue";
-            this.btnISIBchgdue.Size = new System.Drawing.Size(149, 35);
-            this.btnISIBchgdue.TabIndex = 2;
-            this.btnISIBchgdue.Text = "Change Due Date ";
-            this.btnISIBchgdue.UseVisualStyleBackColor = true;
-            this.btnISIBchgdue.Click += new System.EventHandler(this.btnISIBchgdue_Click);
-            // 
-            // textISIBdays
-            // 
-            this.textISIBdays.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISIBdays.Location = new System.Drawing.Point(162, 121);
-            this.textISIBdays.Name = "textISIBdays";
-            this.textISIBdays.Size = new System.Drawing.Size(70, 26);
-            this.textISIBdays.TabIndex = 1;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(28, 123);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(128, 22);
-            this.label31.TabIndex = 5;
-            this.label31.Text = "Days Issued For :";
-            // 
-            // btnISissue
-            // 
-            this.btnISissue.Location = new System.Drawing.Point(266, 176);
-            this.btnISissue.Name = "btnISissue";
-            this.btnISissue.Size = new System.Drawing.Size(252, 36);
-            this.btnISissue.TabIndex = 0;
-            this.btnISissue.Text = "Issue";
-            this.btnISissue.UseVisualStyleBackColor = true;
-            this.btnISissue.Click += new System.EventHandler(this.btnISissue_Click);
-            // 
-            // textISIBduedate
-            // 
-            this.textISIBduedate.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textISIBduedate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textISIBduedate.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISIBduedate.Location = new System.Drawing.Point(496, 61);
-            this.textISIBduedate.Name = "textISIBduedate";
-            this.textISIBduedate.ReadOnly = true;
-            this.textISIBduedate.Size = new System.Drawing.Size(199, 26);
-            this.textISIBduedate.TabIndex = 3;
-            this.textISIBduedate.TabStop = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(394, 63);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(86, 22);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "Due Date :";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(28, 63);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(92, 22);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Issue Date :";
-            // 
-            // textISbid
-            // 
-            this.textISbid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISbid.Location = new System.Drawing.Point(147, 26);
-            this.textISbid.Name = "textISbid";
-            this.textISbid.Size = new System.Drawing.Size(294, 25);
-            this.textISbid.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(41, 32);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(72, 20);
-            this.label15.TabIndex = 27;
-            this.label15.Text = "Libro ID :";
-            // 
-            // textISmid
-            // 
-            this.textISmid.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textISmid.Location = new System.Drawing.Point(596, 27);
-            this.textISmid.Name = "textISmid";
-            this.textISmid.Size = new System.Drawing.Size(238, 25);
-            this.textISmid.TabIndex = 1;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(497, 30);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(91, 20);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Mienbro ID :";
             // 
             // pnlMenu
             // 
@@ -2943,48 +2936,6 @@ namespace LibraryManagementSystem
             this.cmdManageBooks.Text = "Gestionar libros";
             this.cmdManageBooks.Click += new System.EventHandler(this.cmdManageBooks_Click);
             // 
-            // tooltipManager
-            // 
-            this.tooltipManager.IsBalloon = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(922, 11);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(52, 51);
-            this.button2.TabIndex = 31;
-            this.tooltipManager.SetToolTip(this.button2, "En esta pantalla podemos administrar nuestra aplicacion ya sea con los paquetes d" +
-        "e afiliciaion como gestionar usuarios,\r\nCambiar idiomas, en este panel llevas el" +
-        " control completo de la aplicacion. ");
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_2);
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(731, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(54, 66);
-            this.button3.TabIndex = 32;
-            this.tooltipManager.SetToolTip(this.button3, "En esta pantalla podemos buscar nuestros libros tanto por categoria como por el n" +
-        "ombre del libro,\r\ntambien tenemos la opcion de Prestar o devolver el libro ");
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(937, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(54, 53);
-            this.button4.TabIndex = 226;
-            this.tooltipManager.SetToolTip(this.button4, "En esta pantalla podemos buscar nuestros libros tanto por categoria como por el n" +
-        "ombre del libro,\r\ntambien tenemos la opcion de Prestar o devolver el libro ");
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3017,19 +2968,6 @@ namespace LibraryManagementSystem
             this.splitContainer4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).EndInit();
             this.panelMainContainer.ResumeLayout(false);
-            this.panelBookDetails.ResumeLayout(false);
-            this.panelBookDetails.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBookCover)).EndInit();
-            this.panelManageBooks.ResumeLayout(false);
-            this.panelManageBooks.PerformLayout();
-            this.pnlAddCateg.ResumeLayout(false);
-            this.pnlAddCateg.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).EndInit();
-            this.panelManageMembers.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).EndInit();
-            this.grpMM_search.ResumeLayout(false);
-            this.grpMM_search.PerformLayout();
             this.panelExtraMenu.ResumeLayout(false);
             this.panelExtraMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -3047,6 +2985,19 @@ namespace LibraryManagementSystem
             this.groupSubmit.PerformLayout();
             this.groupIssue.ResumeLayout(false);
             this.groupIssue.PerformLayout();
+            this.panelBookDetails.ResumeLayout(false);
+            this.panelBookDetails.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBookCover)).EndInit();
+            this.panelManageBooks.ResumeLayout(false);
+            this.panelManageBooks.PerformLayout();
+            this.pnlAddCateg.ResumeLayout(false);
+            this.pnlAddCateg.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).EndInit();
+            this.panelManageMembers.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).EndInit();
+            this.grpMM_search.ResumeLayout(false);
+            this.grpMM_search.PerformLayout();
             this.pnlMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -3271,8 +3222,5 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Button btnAddOk;
         private System.Windows.Forms.ToolTip tooltipManager;
         private System.Windows.Forms.TreeView treeViewExplore;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
     }
 }

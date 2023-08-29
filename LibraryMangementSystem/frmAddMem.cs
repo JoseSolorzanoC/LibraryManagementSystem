@@ -162,9 +162,12 @@ namespace LibraryManagementSystem
                 picPhoto.Image = null;
                 MainForm.newmid = id.ToString();
 
-               // this.DialogResult = DialogResult.OK;
+            MessageBox.Show("Miembro registrado correctamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+            // this.DialogResult = DialogResult.OK;
         }
 
-       
+
     }
 }

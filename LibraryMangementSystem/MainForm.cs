@@ -59,7 +59,7 @@ namespace LibraryManagementSystem
                 dr.Read(); usePackages =Convert.ToBoolean( dr["Value"].ToString());
                 dr.Read(); maxBooks =Convert.ToInt32( dr["Value"].ToString());
                 dr.Read(); defaultPkg = dr["Value"].ToString();
-                dr.Read(); userEnabled =Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); userEnabled = Convert.ToBoolean(dr["Value"].ToString());
                 dr.Read(); defaultUser = dr["Value"].ToString();
                 dr.Read(); adminFirstUse =Convert.ToBoolean( dr["Value"].ToString());
                 dr.Read(); dailyFine =Convert.ToInt32( dr["Value"].ToString());
@@ -253,6 +253,7 @@ namespace LibraryManagementSystem
             labelBDavail.Text = "";
 
             comboBDid.SelectedIndex = 0;
+            //dbsettings.userEnabled = false;
            
         }
         private void UserValidate()

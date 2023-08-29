@@ -75,8 +75,14 @@ namespace LibraryManagementSystem
                 lblStatus.Text = "Category " + txtAddCateg.Text + " was added.";
                 txtAddCateg.Clear();
                 txtAddShelf.Clear();
-           
 
+                DialogResult resultado = MessageBox.Show("Categoría agregada. ¿Desea agregar otra categoria?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if(resultado == DialogResult.No)
+                {
+                    pnlAddCateg.Hide();
+                    pnlAddCateg.SendToBack();
+                }
             }
             catch (Exception ex)
             {
@@ -188,6 +194,7 @@ namespace LibraryManagementSystem
             lblStatus.Text = "Category Saved.";
             fillgrid();
             pnlEditCateg.Hide();
+            MessageBox.Show("Categoría actualizada.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

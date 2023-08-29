@@ -318,9 +318,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 471);
+            this.Controls.Add(this.pnlEditCateg);
             this.Controls.Add(this.pnlAddCateg);
             this.Controls.Add(this.lbldefault);
-            this.Controls.Add(this.pnlEditCateg);
             this.Controls.Add(this.btnMakeDefault);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.btnDelete);

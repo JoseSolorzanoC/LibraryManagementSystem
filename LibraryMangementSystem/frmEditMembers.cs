@@ -222,6 +222,7 @@ namespace LibraryManagementSystem
               
 
                 lblStatus.Text = "The Member '" +txtName.Text + "' ID: " + memid + " was MODIFIED successfully. ";
+                MessageBox.Show("Miembro actualizado correctamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
             }
@@ -256,7 +257,8 @@ namespace LibraryManagementSystem
                 MainForm.dbsettings.hasDelMemberDetails = true;
                 clearedit();
                
-                
+            MessageBox.Show("Miembro eliminado correctamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
 
             }
             else
