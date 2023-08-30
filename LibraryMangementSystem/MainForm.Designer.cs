@@ -29,28 +29,50 @@ namespace LibraryManagementSystem
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblStatus = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.panelExplore = new System.Windows.Forms.Panel();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.treeViewExplore = new System.Windows.Forms.TreeView();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnEBissret = new System.Windows.Forms.Button();
-            this.btnEBviewall = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboSearchFields = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textSearchTerm = new System.Windows.Forms.TextBox();
-            this.gridviewExplore = new System.Windows.Forms.DataGridView();
             this.panelMainContainer = new System.Windows.Forms.Panel();
+            this.panelManageMembers = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.btnMMexploreMembers = new System.Windows.Forms.Button();
+            this.btnMMBooksToSubmit = new System.Windows.Forms.Button();
+            this.btnMMissret = new System.Windows.Forms.Button();
+            this.btnEditDetails = new System.Windows.Forms.Button();
+            this.btnSetPackage = new System.Windows.Forms.Button();
+            this.btnMMdetails = new System.Windows.Forms.Button();
+            this.dataGridMM = new System.Windows.Forms.DataGridView();
+            this.grpMM_search = new System.Windows.Forms.GroupBox();
+            this.btnMMviewall = new System.Windows.Forms.Button();
+            this.comboMMfields = new System.Windows.Forms.ComboBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.textMMsearchterm = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.btnMMadd = new System.Windows.Forms.Button();
+            this.panelExtraMenu = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnMenuMngDB = new System.Windows.Forms.Button();
+            this.btnMenuCourses = new System.Windows.Forms.Button();
+            this.btnMenuHelp = new System.Windows.Forms.Button();
+            this.btnMenuExport = new System.Windows.Forms.Button();
+            this.lblUserType = new System.Windows.Forms.Label();
+            this.btnMenuLang = new System.Windows.Forms.Button();
+            this.btnMenuLibInfo = new System.Windows.Forms.Button();
+            this.btnMenuOptions = new System.Windows.Forms.Button();
+            this.lblUsersStatus = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMenuUserDetails = new System.Windows.Forms.Button();
+            this.btnMenuUsers = new System.Windows.Forms.Button();
+            this.btnMenuPackages = new System.Windows.Forms.Button();
+            this.btnMenuCateg = new System.Windows.Forms.Button();
+            this.btnMenuAbout = new System.Windows.Forms.Button();
             this.panelIssueDetails = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridID = new System.Windows.Forms.DataGridView();
@@ -117,6 +139,7 @@ namespace LibraryManagementSystem
             this.textISmid = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.panelBookDetails = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.btnBDebookfolder = new System.Windows.Forms.Button();
             this.picBookCover = new System.Windows.Forms.PictureBox();
             this.comboBDid = new System.Windows.Forms.ComboBox();
@@ -211,38 +234,6 @@ namespace LibraryManagementSystem
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.panelManageMembers = new System.Windows.Forms.Panel();
-            this.btnMMexploreMembers = new System.Windows.Forms.Button();
-            this.btnMMBooksToSubmit = new System.Windows.Forms.Button();
-            this.btnMMissret = new System.Windows.Forms.Button();
-            this.btnEditDetails = new System.Windows.Forms.Button();
-            this.btnSetPackage = new System.Windows.Forms.Button();
-            this.btnMMdetails = new System.Windows.Forms.Button();
-            this.dataGridMM = new System.Windows.Forms.DataGridView();
-            this.grpMM_search = new System.Windows.Forms.GroupBox();
-            this.btnMMviewall = new System.Windows.Forms.Button();
-            this.comboMMfields = new System.Windows.Forms.ComboBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.textMMsearchterm = new System.Windows.Forms.TextBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.btnMMadd = new System.Windows.Forms.Button();
-            this.panelExtraMenu = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnMenuMngDB = new System.Windows.Forms.Button();
-            this.btnMenuCourses = new System.Windows.Forms.Button();
-            this.btnMenuHelp = new System.Windows.Forms.Button();
-            this.btnMenuExport = new System.Windows.Forms.Button();
-            this.lblUserType = new System.Windows.Forms.Label();
-            this.btnMenuLang = new System.Windows.Forms.Button();
-            this.btnMenuLibInfo = new System.Windows.Forms.Button();
-            this.btnMenuOptions = new System.Windows.Forms.Button();
-            this.lblUsersStatus = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnMenuUserDetails = new System.Windows.Forms.Button();
-            this.btnMenuUsers = new System.Windows.Forms.Button();
-            this.btnMenuPackages = new System.Windows.Forms.Button();
-            this.btnMenuCateg = new System.Windows.Forms.Button();
-            this.btnMenuAbout = new System.Windows.Forms.Button();
             this.openFileDialogMBpic = new System.Windows.Forms.OpenFileDialog();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.cmdMenu = new Glass.GlassButton();
@@ -253,16 +244,25 @@ namespace LibraryManagementSystem
             this.cmdIssueSubmitBook = new Glass.GlassButton();
             this.cmdManageBooks = new Glass.GlassButton();
             this.tooltipManager = new System.Windows.Forms.ToolTip(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.Panel2.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).BeginInit();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.treeViewExplore = new System.Windows.Forms.TreeView();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnEBissret = new System.Windows.Forms.Button();
+            this.btnEBviewall = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboSearchFields = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textSearchTerm = new System.Windows.Forms.TextBox();
+            this.gridviewExplore = new System.Windows.Forms.DataGridView();
+            this.button8 = new System.Windows.Forms.Button();
+            this.panelExplore.SuspendLayout();
             this.panelMainContainer.SuspendLayout();
+            this.panelManageMembers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).BeginInit();
+            this.grpMM_search.SuspendLayout();
+            this.panelExtraMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelIssueDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridID)).BeginInit();
             this.grpissue_details_search.SuspendLayout();
@@ -277,12 +277,16 @@ namespace LibraryManagementSystem
             this.pnlAddCateg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).BeginInit();
-            this.panelManageMembers.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).BeginInit();
-            this.grpMM_search.SuspendLayout();
-            this.panelExtraMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).BeginInit();
             this.SuspendLayout();
             // 
             // lblStatus
@@ -329,204 +333,477 @@ namespace LibraryManagementSystem
             // 
             // panelExplore
             // 
+            this.panelExplore.Controls.Add(this.splitContainer1);
             this.panelExplore.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelExplore.Location = new System.Drawing.Point(0, 0);
             this.panelExplore.Name = "panelExplore";
             this.panelExplore.Size = new System.Drawing.Size(992, 581);
             this.panelExplore.TabIndex = 0;
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(-1, 0);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.treeViewExplore);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer4);
-            this.splitContainer1.Size = new System.Drawing.Size(992, 581);
-            this.splitContainer1.SplitterDistance = 200;
-            this.splitContainer1.TabIndex = 0;
-            this.splitContainer1.TabStop = false;
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
-            // 
-            // treeViewExplore
-            // 
-            this.treeViewExplore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.treeViewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeViewExplore.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeViewExplore.Location = new System.Drawing.Point(0, 0);
-            this.treeViewExplore.Name = "treeViewExplore";
-            this.treeViewExplore.Size = new System.Drawing.Size(200, 581);
-            this.treeViewExplore.TabIndex = 0;
-            this.treeViewExplore.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewExplore_AfterSelect);
-            this.treeViewExplore.Click += new System.EventHandler(this.treeViewExplore_Click);
-            this.treeViewExplore.Leave += new System.EventHandler(this.treeViewExplore_Leave);
-            // 
-            // splitContainer4
-            // 
-            this.splitContainer4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Name = "splitContainer4";
-            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer4.Panel1
-            // 
-            this.splitContainer4.Panel1.Controls.Add(this.button3);
-            this.splitContainer4.Panel1.Controls.Add(this.btnEBissret);
-            this.splitContainer4.Panel1.Controls.Add(this.btnEBviewall);
-            this.splitContainer4.Panel1.Controls.Add(this.label3);
-            this.splitContainer4.Panel1.Controls.Add(this.comboSearchFields);
-            this.splitContainer4.Panel1.Controls.Add(this.label2);
-            this.splitContainer4.Panel1.Controls.Add(this.textSearchTerm);
-            // 
-            // splitContainer4.Panel2
-            // 
-            this.splitContainer4.Panel2.Controls.Add(this.gridviewExplore);
-            this.splitContainer4.Size = new System.Drawing.Size(788, 581);
-            this.splitContainer4.SplitterDistance = 83;
-            this.splitContainer4.TabIndex = 0;
-            this.splitContainer4.TabStop = false;
-            this.splitContainer4.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer4_SplitterMoved);
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(731, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(54, 66);
-            this.button3.TabIndex = 32;
-            this.tooltipManager.SetToolTip(this.button3, "En esta pantalla podemos buscar nuestros libros tanto por categoria como por el n" +
-        "ombre del libro,\r\ntambien tenemos la opcion de Prestar o devolver el libro ");
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // btnEBissret
-            // 
-            this.btnEBissret.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEBissret.Location = new System.Drawing.Point(615, 6);
-            this.btnEBissret.Name = "btnEBissret";
-            this.btnEBissret.Size = new System.Drawing.Size(110, 67);
-            this.btnEBissret.TabIndex = 3;
-            this.btnEBissret.Text = "Prestar/Devolver";
-            this.btnEBissret.UseVisualStyleBackColor = true;
-            this.btnEBissret.Click += new System.EventHandler(this.btnEBissret_Click);
-            // 
-            // btnEBviewall
-            // 
-            this.btnEBviewall.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEBviewall.Location = new System.Drawing.Point(502, 5);
-            this.btnEBviewall.Name = "btnEBviewall";
-            this.btnEBviewall.Size = new System.Drawing.Size(107, 67);
-            this.btnEBviewall.TabIndex = 2;
-            this.btnEBviewall.Text = "Ver todos";
-            this.btnEBviewall.UseVisualStyleBackColor = true;
-            this.btnEBviewall.Click += new System.EventHandler(this.btnEBviewall_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Campo :";
-            // 
-            // comboSearchFields
-            // 
-            this.comboSearchFields.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboSearchFields.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboSearchFields.FormattingEnabled = true;
-            this.comboSearchFields.Items.AddRange(new object[] {
-            "Title",
-            "Description",
-            "Author",
-            "BookNo",
-            "BookID",
-            "ISBN",
-            "Language",
-            "Publisher",
-            "Shelf",
-            "DateAdded",
-            "Type",
-            "Year"});
-            this.comboSearchFields.Location = new System.Drawing.Point(89, 46);
-            this.comboSearchFields.Name = "comboSearchFields";
-            this.comboSearchFields.Size = new System.Drawing.Size(396, 28);
-            this.comboSearchFields.TabIndex = 1;
-            this.comboSearchFields.SelectedIndexChanged += new System.EventHandler(this.comboSearchFields_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Buscar :";
-            // 
-            // textSearchTerm
-            // 
-            this.textSearchTerm.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSearchTerm.Location = new System.Drawing.Point(89, 7);
-            this.textSearchTerm.Name = "textSearchTerm";
-            this.textSearchTerm.Size = new System.Drawing.Size(396, 25);
-            this.textSearchTerm.TabIndex = 0;
-            this.textSearchTerm.TextChanged += new System.EventHandler(this.textSearchTerm_TextChanged);
-            this.textSearchTerm.Enter += new System.EventHandler(this.textSearchTerm_Enter);
-            // 
-            // gridviewExplore
-            // 
-            this.gridviewExplore.AllowUserToAddRows = false;
-            this.gridviewExplore.AllowUserToDeleteRows = false;
-            this.gridviewExplore.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.gridviewExplore.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gridviewExplore.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.gridviewExplore.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.gridviewExplore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.gridviewExplore.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridviewExplore.Cursor = System.Windows.Forms.Cursors.Default;
-            this.gridviewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridviewExplore.Location = new System.Drawing.Point(0, 0);
-            this.gridviewExplore.Name = "gridviewExplore";
-            this.gridviewExplore.ReadOnly = true;
-            this.gridviewExplore.RowHeadersVisible = false;
-            this.gridviewExplore.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.gridviewExplore.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridviewExplore.Size = new System.Drawing.Size(786, 492);
-            this.gridviewExplore.StandardTab = true;
-            this.gridviewExplore.TabIndex = 0;
-            this.gridviewExplore.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridviewExplore_CellDoubleClick);
-            // 
             // panelMainContainer
             // 
             this.panelMainContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelMainContainer.Controls.Add(this.panelExplore);
             this.panelMainContainer.Controls.Add(this.panelIssueDetails);
             this.panelMainContainer.Controls.Add(this.panelIssueSubmit);
             this.panelMainContainer.Controls.Add(this.panelBookDetails);
             this.panelMainContainer.Controls.Add(this.panelManageBooks);
             this.panelMainContainer.Controls.Add(this.panelManageMembers);
             this.panelMainContainer.Controls.Add(this.panelExtraMenu);
-            this.panelMainContainer.Controls.Add(this.panelExplore);
             this.panelMainContainer.Location = new System.Drawing.Point(6, 92);
             this.panelMainContainer.Name = "panelMainContainer";
             this.panelMainContainer.Size = new System.Drawing.Size(992, 581);
             this.panelMainContainer.TabIndex = 1;
             // 
+            // panelManageMembers
+            // 
+            this.panelManageMembers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelManageMembers.Controls.Add(this.button7);
+            this.panelManageMembers.Controls.Add(this.btnMMexploreMembers);
+            this.panelManageMembers.Controls.Add(this.btnMMBooksToSubmit);
+            this.panelManageMembers.Controls.Add(this.btnMMissret);
+            this.panelManageMembers.Controls.Add(this.btnEditDetails);
+            this.panelManageMembers.Controls.Add(this.btnSetPackage);
+            this.panelManageMembers.Controls.Add(this.btnMMdetails);
+            this.panelManageMembers.Controls.Add(this.dataGridMM);
+            this.panelManageMembers.Controls.Add(this.grpMM_search);
+            this.panelManageMembers.Controls.Add(this.btnMMadd);
+            this.panelManageMembers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelManageMembers.Location = new System.Drawing.Point(0, 0);
+            this.panelManageMembers.Name = "panelManageMembers";
+            this.panelManageMembers.Size = new System.Drawing.Size(992, 581);
+            this.panelManageMembers.TabIndex = 5;
+            this.panelManageMembers.Paint += new System.Windows.Forms.PaintEventHandler(this.panelManageMembers_Paint);
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Location = new System.Drawing.Point(907, 253);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(52, 51);
+            this.button7.TabIndex = 53;
+            this.tooltipManager.SetToolTip(this.button7, "En esta pantalla podemos administrar nuestra aplicacion ya sea con los paquetes d" +
+        "e afiliciaion como gestionar usuarios,\r\nCambiar idiomas, en este panel llevas el" +
+        " control completo de la aplicacion. ");
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // btnMMexploreMembers
+            // 
+            this.btnMMexploreMembers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMexploreMembers.Location = new System.Drawing.Point(818, 16);
+            this.btnMMexploreMembers.Name = "btnMMexploreMembers";
+            this.btnMMexploreMembers.Size = new System.Drawing.Size(153, 47);
+            this.btnMMexploreMembers.TabIndex = 7;
+            this.btnMMexploreMembers.Text = "Explorar miembros";
+            this.btnMMexploreMembers.UseVisualStyleBackColor = true;
+            this.btnMMexploreMembers.Click += new System.EventHandler(this.btnMMexploreMembers_Click);
+            // 
+            // btnMMBooksToSubmit
+            // 
+            this.btnMMBooksToSubmit.AllowDrop = true;
+            this.btnMMBooksToSubmit.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMBooksToSubmit.Location = new System.Drawing.Point(889, 159);
+            this.btnMMBooksToSubmit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMMBooksToSubmit.Name = "btnMMBooksToSubmit";
+            this.btnMMBooksToSubmit.Size = new System.Drawing.Size(82, 78);
+            this.btnMMBooksToSubmit.TabIndex = 1;
+            this.btnMMBooksToSubmit.Text = "Ver libros para enviar";
+            this.btnMMBooksToSubmit.UseVisualStyleBackColor = true;
+            this.btnMMBooksToSubmit.Click += new System.EventHandler(this.btnMMBooksToSubmit_Click);
+            // 
+            // btnMMissret
+            // 
+            this.btnMMissret.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMissret.Location = new System.Drawing.Point(657, 16);
+            this.btnMMissret.Name = "btnMMissret";
+            this.btnMMissret.Size = new System.Drawing.Size(153, 47);
+            this.btnMMissret.TabIndex = 6;
+            this.btnMMissret.Text = "Emisión/Devolución";
+            this.btnMMissret.UseVisualStyleBackColor = true;
+            this.btnMMissret.Click += new System.EventHandler(this.btnMMissret_Click);
+            // 
+            // btnEditDetails
+            // 
+            this.btnEditDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditDetails.Location = new System.Drawing.Point(496, 16);
+            this.btnEditDetails.Name = "btnEditDetails";
+            this.btnEditDetails.Size = new System.Drawing.Size(153, 47);
+            this.btnEditDetails.TabIndex = 5;
+            this.btnEditDetails.Text = "Editar detalles";
+            this.btnEditDetails.UseVisualStyleBackColor = true;
+            this.btnEditDetails.Click += new System.EventHandler(this.btnEditDetails_Click);
+            // 
+            // btnSetPackage
+            // 
+            this.btnSetPackage.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetPackage.Location = new System.Drawing.Point(174, 16);
+            this.btnSetPackage.Name = "btnSetPackage";
+            this.btnSetPackage.Size = new System.Drawing.Size(153, 47);
+            this.btnSetPackage.TabIndex = 3;
+            this.btnSetPackage.Text = "Paquete";
+            this.btnSetPackage.UseVisualStyleBackColor = true;
+            this.btnSetPackage.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // btnMMdetails
+            // 
+            this.btnMMdetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMdetails.Location = new System.Drawing.Point(335, 16);
+            this.btnMMdetails.Name = "btnMMdetails";
+            this.btnMMdetails.Size = new System.Drawing.Size(153, 47);
+            this.btnMMdetails.TabIndex = 4;
+            this.btnMMdetails.Text = "Miembros";
+            this.btnMMdetails.UseVisualStyleBackColor = true;
+            this.btnMMdetails.Click += new System.EventHandler(this.btnMMdetails_Click);
+            // 
+            // dataGridMM
+            // 
+            this.dataGridMM.AllowUserToAddRows = false;
+            this.dataGridMM.AllowUserToDeleteRows = false;
+            this.dataGridMM.AllowUserToResizeRows = false;
+            this.dataGridMM.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridMM.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridMM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMM.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridMM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridMM.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridMM.Location = new System.Drawing.Point(111, 159);
+            this.dataGridMM.Name = "dataGridMM";
+            this.dataGridMM.ReadOnly = true;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMM.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridMM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridMM.Size = new System.Drawing.Size(768, 409);
+            this.dataGridMM.StandardTab = true;
+            this.dataGridMM.TabIndex = 0;
+            this.dataGridMM.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellClick);
+            this.dataGridMM.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellContentClick);
+            this.dataGridMM.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellDoubleClick);
+            // 
+            // grpMM_search
+            // 
+            this.grpMM_search.Controls.Add(this.btnMMviewall);
+            this.grpMM_search.Controls.Add(this.comboMMfields);
+            this.grpMM_search.Controls.Add(this.label55);
+            this.grpMM_search.Controls.Add(this.textMMsearchterm);
+            this.grpMM_search.Controls.Add(this.label50);
+            this.grpMM_search.Location = new System.Drawing.Point(13, 76);
+            this.grpMM_search.Name = "grpMM_search";
+            this.grpMM_search.Size = new System.Drawing.Size(971, 62);
+            this.grpMM_search.TabIndex = 52;
+            this.grpMM_search.TabStop = false;
+            // 
+            // btnMMviewall
+            // 
+            this.btnMMviewall.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMviewall.Location = new System.Drawing.Point(781, 15);
+            this.btnMMviewall.Name = "btnMMviewall";
+            this.btnMMviewall.Size = new System.Drawing.Size(177, 35);
+            this.btnMMviewall.TabIndex = 2;
+            this.btnMMviewall.Text = "Ver todos";
+            this.btnMMviewall.UseVisualStyleBackColor = true;
+            this.btnMMviewall.Click += new System.EventHandler(this.btnMMviewall_Click);
+            // 
+            // comboMMfields
+            // 
+            this.comboMMfields.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboMMfields.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboMMfields.FormattingEnabled = true;
+            this.comboMMfields.Items.AddRange(new object[] {
+            "MemberID",
+            "Name",
+            "Course",
+            "AdmissionYear",
+            "RollNo",
+            "Address",
+            "PhoneNumber",
+            "Dob",
+            "Email"});
+            this.comboMMfields.Location = new System.Drawing.Point(562, 21);
+            this.comboMMfields.Name = "comboMMfields";
+            this.comboMMfields.Size = new System.Drawing.Size(202, 28);
+            this.comboMMfields.TabIndex = 1;
+            this.comboMMfields.SelectedIndexChanged += new System.EventHandler(this.comboMMfields_SelectedIndexChanged);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(489, 25);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(71, 20);
+            this.label55.TabIndex = 27;
+            this.label55.Text = "Campo : ";
+            // 
+            // textMMsearchterm
+            // 
+            this.textMMsearchterm.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textMMsearchterm.Location = new System.Drawing.Point(150, 22);
+            this.textMMsearchterm.Name = "textMMsearchterm";
+            this.textMMsearchterm.Size = new System.Drawing.Size(317, 25);
+            this.textMMsearchterm.TabIndex = 0;
+            this.textMMsearchterm.TextChanged += new System.EventHandler(this.textMMsearchterm_TextChanged);
+            this.textMMsearchterm.Enter += new System.EventHandler(this.textMMsearchterm_Enter);
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(70, 27);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(63, 20);
+            this.label50.TabIndex = 25;
+            this.label50.Text = "Buscar :";
+            // 
+            // btnMMadd
+            // 
+            this.btnMMadd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMMadd.Location = new System.Drawing.Point(13, 16);
+            this.btnMMadd.Name = "btnMMadd";
+            this.btnMMadd.Size = new System.Drawing.Size(153, 47);
+            this.btnMMadd.TabIndex = 2;
+            this.btnMMadd.Text = "Añadir nuevo";
+            this.btnMMadd.UseVisualStyleBackColor = true;
+            this.btnMMadd.Click += new System.EventHandler(this.btnMMadd_Click);
+            // 
+            // panelExtraMenu
+            // 
+            this.panelExtraMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelExtraMenu.Controls.Add(this.button2);
+            this.panelExtraMenu.Controls.Add(this.btnMenuMngDB);
+            this.panelExtraMenu.Controls.Add(this.btnMenuCourses);
+            this.panelExtraMenu.Controls.Add(this.btnMenuHelp);
+            this.panelExtraMenu.Controls.Add(this.btnMenuExport);
+            this.panelExtraMenu.Controls.Add(this.lblUserType);
+            this.panelExtraMenu.Controls.Add(this.btnMenuLang);
+            this.panelExtraMenu.Controls.Add(this.btnMenuLibInfo);
+            this.panelExtraMenu.Controls.Add(this.btnMenuOptions);
+            this.panelExtraMenu.Controls.Add(this.lblUsersStatus);
+            this.panelExtraMenu.Controls.Add(this.pictureBox1);
+            this.panelExtraMenu.Controls.Add(this.btnMenuUserDetails);
+            this.panelExtraMenu.Controls.Add(this.btnMenuUsers);
+            this.panelExtraMenu.Controls.Add(this.btnMenuPackages);
+            this.panelExtraMenu.Controls.Add(this.btnMenuCateg);
+            this.panelExtraMenu.Controls.Add(this.btnMenuAbout);
+            this.panelExtraMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelExtraMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelExtraMenu.Name = "panelExtraMenu";
+            this.panelExtraMenu.Size = new System.Drawing.Size(992, 581);
+            this.panelExtraMenu.TabIndex = 6;
+            this.panelExtraMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelExtraMenu_Paint);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(922, 11);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(52, 51);
+            this.button2.TabIndex = 31;
+            this.tooltipManager.SetToolTip(this.button2, "En esta pantalla podemos administrar nuestra aplicacion ya sea con los paquetes d" +
+        "e afiliciaion como gestionar usuarios,\r\nCambiar idiomas, en este panel llevas el" +
+        " control completo de la aplicacion. ");
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_2);
+            // 
+            // btnMenuMngDB
+            // 
+            this.btnMenuMngDB.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuMngDB.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuMngDB.Location = new System.Drawing.Point(507, 342);
+            this.btnMenuMngDB.Name = "btnMenuMngDB";
+            this.btnMenuMngDB.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuMngDB.TabIndex = 9;
+            this.btnMenuMngDB.Text = "Gestionar base de datos";
+            this.btnMenuMngDB.UseVisualStyleBackColor = false;
+            this.btnMenuMngDB.Click += new System.EventHandler(this.btnMenuMngDB_Click);
+            // 
+            // btnMenuCourses
+            // 
+            this.btnMenuCourses.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuCourses.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCourses.Location = new System.Drawing.Point(333, 482);
+            this.btnMenuCourses.Name = "btnMenuCourses";
+            this.btnMenuCourses.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuCourses.TabIndex = 5;
+            this.btnMenuCourses.Text = "Cursos para miembros";
+            this.btnMenuCourses.UseVisualStyleBackColor = false;
+            this.btnMenuCourses.Click += new System.EventHandler(this.btnMenuCourses_Click);
+            // 
+            // btnMenuHelp
+            // 
+            this.btnMenuHelp.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuHelp.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuHelp.Location = new System.Drawing.Point(507, 412);
+            this.btnMenuHelp.Name = "btnMenuHelp";
+            this.btnMenuHelp.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuHelp.TabIndex = 10;
+            this.btnMenuHelp.Text = "Ayuda";
+            this.btnMenuHelp.UseVisualStyleBackColor = false;
+            this.btnMenuHelp.Click += new System.EventHandler(this.btnMenuHelp_Click);
+            // 
+            // btnMenuExport
+            // 
+            this.btnMenuExport.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuExport.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuExport.Location = new System.Drawing.Point(333, 412);
+            this.btnMenuExport.Name = "btnMenuExport";
+            this.btnMenuExport.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuExport.TabIndex = 4;
+            this.btnMenuExport.Text = "Exportar tablas";
+            this.btnMenuExport.UseVisualStyleBackColor = false;
+            this.btnMenuExport.Click += new System.EventHandler(this.btnMenuExport_Click);
+            // 
+            // lblUserType
+            // 
+            this.lblUserType.AutoSize = true;
+            this.lblUserType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserType.Location = new System.Drawing.Point(103, 73);
+            this.lblUserType.Name = "lblUserType";
+            this.lblUserType.Size = new System.Drawing.Size(106, 19);
+            this.lblUserType.TabIndex = 30;
+            this.lblUserType.Text = "Administrator";
+            // 
+            // btnMenuLang
+            // 
+            this.btnMenuLang.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuLang.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuLang.Location = new System.Drawing.Point(333, 343);
+            this.btnMenuLang.Name = "btnMenuLang";
+            this.btnMenuLang.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuLang.TabIndex = 3;
+            this.btnMenuLang.Text = "Idiomas del libro";
+            this.btnMenuLang.UseVisualStyleBackColor = false;
+            this.btnMenuLang.Click += new System.EventHandler(this.btnMenuLang_Click);
+            // 
+            // btnMenuLibInfo
+            // 
+            this.btnMenuLibInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuLibInfo.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuLibInfo.Location = new System.Drawing.Point(506, 271);
+            this.btnMenuLibInfo.Name = "btnMenuLibInfo";
+            this.btnMenuLibInfo.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuLibInfo.TabIndex = 8;
+            this.btnMenuLibInfo.Text = "Información de la biblioteca";
+            this.btnMenuLibInfo.UseVisualStyleBackColor = false;
+            this.btnMenuLibInfo.Click += new System.EventHandler(this.btnMenuLibInfo_Click);
+            // 
+            // btnMenuOptions
+            // 
+            this.btnMenuOptions.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuOptions.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuOptions.Location = new System.Drawing.Point(507, 201);
+            this.btnMenuOptions.Name = "btnMenuOptions";
+            this.btnMenuOptions.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuOptions.TabIndex = 7;
+            this.btnMenuOptions.Text = "Opciones";
+            this.btnMenuOptions.UseVisualStyleBackColor = false;
+            this.btnMenuOptions.Click += new System.EventHandler(this.btnMenuOptions_Click);
+            // 
+            // lblUsersStatus
+            // 
+            this.lblUsersStatus.AutoSize = true;
+            this.lblUsersStatus.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsersStatus.Location = new System.Drawing.Point(102, 40);
+            this.lblUsersStatus.Name = "lblUsersStatus";
+            this.lblUsersStatus.Size = new System.Drawing.Size(130, 25);
+            this.lblUsersStatus.TabIndex = 25;
+            this.lblUsersStatus.Text = "NameOfUser";
+            this.lblUsersStatus.Click += new System.EventHandler(this.lblUsersStatus_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LibraryManagementSystem.Properties.Resources.user;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMenuUserDetails
+            // 
+            this.btnMenuUserDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuUserDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuUserDetails.Location = new System.Drawing.Point(333, 271);
+            this.btnMenuUserDetails.Name = "btnMenuUserDetails";
+            this.btnMenuUserDetails.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuUserDetails.TabIndex = 2;
+            this.btnMenuUserDetails.Text = "Detalles del usuario";
+            this.btnMenuUserDetails.UseVisualStyleBackColor = false;
+            this.btnMenuUserDetails.Click += new System.EventHandler(this.btnMenuUserDetails_Click);
+            // 
+            // btnMenuUsers
+            // 
+            this.btnMenuUsers.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuUsers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuUsers.Location = new System.Drawing.Point(333, 201);
+            this.btnMenuUsers.Name = "btnMenuUsers";
+            this.btnMenuUsers.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuUsers.TabIndex = 1;
+            this.btnMenuUsers.Text = "Gestionar usuarios";
+            this.btnMenuUsers.UseVisualStyleBackColor = false;
+            this.btnMenuUsers.Click += new System.EventHandler(this.btnMenuUsers_Click);
+            // 
+            // btnMenuPackages
+            // 
+            this.btnMenuPackages.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuPackages.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuPackages.Location = new System.Drawing.Point(331, 125);
+            this.btnMenuPackages.Name = "btnMenuPackages";
+            this.btnMenuPackages.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuPackages.TabIndex = 0;
+            this.btnMenuPackages.Text = "Paquetes de afiliación";
+            this.btnMenuPackages.UseVisualStyleBackColor = false;
+            this.btnMenuPackages.Click += new System.EventHandler(this.btnMenuPackages_Click);
+            // 
+            // btnMenuCateg
+            // 
+            this.btnMenuCateg.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuCateg.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCateg.Location = new System.Drawing.Point(507, 125);
+            this.btnMenuCateg.Name = "btnMenuCateg";
+            this.btnMenuCateg.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuCateg.TabIndex = 6;
+            this.btnMenuCateg.Text = "Categorías de libros";
+            this.btnMenuCateg.UseVisualStyleBackColor = false;
+            this.btnMenuCateg.Click += new System.EventHandler(this.btnMenuCateg_Click);
+            // 
+            // btnMenuAbout
+            // 
+            this.btnMenuAbout.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenuAbout.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuAbout.Location = new System.Drawing.Point(507, 482);
+            this.btnMenuAbout.Name = "btnMenuAbout";
+            this.btnMenuAbout.Size = new System.Drawing.Size(152, 49);
+            this.btnMenuAbout.TabIndex = 11;
+            this.btnMenuAbout.Text = "Acerca de";
+            this.btnMenuAbout.UseVisualStyleBackColor = false;
+            this.btnMenuAbout.Click += new System.EventHandler(this.btnMenuAbout_Click);
+            // 
             // panelIssueDetails
             // 
             this.panelIssueDetails.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelIssueDetails.Controls.Add(this.splitContainer1);
             this.panelIssueDetails.Controls.Add(this.button4);
             this.panelIssueDetails.Controls.Add(this.dataGridID);
             this.panelIssueDetails.Controls.Add(this.btnIDextendDD);
@@ -565,8 +842,8 @@ namespace LibraryManagementSystem
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(54, 53);
             this.button4.TabIndex = 226;
-            this.tooltipManager.SetToolTip(this.button4, "En esta pantalla podemos buscar nuestros libros tanto por categoria como por el n" +
-        "ombre del libro,\r\ntambien tenemos la opcion de Prestar o devolver el libro ");
+            this.tooltipManager.SetToolTip(this.button4, "En esta pantalla podemos emitir libros para alquilar y tambien podemos registrar " +
+        "la devolucion\r\nde un libro que haya estado alquilado.");
             this.button4.UseVisualStyleBackColor = true;
             // 
             // dataGridID
@@ -1021,9 +1298,9 @@ namespace LibraryManagementSystem
             // btnISok
             // 
             this.btnISok.Font = new System.Drawing.Font("Trebuchet MS", 11.25F);
-            this.btnISok.Location = new System.Drawing.Point(855, 19);
+            this.btnISok.Location = new System.Drawing.Point(847, 24);
             this.btnISok.Name = "btnISok";
-            this.btnISok.Size = new System.Drawing.Size(93, 43);
+            this.btnISok.Size = new System.Drawing.Size(69, 30);
             this.btnISok.TabIndex = 2;
             this.btnISok.Text = "OK";
             this.btnISok.UseVisualStyleBackColor = true;
@@ -1295,6 +1572,7 @@ namespace LibraryManagementSystem
             // panelBookDetails
             // 
             this.panelBookDetails.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelBookDetails.Controls.Add(this.button6);
             this.panelBookDetails.Controls.Add(this.btnBDebookfolder);
             this.panelBookDetails.Controls.Add(this.picBookCover);
             this.panelBookDetails.Controls.Add(this.comboBDid);
@@ -1341,6 +1619,18 @@ namespace LibraryManagementSystem
             this.panelBookDetails.Name = "panelBookDetails";
             this.panelBookDetails.Size = new System.Drawing.Size(992, 581);
             this.panelBookDetails.TabIndex = 1;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Location = new System.Drawing.Point(393, 5);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(31, 33);
+            this.button6.TabIndex = 143;
+            this.tooltipManager.SetToolTip(this.button6, "En esta pantalla podemos visualizar los detalles del libro consultadolo mediante " +
+        "\r\nesta pantalla, se mostraran todos los destalles descritos a continuacion.");
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // btnBDebookfolder
             // 
@@ -1800,6 +2090,7 @@ namespace LibraryManagementSystem
             // panelManageBooks
             // 
             this.panelManageBooks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelManageBooks.Controls.Add(this.button8);
             this.panelManageBooks.Controls.Add(this.pnlAddCateg);
             this.panelManageBooks.Controls.Add(this.btnCategoryModal);
             this.panelManageBooks.Controls.Add(this.pictureMB);
@@ -1863,7 +2154,7 @@ namespace LibraryManagementSystem
             this.pnlAddCateg.Controls.Add(this.txtAddShelf);
             this.pnlAddCateg.Controls.Add(this.label51);
             this.pnlAddCateg.Controls.Add(this.btnAddOk);
-            this.pnlAddCateg.Location = new System.Drawing.Point(914, 11);
+            this.pnlAddCateg.Location = new System.Drawing.Point(218, 91);
             this.pnlAddCateg.Name = "pnlAddCateg";
             this.pnlAddCateg.Size = new System.Drawing.Size(445, 296);
             this.pnlAddCateg.TabIndex = 136;
@@ -2410,436 +2701,6 @@ namespace LibraryManagementSystem
             this.label46.TabIndex = 81;
             this.label46.Text = "Título :";
             // 
-            // panelManageMembers
-            // 
-            this.panelManageMembers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelManageMembers.Controls.Add(this.btnMMexploreMembers);
-            this.panelManageMembers.Controls.Add(this.btnMMBooksToSubmit);
-            this.panelManageMembers.Controls.Add(this.btnMMissret);
-            this.panelManageMembers.Controls.Add(this.btnEditDetails);
-            this.panelManageMembers.Controls.Add(this.btnSetPackage);
-            this.panelManageMembers.Controls.Add(this.btnMMdetails);
-            this.panelManageMembers.Controls.Add(this.dataGridMM);
-            this.panelManageMembers.Controls.Add(this.grpMM_search);
-            this.panelManageMembers.Controls.Add(this.btnMMadd);
-            this.panelManageMembers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelManageMembers.Location = new System.Drawing.Point(0, 0);
-            this.panelManageMembers.Name = "panelManageMembers";
-            this.panelManageMembers.Size = new System.Drawing.Size(992, 581);
-            this.panelManageMembers.TabIndex = 5;
-            this.panelManageMembers.Paint += new System.Windows.Forms.PaintEventHandler(this.panelManageMembers_Paint);
-            // 
-            // btnMMexploreMembers
-            // 
-            this.btnMMexploreMembers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMexploreMembers.Location = new System.Drawing.Point(818, 16);
-            this.btnMMexploreMembers.Name = "btnMMexploreMembers";
-            this.btnMMexploreMembers.Size = new System.Drawing.Size(153, 47);
-            this.btnMMexploreMembers.TabIndex = 7;
-            this.btnMMexploreMembers.Text = "Explorar miembros";
-            this.btnMMexploreMembers.UseVisualStyleBackColor = true;
-            this.btnMMexploreMembers.Click += new System.EventHandler(this.btnMMexploreMembers_Click);
-            // 
-            // btnMMBooksToSubmit
-            // 
-            this.btnMMBooksToSubmit.AllowDrop = true;
-            this.btnMMBooksToSubmit.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMBooksToSubmit.Location = new System.Drawing.Point(889, 159);
-            this.btnMMBooksToSubmit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnMMBooksToSubmit.Name = "btnMMBooksToSubmit";
-            this.btnMMBooksToSubmit.Size = new System.Drawing.Size(82, 78);
-            this.btnMMBooksToSubmit.TabIndex = 1;
-            this.btnMMBooksToSubmit.Text = "Ver libros para enviar";
-            this.btnMMBooksToSubmit.UseVisualStyleBackColor = true;
-            this.btnMMBooksToSubmit.Click += new System.EventHandler(this.btnMMBooksToSubmit_Click);
-            // 
-            // btnMMissret
-            // 
-            this.btnMMissret.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMissret.Location = new System.Drawing.Point(657, 16);
-            this.btnMMissret.Name = "btnMMissret";
-            this.btnMMissret.Size = new System.Drawing.Size(153, 47);
-            this.btnMMissret.TabIndex = 6;
-            this.btnMMissret.Text = "Emisión/Devolución";
-            this.btnMMissret.UseVisualStyleBackColor = true;
-            this.btnMMissret.Click += new System.EventHandler(this.btnMMissret_Click);
-            // 
-            // btnEditDetails
-            // 
-            this.btnEditDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditDetails.Location = new System.Drawing.Point(496, 16);
-            this.btnEditDetails.Name = "btnEditDetails";
-            this.btnEditDetails.Size = new System.Drawing.Size(153, 47);
-            this.btnEditDetails.TabIndex = 5;
-            this.btnEditDetails.Text = "Editar detalles";
-            this.btnEditDetails.UseVisualStyleBackColor = true;
-            this.btnEditDetails.Click += new System.EventHandler(this.btnEditDetails_Click);
-            // 
-            // btnSetPackage
-            // 
-            this.btnSetPackage.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetPackage.Location = new System.Drawing.Point(174, 16);
-            this.btnSetPackage.Name = "btnSetPackage";
-            this.btnSetPackage.Size = new System.Drawing.Size(153, 47);
-            this.btnSetPackage.TabIndex = 3;
-            this.btnSetPackage.Text = "Paquete";
-            this.btnSetPackage.UseVisualStyleBackColor = true;
-            this.btnSetPackage.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // btnMMdetails
-            // 
-            this.btnMMdetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMdetails.Location = new System.Drawing.Point(335, 16);
-            this.btnMMdetails.Name = "btnMMdetails";
-            this.btnMMdetails.Size = new System.Drawing.Size(153, 47);
-            this.btnMMdetails.TabIndex = 4;
-            this.btnMMdetails.Text = "Miembros";
-            this.btnMMdetails.UseVisualStyleBackColor = true;
-            this.btnMMdetails.Click += new System.EventHandler(this.btnMMdetails_Click);
-            // 
-            // dataGridMM
-            // 
-            this.dataGridMM.AllowUserToAddRows = false;
-            this.dataGridMM.AllowUserToDeleteRows = false;
-            this.dataGridMM.AllowUserToResizeRows = false;
-            this.dataGridMM.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridMM.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridMM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMM.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridMM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridMM.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridMM.Location = new System.Drawing.Point(111, 159);
-            this.dataGridMM.Name = "dataGridMM";
-            this.dataGridMM.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMM.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridMM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridMM.Size = new System.Drawing.Size(768, 409);
-            this.dataGridMM.StandardTab = true;
-            this.dataGridMM.TabIndex = 0;
-            this.dataGridMM.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellClick);
-            this.dataGridMM.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellContentClick);
-            this.dataGridMM.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMM_CellDoubleClick);
-            // 
-            // grpMM_search
-            // 
-            this.grpMM_search.Controls.Add(this.btnMMviewall);
-            this.grpMM_search.Controls.Add(this.comboMMfields);
-            this.grpMM_search.Controls.Add(this.label55);
-            this.grpMM_search.Controls.Add(this.textMMsearchterm);
-            this.grpMM_search.Controls.Add(this.label50);
-            this.grpMM_search.Location = new System.Drawing.Point(13, 76);
-            this.grpMM_search.Name = "grpMM_search";
-            this.grpMM_search.Size = new System.Drawing.Size(971, 62);
-            this.grpMM_search.TabIndex = 52;
-            this.grpMM_search.TabStop = false;
-            // 
-            // btnMMviewall
-            // 
-            this.btnMMviewall.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMviewall.Location = new System.Drawing.Point(781, 15);
-            this.btnMMviewall.Name = "btnMMviewall";
-            this.btnMMviewall.Size = new System.Drawing.Size(177, 35);
-            this.btnMMviewall.TabIndex = 2;
-            this.btnMMviewall.Text = "Ver todos";
-            this.btnMMviewall.UseVisualStyleBackColor = true;
-            this.btnMMviewall.Click += new System.EventHandler(this.btnMMviewall_Click);
-            // 
-            // comboMMfields
-            // 
-            this.comboMMfields.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboMMfields.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboMMfields.FormattingEnabled = true;
-            this.comboMMfields.Items.AddRange(new object[] {
-            "MemberID",
-            "Name",
-            "Course",
-            "AdmissionYear",
-            "RollNo",
-            "Address",
-            "PhoneNumber",
-            "Dob",
-            "Email"});
-            this.comboMMfields.Location = new System.Drawing.Point(562, 21);
-            this.comboMMfields.Name = "comboMMfields";
-            this.comboMMfields.Size = new System.Drawing.Size(202, 28);
-            this.comboMMfields.TabIndex = 1;
-            this.comboMMfields.SelectedIndexChanged += new System.EventHandler(this.comboMMfields_SelectedIndexChanged);
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(489, 25);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(71, 20);
-            this.label55.TabIndex = 27;
-            this.label55.Text = "Campo : ";
-            // 
-            // textMMsearchterm
-            // 
-            this.textMMsearchterm.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMMsearchterm.Location = new System.Drawing.Point(150, 22);
-            this.textMMsearchterm.Name = "textMMsearchterm";
-            this.textMMsearchterm.Size = new System.Drawing.Size(317, 25);
-            this.textMMsearchterm.TabIndex = 0;
-            this.textMMsearchterm.TextChanged += new System.EventHandler(this.textMMsearchterm_TextChanged);
-            this.textMMsearchterm.Enter += new System.EventHandler(this.textMMsearchterm_Enter);
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(70, 27);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(63, 20);
-            this.label50.TabIndex = 25;
-            this.label50.Text = "Buscar :";
-            // 
-            // btnMMadd
-            // 
-            this.btnMMadd.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMMadd.Location = new System.Drawing.Point(13, 16);
-            this.btnMMadd.Name = "btnMMadd";
-            this.btnMMadd.Size = new System.Drawing.Size(153, 47);
-            this.btnMMadd.TabIndex = 2;
-            this.btnMMadd.Text = "Añadir nuevo";
-            this.btnMMadd.UseVisualStyleBackColor = true;
-            this.btnMMadd.Click += new System.EventHandler(this.btnMMadd_Click);
-            // 
-            // panelExtraMenu
-            // 
-            this.panelExtraMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelExtraMenu.Controls.Add(this.button2);
-            this.panelExtraMenu.Controls.Add(this.btnMenuMngDB);
-            this.panelExtraMenu.Controls.Add(this.btnMenuCourses);
-            this.panelExtraMenu.Controls.Add(this.btnMenuHelp);
-            this.panelExtraMenu.Controls.Add(this.btnMenuExport);
-            this.panelExtraMenu.Controls.Add(this.lblUserType);
-            this.panelExtraMenu.Controls.Add(this.btnMenuLang);
-            this.panelExtraMenu.Controls.Add(this.btnMenuLibInfo);
-            this.panelExtraMenu.Controls.Add(this.btnMenuOptions);
-            this.panelExtraMenu.Controls.Add(this.lblUsersStatus);
-            this.panelExtraMenu.Controls.Add(this.pictureBox1);
-            this.panelExtraMenu.Controls.Add(this.btnMenuUserDetails);
-            this.panelExtraMenu.Controls.Add(this.btnMenuUsers);
-            this.panelExtraMenu.Controls.Add(this.btnMenuPackages);
-            this.panelExtraMenu.Controls.Add(this.btnMenuCateg);
-            this.panelExtraMenu.Controls.Add(this.btnMenuAbout);
-            this.panelExtraMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelExtraMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelExtraMenu.Name = "panelExtraMenu";
-            this.panelExtraMenu.Size = new System.Drawing.Size(992, 581);
-            this.panelExtraMenu.TabIndex = 6;
-            this.panelExtraMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelExtraMenu_Paint);
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(922, 11);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(52, 51);
-            this.button2.TabIndex = 31;
-            this.tooltipManager.SetToolTip(this.button2, "En esta pantalla podemos administrar nuestra aplicacion ya sea con los paquetes d" +
-        "e afiliciaion como gestionar usuarios,\r\nCambiar idiomas, en este panel llevas el" +
-        " control completo de la aplicacion. ");
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_2);
-            // 
-            // btnMenuMngDB
-            // 
-            this.btnMenuMngDB.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuMngDB.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuMngDB.Location = new System.Drawing.Point(507, 342);
-            this.btnMenuMngDB.Name = "btnMenuMngDB";
-            this.btnMenuMngDB.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuMngDB.TabIndex = 9;
-            this.btnMenuMngDB.Text = "Gestionar base de datos";
-            this.btnMenuMngDB.UseVisualStyleBackColor = false;
-            this.btnMenuMngDB.Click += new System.EventHandler(this.btnMenuMngDB_Click);
-            // 
-            // btnMenuCourses
-            // 
-            this.btnMenuCourses.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuCourses.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuCourses.Location = new System.Drawing.Point(333, 482);
-            this.btnMenuCourses.Name = "btnMenuCourses";
-            this.btnMenuCourses.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuCourses.TabIndex = 5;
-            this.btnMenuCourses.Text = "Cursos para miembros";
-            this.btnMenuCourses.UseVisualStyleBackColor = false;
-            this.btnMenuCourses.Click += new System.EventHandler(this.btnMenuCourses_Click);
-            // 
-            // btnMenuHelp
-            // 
-            this.btnMenuHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuHelp.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuHelp.Location = new System.Drawing.Point(507, 412);
-            this.btnMenuHelp.Name = "btnMenuHelp";
-            this.btnMenuHelp.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuHelp.TabIndex = 10;
-            this.btnMenuHelp.Text = "Ayuda";
-            this.btnMenuHelp.UseVisualStyleBackColor = false;
-            this.btnMenuHelp.Click += new System.EventHandler(this.btnMenuHelp_Click);
-            // 
-            // btnMenuExport
-            // 
-            this.btnMenuExport.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuExport.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuExport.Location = new System.Drawing.Point(333, 412);
-            this.btnMenuExport.Name = "btnMenuExport";
-            this.btnMenuExport.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuExport.TabIndex = 4;
-            this.btnMenuExport.Text = "Exportar tablas";
-            this.btnMenuExport.UseVisualStyleBackColor = false;
-            this.btnMenuExport.Click += new System.EventHandler(this.btnMenuExport_Click);
-            // 
-            // lblUserType
-            // 
-            this.lblUserType.AutoSize = true;
-            this.lblUserType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserType.Location = new System.Drawing.Point(103, 73);
-            this.lblUserType.Name = "lblUserType";
-            this.lblUserType.Size = new System.Drawing.Size(106, 19);
-            this.lblUserType.TabIndex = 30;
-            this.lblUserType.Text = "Administrator";
-            // 
-            // btnMenuLang
-            // 
-            this.btnMenuLang.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuLang.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuLang.Location = new System.Drawing.Point(333, 343);
-            this.btnMenuLang.Name = "btnMenuLang";
-            this.btnMenuLang.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuLang.TabIndex = 3;
-            this.btnMenuLang.Text = "Idiomas del libro";
-            this.btnMenuLang.UseVisualStyleBackColor = false;
-            this.btnMenuLang.Click += new System.EventHandler(this.btnMenuLang_Click);
-            // 
-            // btnMenuLibInfo
-            // 
-            this.btnMenuLibInfo.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuLibInfo.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuLibInfo.Location = new System.Drawing.Point(506, 271);
-            this.btnMenuLibInfo.Name = "btnMenuLibInfo";
-            this.btnMenuLibInfo.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuLibInfo.TabIndex = 8;
-            this.btnMenuLibInfo.Text = "Información de la biblioteca";
-            this.btnMenuLibInfo.UseVisualStyleBackColor = false;
-            this.btnMenuLibInfo.Click += new System.EventHandler(this.btnMenuLibInfo_Click);
-            // 
-            // btnMenuOptions
-            // 
-            this.btnMenuOptions.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuOptions.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuOptions.Location = new System.Drawing.Point(507, 201);
-            this.btnMenuOptions.Name = "btnMenuOptions";
-            this.btnMenuOptions.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuOptions.TabIndex = 7;
-            this.btnMenuOptions.Text = "Opciones";
-            this.btnMenuOptions.UseVisualStyleBackColor = false;
-            this.btnMenuOptions.Click += new System.EventHandler(this.btnMenuOptions_Click);
-            // 
-            // lblUsersStatus
-            // 
-            this.lblUsersStatus.AutoSize = true;
-            this.lblUsersStatus.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsersStatus.Location = new System.Drawing.Point(102, 40);
-            this.lblUsersStatus.Name = "lblUsersStatus";
-            this.lblUsersStatus.Size = new System.Drawing.Size(130, 25);
-            this.lblUsersStatus.TabIndex = 25;
-            this.lblUsersStatus.Text = "NameOfUser";
-            this.lblUsersStatus.Click += new System.EventHandler(this.lblUsersStatus_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LibraryManagementSystem.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnMenuUserDetails
-            // 
-            this.btnMenuUserDetails.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuUserDetails.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuUserDetails.Location = new System.Drawing.Point(333, 271);
-            this.btnMenuUserDetails.Name = "btnMenuUserDetails";
-            this.btnMenuUserDetails.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuUserDetails.TabIndex = 2;
-            this.btnMenuUserDetails.Text = "Detalles del usuario";
-            this.btnMenuUserDetails.UseVisualStyleBackColor = false;
-            this.btnMenuUserDetails.Click += new System.EventHandler(this.btnMenuUserDetails_Click);
-            // 
-            // btnMenuUsers
-            // 
-            this.btnMenuUsers.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuUsers.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuUsers.Location = new System.Drawing.Point(333, 201);
-            this.btnMenuUsers.Name = "btnMenuUsers";
-            this.btnMenuUsers.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuUsers.TabIndex = 1;
-            this.btnMenuUsers.Text = "Gestionar usuarios";
-            this.btnMenuUsers.UseVisualStyleBackColor = false;
-            this.btnMenuUsers.Click += new System.EventHandler(this.btnMenuUsers_Click);
-            // 
-            // btnMenuPackages
-            // 
-            this.btnMenuPackages.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuPackages.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuPackages.Location = new System.Drawing.Point(331, 125);
-            this.btnMenuPackages.Name = "btnMenuPackages";
-            this.btnMenuPackages.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuPackages.TabIndex = 0;
-            this.btnMenuPackages.Text = "Paquetes de afiliación";
-            this.btnMenuPackages.UseVisualStyleBackColor = false;
-            this.btnMenuPackages.Click += new System.EventHandler(this.btnMenuPackages_Click);
-            // 
-            // btnMenuCateg
-            // 
-            this.btnMenuCateg.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuCateg.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuCateg.Location = new System.Drawing.Point(507, 125);
-            this.btnMenuCateg.Name = "btnMenuCateg";
-            this.btnMenuCateg.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuCateg.TabIndex = 6;
-            this.btnMenuCateg.Text = "Categorías de libros";
-            this.btnMenuCateg.UseVisualStyleBackColor = false;
-            this.btnMenuCateg.Click += new System.EventHandler(this.btnMenuCateg_Click);
-            // 
-            // btnMenuAbout
-            // 
-            this.btnMenuAbout.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenuAbout.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenuAbout.Location = new System.Drawing.Point(507, 482);
-            this.btnMenuAbout.Name = "btnMenuAbout";
-            this.btnMenuAbout.Size = new System.Drawing.Size(152, 49);
-            this.btnMenuAbout.TabIndex = 11;
-            this.btnMenuAbout.Text = "Acerca de";
-            this.btnMenuAbout.UseVisualStyleBackColor = false;
-            this.btnMenuAbout.Click += new System.EventHandler(this.btnMenuAbout_Click);
-            // 
             // pnlMenu
             // 
             this.pnlMenu.BackgroundImage = global::LibraryManagementSystem.Properties.Resources.GrassFinalCroped;
@@ -2883,7 +2744,7 @@ namespace LibraryManagementSystem
             this.cmdIssueDetails.TabIndex = 3;
             this.cmdIssueDetails.TabStop = false;
             this.cmdIssueDetails.Tag = "3";
-            this.cmdIssueDetails.Text = "Detalles de la edición";
+            this.cmdIssueDetails.Text = "Detalles del alquiler";
             this.cmdIssueDetails.Click += new System.EventHandler(this.cmdIssueDetails_Click);
             // 
             // cmdBookDetails
@@ -2967,6 +2828,177 @@ namespace LibraryManagementSystem
             // 
             this.tooltipManager.IsBalloon = true;
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Location = new System.Drawing.Point(0, 1);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.treeViewExplore);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer4);
+            this.splitContainer1.Size = new System.Drawing.Size(992, 581);
+            this.splitContainer1.SplitterDistance = 200;
+            this.splitContainer1.TabIndex = 1;
+            this.splitContainer1.TabStop = false;
+            // 
+            // treeViewExplore
+            // 
+            this.treeViewExplore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.treeViewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeViewExplore.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeViewExplore.Location = new System.Drawing.Point(0, 0);
+            this.treeViewExplore.Name = "treeViewExplore";
+            this.treeViewExplore.Size = new System.Drawing.Size(200, 581);
+            this.treeViewExplore.TabIndex = 0;
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Name = "splitContainer4";
+            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.button3);
+            this.splitContainer4.Panel1.Controls.Add(this.btnEBissret);
+            this.splitContainer4.Panel1.Controls.Add(this.btnEBviewall);
+            this.splitContainer4.Panel1.Controls.Add(this.label3);
+            this.splitContainer4.Panel1.Controls.Add(this.comboSearchFields);
+            this.splitContainer4.Panel1.Controls.Add(this.label2);
+            this.splitContainer4.Panel1.Controls.Add(this.textSearchTerm);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.gridviewExplore);
+            this.splitContainer4.Size = new System.Drawing.Size(788, 581);
+            this.splitContainer4.SplitterDistance = 83;
+            this.splitContainer4.TabIndex = 0;
+            this.splitContainer4.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(731, 6);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(54, 66);
+            this.button3.TabIndex = 32;
+            this.tooltipManager.SetToolTip(this.button3, "En esta pantalla podemos buscar nuestros libros tanto por categoria como por el n" +
+        "ombre del libro,\r\ntambien tenemos la opcion de Prestar o devolver el libro ");
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // btnEBissret
+            // 
+            this.btnEBissret.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEBissret.Location = new System.Drawing.Point(615, 6);
+            this.btnEBissret.Name = "btnEBissret";
+            this.btnEBissret.Size = new System.Drawing.Size(110, 67);
+            this.btnEBissret.TabIndex = 3;
+            this.btnEBissret.Text = "Prestar/Devolver";
+            this.btnEBissret.UseVisualStyleBackColor = true;
+            // 
+            // btnEBviewall
+            // 
+            this.btnEBviewall.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEBviewall.Location = new System.Drawing.Point(502, 5);
+            this.btnEBviewall.Name = "btnEBviewall";
+            this.btnEBviewall.Size = new System.Drawing.Size(107, 67);
+            this.btnEBviewall.TabIndex = 2;
+            this.btnEBviewall.Text = "Ver todos";
+            this.btnEBviewall.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(23, 49);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 20);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Campo :";
+            // 
+            // comboSearchFields
+            // 
+            this.comboSearchFields.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboSearchFields.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboSearchFields.FormattingEnabled = true;
+            this.comboSearchFields.Items.AddRange(new object[] {
+            "Title",
+            "Description",
+            "Author",
+            "BookNo",
+            "BookID",
+            "ISBN",
+            "Language",
+            "Publisher",
+            "Shelf",
+            "DateAdded",
+            "Type",
+            "Year"});
+            this.comboSearchFields.Location = new System.Drawing.Point(89, 46);
+            this.comboSearchFields.Name = "comboSearchFields";
+            this.comboSearchFields.Size = new System.Drawing.Size(396, 28);
+            this.comboSearchFields.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(11, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Buscar :";
+            // 
+            // textSearchTerm
+            // 
+            this.textSearchTerm.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textSearchTerm.Location = new System.Drawing.Point(89, 7);
+            this.textSearchTerm.Name = "textSearchTerm";
+            this.textSearchTerm.Size = new System.Drawing.Size(396, 25);
+            this.textSearchTerm.TabIndex = 0;
+            // 
+            // gridviewExplore
+            // 
+            this.gridviewExplore.AllowUserToAddRows = false;
+            this.gridviewExplore.AllowUserToDeleteRows = false;
+            this.gridviewExplore.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.gridviewExplore.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.gridviewExplore.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.gridviewExplore.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.gridviewExplore.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.gridviewExplore.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridviewExplore.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gridviewExplore.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridviewExplore.Location = new System.Drawing.Point(0, 0);
+            this.gridviewExplore.Name = "gridviewExplore";
+            this.gridviewExplore.ReadOnly = true;
+            this.gridviewExplore.RowHeadersVisible = false;
+            this.gridviewExplore.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.gridviewExplore.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridviewExplore.Size = new System.Drawing.Size(786, 492);
+            this.gridviewExplore.StandardTab = true;
+            this.gridviewExplore.TabIndex = 0;
+            // 
+            // button8
+            // 
+            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Location = new System.Drawing.Point(286, 9);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(41, 36);
+            this.button8.TabIndex = 137;
+            this.tooltipManager.SetToolTip(this.button8, resources.GetString("button8.ToolTip"));
+            this.button8.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2987,17 +3019,15 @@ namespace LibraryManagementSystem
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.Scroll += new System.Windows.Forms.ScrollEventHandler(this.MainForm_Scroll);
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            this.splitContainer4.Panel1.PerformLayout();
-            this.splitContainer4.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).EndInit();
+            this.panelExplore.ResumeLayout(false);
             this.panelMainContainer.ResumeLayout(false);
+            this.panelManageMembers.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).EndInit();
+            this.grpMM_search.ResumeLayout(false);
+            this.grpMM_search.PerformLayout();
+            this.panelExtraMenu.ResumeLayout(false);
+            this.panelExtraMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelIssueDetails.ResumeLayout(false);
             this.panelIssueDetails.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridID)).EndInit();
@@ -3021,14 +3051,17 @@ namespace LibraryManagementSystem
             this.pnlAddCateg.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMB)).EndInit();
-            this.panelManageMembers.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMM)).EndInit();
-            this.grpMM_search.ResumeLayout(false);
-            this.grpMM_search.PerformLayout();
-            this.panelExtraMenu.ResumeLayout(false);
-            this.panelExtraMenu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlMenu.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel1.PerformLayout();
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridviewExplore)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3047,17 +3080,10 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Panel panelExplore;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.Panel panelMainContainer;
         private System.Windows.Forms.Panel panelBookDetails;
         private System.Windows.Forms.Panel panelManageMembers;
         private System.Windows.Forms.Panel panelIssueSubmit;
-        private System.Windows.Forms.DataGridView gridviewExplore;
-        private System.Windows.Forms.ComboBox comboSearchFields;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textSearchTerm;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBDpublisher;
         private System.Windows.Forms.TextBox textBDyear;
@@ -3189,7 +3215,6 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.TextBox textIDbid;
         private System.Windows.Forms.Button btnIDsubmitbook;
         private System.Windows.Forms.Button btnMenuAbout;
-        private System.Windows.Forms.Button btnEBviewall;
         private System.Windows.Forms.GroupBox grpissue_details_search;
         private System.Windows.Forms.ComboBox comboIDfield;
         private System.Windows.Forms.Label label61;
@@ -3220,7 +3245,6 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Button btnIDextendDD;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Button btnMBcopy;
-        private System.Windows.Forms.Button btnEBissret;
         private System.Windows.Forms.Button btnMMissret;
         private System.Windows.Forms.Button btnMenuLang;
         private System.Windows.Forms.Button btnMenuLibInfo;
@@ -3251,9 +3275,21 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Button btnAddOk;
         private System.Windows.Forms.ToolTip tooltipManager;
-        private System.Windows.Forms.TreeView treeViewExplore;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.TreeView treeViewExplore;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEBissret;
+        private System.Windows.Forms.Button btnEBviewall;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboSearchFields;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textSearchTerm;
+        private System.Windows.Forms.DataGridView gridviewExplore;
+        private System.Windows.Forms.Button button8;
     }
 }
