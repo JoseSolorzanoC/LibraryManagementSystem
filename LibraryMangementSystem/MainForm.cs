@@ -31,67 +31,67 @@ namespace LibraryManagementSystem
     {
         public static class dbsettings
         {
-            
-            
+
+
             public static string lastView;
-             public static string defaultCateg;
+            public static string defaultCateg;
             public static bool usePackages;
             public static int maxBooks;
             public static string defaultPkg;
             public static bool userEnabled;
-           public static  string defaultUser;
-           public static  bool adminFirstUse;
-           public static  int dailyFine;
-           public static  int daysToIssue;
-           public static  string languageList;
+            public static string defaultUser;
+            public static bool adminFirstUse;
+            public static int dailyFine;
+            public static int daysToIssue;
+            public static string languageList;
             public static string courseList;
             public static bool hasDelBookDetails;
             public static bool hasDelMemberDetails;
-           public static  bool hasDelCategories;
-           public static  bool hasDelPackages;
-            
+            public static bool hasDelCategories;
+            public static bool hasDelPackages;
+
             public static void readSettings()
             {
                 SQLiteCommand cmd = new SQLiteCommand("select * from Settings", con);
                 SQLiteDataReader dr = cmd.ExecuteReader();
-                dr.Read(); lastView= dr["Value"].ToString();
+                dr.Read(); lastView = dr["Value"].ToString();
                 dr.Read(); defaultCateg = dr["Value"].ToString();
-                dr.Read(); usePackages =Convert.ToBoolean( dr["Value"].ToString());
-                dr.Read(); maxBooks =Convert.ToInt32( dr["Value"].ToString());
+                dr.Read(); usePackages = Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); maxBooks = Convert.ToInt32(dr["Value"].ToString());
                 dr.Read(); defaultPkg = dr["Value"].ToString();
-                dr.Read(); userEnabled =Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); userEnabled = Convert.ToBoolean(dr["Value"].ToString());
                 dr.Read(); defaultUser = dr["Value"].ToString();
-                dr.Read(); adminFirstUse =Convert.ToBoolean( dr["Value"].ToString());
-                dr.Read(); dailyFine =Convert.ToInt32( dr["Value"].ToString());
+                dr.Read(); adminFirstUse = Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); dailyFine = Convert.ToInt32(dr["Value"].ToString());
                 dr.Read(); daysToIssue = Convert.ToInt32(dr["Value"].ToString());
                 dr.Read(); languageList = dr["Value"].ToString();
                 dr.Read(); courseList = dr["Value"].ToString();
-                dr.Read(); hasDelBookDetails =Convert.ToBoolean( dr["Value"].ToString());
-                dr.Read(); hasDelMemberDetails =Convert.ToBoolean( dr["Value"].ToString());
-                dr.Read(); hasDelCategories =Convert.ToBoolean( dr["Value"].ToString());
+                dr.Read(); hasDelBookDetails = Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); hasDelMemberDetails = Convert.ToBoolean(dr["Value"].ToString());
+                dr.Read(); hasDelCategories = Convert.ToBoolean(dr["Value"].ToString());
                 dr.Read(); hasDelPackages = Convert.ToBoolean(dr["Value"].ToString());
-                               
+
             }
             public static void writeSettings()
             {
                 SQLiteCommand cmd = new SQLiteCommand(con);
-              string   cmdtext;
-                cmdtext =String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",lastView,"lastView");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",defaultCateg,"defaultCateg");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", usePackages, "usePackages");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",maxBooks,"maxBooks");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",defaultPkg,"defaultPkg");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",userEnabled,"userEnabled");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",defaultUser,"defaultUser");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",adminFirstUse,"adminFirstUse");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",dailyFine,"dailyFine");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",daysToIssue,"daysToIssue");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",languageList,"languageList");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",courseList,"courseList");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",hasDelBookDetails,"hasDelBookDetails");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",hasDelMemberDetails,"hasDelMemberDetails");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",hasDelCategories,"hasDelCategories");
-                cmdtext+=String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';",hasDelPackages,"hasDelPackages");
+                string cmdtext;
+                cmdtext = String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", lastView, "lastView");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", defaultCateg, "defaultCateg");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", usePackages, "usePackages");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", maxBooks, "maxBooks");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", defaultPkg, "defaultPkg");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", userEnabled, "userEnabled");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", defaultUser, "defaultUser");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", adminFirstUse, "adminFirstUse");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", dailyFine, "dailyFine");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", daysToIssue, "daysToIssue");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", languageList, "languageList");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", courseList, "courseList");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", hasDelBookDetails, "hasDelBookDetails");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", hasDelMemberDetails, "hasDelMemberDetails");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", hasDelCategories, "hasDelCategories");
+                cmdtext += String.Format("UPDATE Settings SET Value='{0}' WHERE Name='{1}';", hasDelPackages, "hasDelPackages");
 
 
                 cmd.CommandText = cmdtext;
@@ -110,7 +110,7 @@ namespace LibraryManagementSystem
         public static string globalstrLoggedUserType;
         public static string gtitle, gauthor, gpages, gpublisher, glang, gisbn, gdesc, gpubyear = "";
         public static Image gimg = null;
-      public static  BooksAPIForm bform = null;
+        public static BooksAPIForm bform = null;
         Color init = Color.DarkBlue;
         // Color clkd = Color.DarkSeaGreen;
         Color clkd = Color.DarkGreen;
@@ -119,10 +119,10 @@ namespace LibraryManagementSystem
         //static string cur = Environment.CurrentDirectory;
         //old- gives-warning- Environment.SpecialFolder.ApplicationData 
         //c:\programdata folder.gives readonly file error- Environment.SpecialFolder.CommonApplicationData
-      //  public static string datafolder =Environment.ExpandEnvironmentVariables(@"%systemdrive%\ProgramData\LibraryManagementSystem");
+        //  public static string datafolder =Environment.ExpandEnvironmentVariables(@"%systemdrive%\ProgramData\LibraryManagementSystem");
         public static string datafolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "LibraryManagementSystem");
-     public static string dbname=Properties.Settings.Default.defaultdb;
-        static string connstr = "Data Source="+datafolder+@"\"+dbname+";Version=3";
+        public static string dbname = Properties.Settings.Default.defaultdb;
+        static string connstr = "Data Source=" + datafolder + @"\" + dbname + ";Version=3";
         public static SQLiteConnection con = new SQLiteConnection(connstr);
         public static SQLiteCommand cmd = new SQLiteCommand(MainForm.con);
 
@@ -138,9 +138,9 @@ namespace LibraryManagementSystem
         public MainForm()
         {
             InitializeComponent();
-           // MessageBox.Show(connstr);
+            // MessageBox.Show(connstr);
 
-           // MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
+            // MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
 
         }
         private void loadlang()
@@ -166,9 +166,9 @@ namespace LibraryManagementSystem
             ds = gridviewExplore.DefaultCellStyle;
             al = gridviewExplore.AlternatingRowsDefaultCellStyle;
 
-        dataGridID.DefaultCellStyle= ds;
-        dataGridID.AlternatingRowsDefaultCellStyle =al;
-      
+            dataGridID.DefaultCellStyle = ds;
+            dataGridID.AlternatingRowsDefaultCellStyle = al;
+
 
             prevpanel = panelExplore;
             panelExplore.Hide();
@@ -180,12 +180,12 @@ namespace LibraryManagementSystem
             panelBookDetails.Hide();
 
             dbsettings.readSettings();
-            
+
             loadlang();
             treeViewExplore.Nodes.Add("nodeCateg", "Categories");
-          
+
             bool BDhasdel = dbsettings.hasDelBookDetails;
-            int bookid =readonlyNextID(BDhasdel, "BookDetails");
+            int bookid = readonlyNextID(BDhasdel, "BookDetails");
             textMBbid.Text = bookid.ToString();
 
             if (globalstrLoggedUserType == "User")
@@ -196,7 +196,7 @@ namespace LibraryManagementSystem
 
 
             }
-          //  if (dbsettings.userEnabled == false)
+            //  if (dbsettings.userEnabled == false)
             //    btnMenuUserDetails.Enabled = false;
             SQLiteCommand cmd = new SQLiteCommand(con);
             cmd.CommandText = "SELECT COUNT(*) FROM UserDetails";
@@ -215,9 +215,9 @@ namespace LibraryManagementSystem
             //   con.Open();
 
             //Make treeViewExplore
-          //  treeViewExplore.Nodes.Add("nodeAll", "All");
-          //  treeViewExplore.Nodes.Add("nodeCateg", "Categories");
-         //   treeViewExplore.Nodes["nodeCateg"].Tag = "noContentNode";
+            //  treeViewExplore.Nodes.Add("nodeAll", "All");
+            //  treeViewExplore.Nodes.Add("nodeCateg", "Categories");
+            //   treeViewExplore.Nodes["nodeCateg"].Tag = "noContentNode";
 
 
 
@@ -231,9 +231,9 @@ namespace LibraryManagementSystem
             comboSearchFields.SelectedIndex = 0;
             panelIScontainer.Hide();
             MBcombobtype.SelectedIndex = 0;
-            
-            if(comboMBlang.Items.Count!=0)
-            comboMBlang.SelectedIndex = 0;
+
+            if (comboMBlang.Items.Count != 0)
+                comboMBlang.SelectedIndex = 0;
 
 
             //Issuedetails click 
@@ -245,15 +245,15 @@ namespace LibraryManagementSystem
             comboMMfields.SelectedIndex = 0;
 
             comboMBcateg.SelectedItem = dbsettings.defaultCateg;
-       
+
             comboIDfield.SelectedIndex = 0;
 
-            
+
             textMBdateadd.Text = DateTime.Today.ToString("dd/MM/yyyy");
             labelBDavail.Text = "";
 
             comboBDid.SelectedIndex = 0;
-           
+
         }
         private void UserValidate()
         {
@@ -283,18 +283,18 @@ namespace LibraryManagementSystem
 
         private void loadCategory()
         {
-            
+
 
             SQLiteCommand cmd = new SQLiteCommand("select Category from Categories", con);
             SQLiteDataReader dr = cmd.ExecuteReader();
-          treeViewExplore.Nodes["nodeCateg"].Nodes.Clear();
-            
+            treeViewExplore.Nodes["nodeCateg"].Nodes.Clear();
+
 
             comboMBcateg.Items.Clear();
             while (dr.Read())
             {
                 treeViewExplore.Nodes["nodeCateg"].Nodes.Add(dr[0].ToString());
-               
+
                 comboMBcateg.Items.Add(dr[0].ToString());
             }
             treeViewExplore.ExpandAll();
@@ -307,24 +307,24 @@ namespace LibraryManagementSystem
             {
                 return;
             }
-            if (treeViewExplore.SelectedNode.Text=="Categories")
+            if (treeViewExplore.SelectedNode.Text == "Categories")
             {
                 return;
             }
             TreeNode selnode = treeViewExplore.SelectedNode;
             int res = 0;
-    
-                    res = fillGrid(string.Format(selectallbooks + " where Category='{0}' ORDER BY BookID", selnode.Text));
-                if (res == 0)
-                {
-                    lblStatus.Text = "No Books to Display in the Category " + selnode.Text;
-                }
-                else
-                {
-                    lblStatus.Text = "Displaying " + res + " Books in the Category " + selnode.Text;
-                }
-           
-            
+
+            res = fillGrid(string.Format(selectallbooks + " where Category='{0}' ORDER BY BookID", selnode.Text));
+            if (res == 0)
+            {
+                lblStatus.Text = "No hay libros para mostrar en la categoría " + selnode.Text;
+            }
+            else
+            {
+                lblStatus.Text = "Visualización de " + res + " Libros de la categoría " + selnode.Text;
+            }
+
+
 
         }
 
@@ -335,7 +335,7 @@ namespace LibraryManagementSystem
             searchterm = textSearchTerm.Text.Replace(" ", "");
             if (string.IsNullOrEmpty(searchterm))
             {
-                lblStatus.Text = "Enter a Search Term for Searching Books.";
+                lblStatus.Text = "Introduzca un término de búsqueda para buscar libros.";
                 return;
             }
 
@@ -349,13 +349,13 @@ namespace LibraryManagementSystem
                 gridviewExplore.DataSource = dt;
 
 
-                lblStatus.Text = string.Format("Displaying {2} Search Results for ' {0} ' in {1} of Books.", searchterm, comboSearchFields.Text, dt.Rows.Count);
+                lblStatus.Text = string.Format("Visualización de {2} Resultados de la búsqueda de ' {0} ' en {1} de Libros.", searchterm, comboSearchFields.Text, dt.Rows.Count);
             }
             else
             {
 
                 gridviewExplore.DataSource = null;
-                lblStatus.Text = lblStatus.Text = string.Format("No Search Results for ' {0} ' in {1} of Books.", searchterm, comboSearchFields.Text);
+                lblStatus.Text = lblStatus.Text = string.Format("No hay resultados para ' {0} ' en {1} de Libros.", searchterm, comboSearchFields.Text);
 
             }
             dr.Close();
@@ -372,7 +372,7 @@ namespace LibraryManagementSystem
             string available = "False";
 
             object retval = null;
-           
+
 
             byte[] img = null;
             string haspdf = "false";
@@ -384,13 +384,13 @@ namespace LibraryManagementSystem
                 return;
             }
             string cmdtext;
-            if(comboBDid.Text=="Book ID")
-            cmdtext = String.Format("select * from BookDetails where BookID='{0}';", bookid);
+            if (comboBDid.Text == "Book ID")
+                cmdtext = String.Format("select * from BookDetails where BookID='{0}';", bookid);
             else
-            cmdtext = String.Format("select * from BookDetails where BookNo='{0}';", bookid);
+                cmdtext = String.Format("select * from BookDetails where BookNo='{0}';", bookid);
 
             SQLiteCommand cmd = new SQLiteCommand(cmdtext, con);
-          
+
             SQLiteDataReader dr = cmd.ExecuteReader();
             if (dr.HasRows == false)
             {
@@ -453,7 +453,7 @@ namespace LibraryManagementSystem
             {
                 picBookCover.Show();
                 img = (byte[])retval;
-       
+
                 System.IO.MemoryStream myMemoryStream = new System.IO.MemoryStream(img);
                 System.Drawing.Image myImage = System.Drawing.Image.FromStream(myMemoryStream);
                 picBookCover.Image = myImage;
@@ -466,12 +466,12 @@ namespace LibraryManagementSystem
             }
             else
             {
-             
+
                 picBookCover.Hide();
                 BDlabelenlarge.Text = "";
             }
             //Read Pdf
-           // MessageBox.Show(haspdf);
+            // MessageBox.Show(haspdf);
             if (haspdf == "True")
             {
                 btnBDviewebook.Show();
@@ -519,33 +519,33 @@ namespace LibraryManagementSystem
         //things to do when clicking a specific glassbutton:
         private void cmdBookDetails_Click(object sender, EventArgs e)
         {
-             
-            if(!navigate(cmdBookDetails))
-            return;
+
+            if (!navigate(cmdBookDetails))
+                return;
 
             prevpanel.Hide();
             this.AcceptButton = btnBDok;
             panelBookDetails.Show();
-            textBDbookidok.Focus();      
+            textBDbookidok.Focus();
             prevpanel = panelBookDetails;
-        
-          
+
+
         }
         private void cmdExplore_Click(object sender, EventArgs e)
         {
-            
+
             if (!navigate(cmdExplore))
                 return;
-          
+
             prevpanel.Hide();
             panelExplore.Show();
             textSearchTerm.Focus();
             prevpanel = panelExplore;
-           
+
         }
         private void cmdIssueSubmitBook_Click(object sender, EventArgs e)
         {
-            
+
             if (!navigate(cmdIssueSubmitBook))
                 return;
 
@@ -554,11 +554,11 @@ namespace LibraryManagementSystem
             panelIssueSubmit.Show();
             textISbid.Focus();
             prevpanel = panelIssueSubmit;
-          
+
         }
         private void cmdIssueDetails_Click(object sender, EventArgs e)
         {
-          
+
             if (!navigate(cmdIssueDetails))
                 return;
 
@@ -569,20 +569,20 @@ namespace LibraryManagementSystem
         }
         private void cmdManageBooks_Click(object sender, EventArgs e)
         {
-                    
+
             if (!navigate(cmdManageBooks))
                 return;
 
             prevpanel.Hide();
             panelManageBooks.Show();
-            textMBisbn.Focus();    
+            textMBisbn.Focus();
             prevpanel = panelManageBooks;
             this.AcceptButton = btnMBadd2;
 
         }
         private void cmdManageMembers_Click(object sender, EventArgs e)
         {
-           
+
             if (!navigate(cmdManageMembers))
                 return;
 
@@ -596,27 +596,34 @@ namespace LibraryManagementSystem
 
         private void MainForm_Shown(object sender, EventArgs e)
         {
-            
 
-            lblUsersStatus.Text = globalstrLoggedUser ;
+
+            lblUsersStatus.Text = globalstrLoggedUser;
             lblUserType.Text = globalstrLoggedUserType;
 
             string lastview = dbsettings.lastView;
             switch (lastview)
             {
-                case "0": cmdExplore_Click(null, null);
+                case "0":
+                    cmdExplore_Click(null, null);
                     break;
-                case "1": cmdBookDetails_Click(null, null);
+                case "1":
+                    cmdBookDetails_Click(null, null);
                     break;
-                case "2": cmdIssueSubmitBook_Click(null, null);
+                case "2":
+                    cmdIssueSubmitBook_Click(null, null);
                     break;
-                case "3": cmdIssueDetails_Click(null, null);
+                case "3":
+                    cmdIssueDetails_Click(null, null);
                     break;
-                case "4": cmdManageBooks_Click(null, null);
+                case "4":
+                    cmdManageBooks_Click(null, null);
                     break;
-                case "5": cmdManageMembers_Click(null, null);
+                case "5":
+                    cmdManageMembers_Click(null, null);
                     break;
-                case "6": cmdMenu_Click(null, null);
+                case "6":
+                    cmdMenu_Click(null, null);
                     break;
             }
             fillGrid(selectallbooks + " ORDER BY BookID LIMIT 10 ");
@@ -640,7 +647,7 @@ namespace LibraryManagementSystem
             groupSubmit.Hide();
             groupIssue.Show();
 
-           // textISIBissuedate.Text = DateTime.Today.ToString("dd/MM/yyyy");
+            // textISIBissuedate.Text = DateTime.Today.ToString("dd/MM/yyyy");
             dpISIBissuedate.Value = DateTime.Today;
             int dti = dbsettings.daysToIssue;
             textISIBduedate.Text = DateTime.Today.AddDays(dti).ToString("dd/MM/yyyy");
@@ -674,8 +681,8 @@ namespace LibraryManagementSystem
                 int dailyFine = dbsettings.dailyFine;
                 int fine = ts.Days * dailyFine;
                 textISSBfine.Text = fine.ToString();
-                
-               // MessageBox.Show("Days:" + ts.Days + "  dailyfine:" + dailyFine + "  FineTotal:" + fine);
+
+                // MessageBox.Show("Days:" + ts.Days + "  dailyfine:" + dailyFine + "  FineTotal:" + fine);
             }
             else
             {
@@ -887,7 +894,7 @@ namespace LibraryManagementSystem
                 //code for issuing book
                 if (!bookavail(bid))
                 {
-                    
+
                     textISbid.Focus();
                     return;
                 }
@@ -927,20 +934,20 @@ namespace LibraryManagementSystem
         {
             try
             {
-            SQLiteCommand com = new SQLiteCommand(con);
+                SQLiteCommand com = new SQLiteCommand(con);
 
-            string bid = textISbid2.Text;
-            string mid = textISmid2.Text;
-            
-                string cmdtext ="INSERT INTO IssueDetails(BookID,MemberID,IssueDate,DueDate,BookTitle,MemberName) VALUES(@bid,@mid,@id,@dd,@title,@memname); ";
+                string bid = textISbid2.Text;
+                string mid = textISmid2.Text;
+
+                string cmdtext = "INSERT INTO IssueDetails(BookID,MemberID,IssueDate,DueDate,BookTitle,MemberName) VALUES(@bid,@mid,@id,@dd,@title,@memname); ";
                 com.CommandText = cmdtext;
 
-                com.Parameters.Add(new SQLiteParameter("@bid",bid));
-                com.Parameters.Add(new SQLiteParameter("@mid",mid));
-                com.Parameters.Add(new SQLiteParameter("@id",dpISIBissuedate.Value.ToString("dd/MM/yyyy")));
-                com.Parameters.Add(new SQLiteParameter("@dd",textISIBduedate.Text));
-                com.Parameters.Add(new SQLiteParameter("@title",textIStitle.Text));
-                com.Parameters.Add(new SQLiteParameter("@memname",textIsName.Text));
+                com.Parameters.Add(new SQLiteParameter("@bid", bid));
+                com.Parameters.Add(new SQLiteParameter("@mid", mid));
+                com.Parameters.Add(new SQLiteParameter("@id", dpISIBissuedate.Value.ToString("dd/MM/yyyy")));
+                com.Parameters.Add(new SQLiteParameter("@dd", textISIBduedate.Text));
+                com.Parameters.Add(new SQLiteParameter("@title", textIStitle.Text));
+                com.Parameters.Add(new SQLiteParameter("@memname", textIsName.Text));
 
                 com.ExecuteNonQuery();
 
@@ -948,7 +955,7 @@ namespace LibraryManagementSystem
                 com.CommandText = cmdtext;
                 com.ExecuteNonQuery();
                 panelIScontainer.Hide();
-                lblStatus.Text = "The Book " + bid + " was successfully issued";
+                lblStatus.Text = "El Libro " + bid + " se ha emitido con éxito";
                 pnlISshow.Hide();
                 dataGridID.DataSource = null;
 
@@ -966,7 +973,7 @@ namespace LibraryManagementSystem
         {
             if (string.IsNullOrEmpty(textISIBdays.Text))
                 return;
-         //   textISIBduedate.Text = DateTime.ParseExact(textISIBissuedate.Text, "dd/MM/yyyy", null).AddDays(Convert.ToInt32(textISIBdays.Text)).ToString("dd/MM/yyyy");
+            //   textISIBduedate.Text = DateTime.ParseExact(textISIBissuedate.Text, "dd/MM/yyyy", null).AddDays(Convert.ToInt32(textISIBdays.Text)).ToString("dd/MM/yyyy");
             textISIBduedate.Text = dpISIBissuedate.Value.AddDays(Convert.ToInt32(textISIBdays.Text)).ToString("dd/MM/yyyy");
         }
 
@@ -986,13 +993,13 @@ namespace LibraryManagementSystem
                 cmdtext = "INSERT INTO SubmittedBooks(BookID,MemberID,IssueDate,DueDate,SubmitDate,Fine,BookTitle,MemberName) VALUES(@bid,@mid,@id,@dd,@sd,@fine,@title,@memname);";
                 cmd.CommandText = cmdtext;
 
-                cmd.Parameters.Add(new SQLiteParameter("@bid",bid));
-                cmd.Parameters.Add(new SQLiteParameter("@mid",mid));
-                cmd.Parameters.Add(new SQLiteParameter("@id",textISSBissuedate.Text));
-                cmd.Parameters.Add(new SQLiteParameter("@dd",textISSBduedate.Text));
-                cmd.Parameters.Add(new SQLiteParameter("@sd",dpISSBsubmitdate.Value.ToString("dd/MM/yyyy")));
-                cmd.Parameters.Add(new SQLiteParameter("@fine",fine));
-                cmd.Parameters.Add(new SQLiteParameter("@title",  textIStitle.Text));
+                cmd.Parameters.Add(new SQLiteParameter("@bid", bid));
+                cmd.Parameters.Add(new SQLiteParameter("@mid", mid));
+                cmd.Parameters.Add(new SQLiteParameter("@id", textISSBissuedate.Text));
+                cmd.Parameters.Add(new SQLiteParameter("@dd", textISSBduedate.Text));
+                cmd.Parameters.Add(new SQLiteParameter("@sd", dpISSBsubmitdate.Value.ToString("dd/MM/yyyy")));
+                cmd.Parameters.Add(new SQLiteParameter("@fine", fine));
+                cmd.Parameters.Add(new SQLiteParameter("@title", textIStitle.Text));
                 cmd.Parameters.Add(new SQLiteParameter("@memname", textIsName.Text));
 
                 cmd.ExecuteNonQuery();
@@ -1002,7 +1009,7 @@ namespace LibraryManagementSystem
                 cmd.ExecuteNonQuery();
                 panelIScontainer.Hide();
                 pnlISshow.Hide();
-                lblStatus.Text = "The Book " + bid + " was successfully Submitted";
+                lblStatus.Text = "El Libro " + bid + " se ha enviado correctamente";
 
 
                 btnIDextendDD.Hide();
@@ -1018,10 +1025,10 @@ namespace LibraryManagementSystem
         {
 
             this.Opacity = 0.7;
-            
+
             if (clickedButton.Tag != null)
-                dbsettings.lastView= clickedButton.Tag.ToString();
-           
+                dbsettings.lastView = clickedButton.Tag.ToString();
+
             dbsettings.writeSettings();
         }
 
@@ -1068,12 +1075,12 @@ namespace LibraryManagementSystem
                 textIDfine.Text = dataGridID.SelectedRows[0].Cells["Fine"].Value.ToString();
 
                 dataGridID.Show();
-                lblStatus.Text = "List of Books which were Submitted Successfully.";
+                lblStatus.Text = "Lista de libros presentados con éxito.";
             }
             else
             {
                 dataGridID.Hide();
-                lblStatus.Text = "Submitted Books is Empty.";
+                lblStatus.Text = "Libros enviados está vacío.";
             }
             dtr.Close();
         }
@@ -1122,14 +1129,14 @@ namespace LibraryManagementSystem
 
 
                 dataGridID.Show();
-                lblStatus.Text = "List of Books which were Issued but not Submitted.";
+                lblStatus.Text = "Lista de libros publicados pero no presentados.";
             }
             else
             {
 
                 btnIDsubmitbook.Hide();
                 dataGridID.Hide();
-                lblStatus.Text = "Issued Books is Empty.";
+                lblStatus.Text = "Los libros publicados están vacíos.";
             }
 
         }
@@ -1193,9 +1200,9 @@ namespace LibraryManagementSystem
             {
                 price = textMBprice.Text.Trim();
             }
-            
+
             bool BDhasdel = dbsettings.hasDelBookDetails;
-            int bookid =getNextID(BDhasdel, "BookDetails");
+            int bookid = getNextID(BDhasdel, "BookDetails");
             string haspdf;
             if (String.IsNullOrEmpty(textMBpdfurl.Text))
             {
@@ -1269,14 +1276,14 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             }
             if (!String.IsNullOrEmpty(textMBpdfurl.Text))
             {
-              /*  string fileName = bookid.ToString() + ".pdf"; 
-                string source = textMBpdfurl.Text;
-                //string cur = Environment.CurrentDirectory + @"\Ebooks";
-                string cur =datafolder + @"\Ebooks";
+                /*  string fileName = bookid.ToString() + ".pdf"; 
+                  string source = textMBpdfurl.Text;
+                  //string cur = Environment.CurrentDirectory + @"\Ebooks";
+                  string cur =datafolder + @"\Ebooks";
 
-                string destination = Path.Combine(cur, fileName);
+                  string destination = Path.Combine(cur, fileName);
 
-                File.Copy(source, destination, true);*/
+                  File.Copy(source, destination, true);*/
 
 
 
@@ -1296,11 +1303,11 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 comm.Parameters.Add("@pdf", System.Data.DbType.Binary);
                 comm.Parameters["@pdf"].Value = byteArrayMBpdf;
                 comm.ExecuteNonQuery();
-                
+
 
             }
 
-            lblStatus.Text = "The Book '" + textMBtitle.Text + "' ID: " + bookid + " was ADDED successfully. " + "ADD another Book ..";
+            lblStatus.Text = "El Libro '" + textMBtitle.Text + "' ID: " + bookid + " se ha AÑADIDO correctamente. " + "AÑADIR otro Libro ..";
             btnMBclear_Click(null, null);
 
 
@@ -1347,7 +1354,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                                     break;
 
                             }
-                          
+
                             return id;
                         }
 
@@ -1403,7 +1410,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
                         com.CommandText = String.Format("select min(deletedID) from DeletedID where tablename='{0}'", tablename);
                         id = Convert.ToInt32(com.ExecuteScalar());
-                       // com.CommandText = String.Format("delete from DeletedID where tablename='{0}' and DeletedID={1}", tablename, id);
+                        // com.CommandText = String.Format("delete from DeletedID where tablename='{0}' and DeletedID={1}", tablename, id);
                         //com.ExecuteNonQuery();
 
                     }
@@ -1444,7 +1451,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             pictureMB.Image = null;
             comboMBcateg.SelectedItem = dbsettings.defaultCateg;
             bool BDhasdel = dbsettings.hasDelBookDetails;
-            int bookid =readonlyNextID(BDhasdel, "BookDetails");
+            int bookid = readonlyNextID(BDhasdel, "BookDetails");
             textMBbid.Text = bookid.ToString();
         }
 
@@ -1534,21 +1541,21 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 return;
             if (picBookCover.Dock == DockStyle.Fill)
             {
-               
+
                 picBookCover.Dock = DockStyle.None;
-                
+
                 MBpicboxsetsizemode(picBookCover);
-             
+
                 return;
             }
             if (picBookCover.SizeMode == PictureBoxSizeMode.Zoom)
             {
-                
+
                 picBookCover.Dock = DockStyle.Fill;
-               
+
                 MBpicboxsetsizemode(picBookCover);
-                
-                
+
+
             }
 
 
@@ -1672,20 +1679,20 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             {
 
                 byte[] pdfba = null;
-            if (!(retvalpdf is DBNull))
-            {                
-                pdfba = (byte[])retvalpdf;
-                
+                if (!(retvalpdf is DBNull))
+                {
+                    pdfba = (byte[])retvalpdf;
 
-                string fpath;
-                fpath = @"\Ebooks\" + textBDbookid.Text + ".pdf";
-                //fpath = AppDomain.CurrentDomain.BaseDirectory + fpath;
-                fpath = datafolder + fpath;
 
-                File.WriteAllBytes(fpath, pdfba);
+                    string fpath;
+                    fpath = @"\Ebooks\" + textBDbookid.Text + ".pdf";
+                    //fpath = AppDomain.CurrentDomain.BaseDirectory + fpath;
+                    fpath = datafolder + fpath;
 
-                System.Diagnostics.Process.Start(fpath);
-            }
+                    File.WriteAllBytes(fpath, pdfba);
+
+                    System.Diagnostics.Process.Start(fpath);
+                }
 
             }
             catch (Exception ex)
@@ -1694,13 +1701,13 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             }
         }
 
-       /* private void btnBDopenpdffolder_Click(object sender, EventArgs e)
-        {
-            string fpath = @"DownloadedEbooks\" + textBDtitle.Text + " " + textBDbookid.Text + ".pdf";
-            string arg = "/select, " + AppDomain.CurrentDomain.BaseDirectory + fpath;
+        /* private void btnBDopenpdffolder_Click(object sender, EventArgs e)
+         {
+             string fpath = @"DownloadedEbooks\" + textBDtitle.Text + " " + textBDbookid.Text + ".pdf";
+             string arg = "/select, " + AppDomain.CurrentDomain.BaseDirectory + fpath;
 
-            System.Diagnostics.Process.Start("explorer.exe", arg);
-        }*/
+             System.Diagnostics.Process.Start("explorer.exe", arg);
+         }*/
 
         private void panelManageMembers_Paint(object sender, PaintEventArgs e)
         {
@@ -1714,17 +1721,17 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
 
             DialogResult dr = add.ShowDialog();
-            if (dr == DialogResult.OK && dbsettings.usePackages==true)
+            if (dr == DialogResult.OK && dbsettings.usePackages == true)
             {
                 frmSetPackage.openwithmid = newmid;
                 frmSetPackage pk = new frmSetPackage();
                 pk.ShowDialog();
-            
+
             }
 
             btnMMviewall_Click(null, null);
 
-            
+
         }
 
 
@@ -1738,10 +1745,10 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             SQLiteCommand cmd = new SQLiteCommand(con);
             SQLiteDataReader dr;
 
-            if(limit==0)
-            cmd.CommandText = "SELECT MemberID,Name,Course,AdmissionYear,RollNo,PhoneNumber,Dob,Email from MemberDetails ORDER BY MemberID";
+            if (limit == 0)
+                cmd.CommandText = "SELECT MemberID,Name,Course,AdmissionYear,RollNo,PhoneNumber,Dob,Email from MemberDetails ORDER BY MemberID";
             else
-                cmd.CommandText = "SELECT MemberID,Name,Course,AdmissionYear,RollNo,PhoneNumber,Dob,Email from MemberDetails ORDER BY MemberID limit "+limit.ToString();
+                cmd.CommandText = "SELECT MemberID,Name,Course,AdmissionYear,RollNo,PhoneNumber,Dob,Email from MemberDetails ORDER BY MemberID limit " + limit.ToString();
 
 
             dr = cmd.ExecuteReader();
@@ -1753,13 +1760,13 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
 
 
-                lblStatus.Text = "Displaying Details of All " + dt.Rows.Count + " Library Members.";
+                lblStatus.Text = "Mostrar detalles de todos " + dt.Rows.Count + " Miembros de la biblioteca.";
             }
             else
             {
 
 
-                lblStatus.Text = "Member Details is Empty.";
+                lblStatus.Text = "Los datos de los miembros están vacíos.";
                 dataGridMM.DataSource = null;
             }
             dr.Close();
@@ -1773,7 +1780,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 searchterm = textMMsearchterm.Text;
                 if (string.IsNullOrEmpty(searchterm))
                 {
-                    lblStatus.Text = "Enter a Search Term for Searching Library Members.";
+                    lblStatus.Text = "Introduzca un término de búsqueda para buscar miembros de la biblioteca.";
                     return;
                 }
                 selectcmd = string.Format("select MemberID,Name,Course,AdmissionYear,RollNo,PhoneNumber,Dob,Email from MemberDetails where {0} LIKE('%{1}%')", comboMMfields.Text, searchterm);
@@ -1788,13 +1795,13 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
 
 
-                    lblStatus.Text = string.Format("Displaying {2} Search Results for ' {0} ' in {1} of Library Members.", searchterm, comboMMfields.Text, dt.Rows.Count);
+                    lblStatus.Text = string.Format("Visualización de {2} Resultados de la búsqueda de ' {0} ' en {1} de miembros de la biblioteca", searchterm, comboMMfields.Text, dt.Rows.Count);
                 }
                 else
                 {
 
                     dataGridMM.DataSource = null;
-                    lblStatus.Text = lblStatus.Text = string.Format("No Search Results for '{0}' in {1} of Library Members.", searchterm, comboMMfields.Text);
+                    lblStatus.Text = lblStatus.Text = string.Format("No hay resultados para '{0}' en {1} de los miembros de la biblioteca.", searchterm, comboMMfields.Text);
 
                 }
                 dr.Close();
@@ -1806,12 +1813,12 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
         }
         private void btnMMsearch_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textMMsearchterm_Click(object sender, EventArgs e)
         {
-            
+
         }
         private void idsearch()
         {
@@ -1823,7 +1830,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 searchterm = textIDsearch.Text;
                 if (string.IsNullOrEmpty(searchterm))
                 {
-                    lblStatus.Text = "Enter a Search Term for Searching Library Users.";
+                    lblStatus.Text = "Introduzca un término de búsqueda para buscar usuarios de la biblioteca.";
                     return;
                 }
 
@@ -1867,7 +1874,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 {
 
 
-                    lblStatus.Text = lblStatus.Text = "No Search Results .";
+                    lblStatus.Text = lblStatus.Text = "No hay resultados de búsqueda .";
                     dataGridID.DataSource = null;
 
                 }
@@ -1881,9 +1888,10 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
         private void btnIDsearch_Click(object sender, EventArgs e)
         {
 
-            
-            
+
+
         }
+
 
         private void btnBDIssueSub_Click(object sender, EventArgs e)
         {
@@ -1899,7 +1907,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void textIDsearch_Enter(object sender, EventArgs e)
         {
-           
+
         }
 
 
@@ -1911,7 +1919,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             eb.ShowDialog();
 
             bool BDhasdel = dbsettings.hasDelBookDetails;
-            int bookid =readonlyNextID(BDhasdel, "BookDetails");
+            int bookid = readonlyNextID(BDhasdel, "BookDetails");
             textMBbid.Text = bookid.ToString();
         }
 
@@ -1937,8 +1945,8 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void btnEBviewall_Click(object sender, EventArgs e)
         {
-            int res=fillGrid(selectallbooks + " ORDER BY BookID ");
-            lblStatus.Text = "Displaying All " + res + " Books ";
+            int res = fillGrid(selectallbooks + " ORDER BY BookID ");
+            lblStatus.Text = "Mostrar todo " + res + " Libros ";
         }
 
 
@@ -1967,7 +1975,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             searchterm = textSearchTerm.Text.Replace(" ", "");
             if (string.IsNullOrEmpty(searchterm))
             {
-                lblStatus.Text = "Enter a Search Term for Searching Books.";
+                lblStatus.Text = "Introduzca un término de búsqueda para buscar libros.";
                 return;
             }
             selectcmd = string.Format(selectallbooks + " where REPLACE({0}, ' ', '') LIKE('%{1}%')", comboSearchFields.Text, searchterm);
@@ -1981,28 +1989,24 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 gridviewExplore.DataSource = dt;
 
 
-                lblStatus.Text = string.Format("Displaying {2} Search Results for ' {0} ' in {1} of Books.", searchterm, comboSearchFields.Text, dt.Rows.Count);
+                lblStatus.Text = string.Format("Visualización de {2} Resultados de la búsqueda de ' {0} ' en {1} de Libros.", searchterm, comboSearchFields.Text, dt.Rows.Count);
             }
             else
             {
 
                 gridviewExplore.DataSource = null;
-                lblStatus.Text = lblStatus.Text = string.Format("No Search Results for ' {0} ' in {1} of Books.", searchterm, comboSearchFields.Text);
+                lblStatus.Text = lblStatus.Text = string.Format("No hay resultados para ' {0} ' en {1} de Libros.", searchterm, comboSearchFields.Text);
 
             }
 
         }
-        private void textSearchTerm_TextChanged(object sender, EventArgs e)
-        {
-            explore_Search();
+        
 
-        }
-
-        private void btnLogOut_Click(object sender, EventArgs e)
+      /*  private void btnLogOut_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;
         }
-
+      */
         private void cmdMenu_Click(object sender, EventArgs e)
         {
 
@@ -2058,15 +2062,15 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void btnMenuCateg_Click(object sender, EventArgs e)
         {
-          
-           // MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+
+            // MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
             frmCategories cat = new frmCategories();
             cat.ShowDialog();
             loadCategory();
             if (string.IsNullOrEmpty(dbsettings.defaultCateg))
             {
-                if(comboMBcateg.Items.Count!=0)
-                comboMBcateg.SelectedIndex = 0;
+                if (comboMBcateg.Items.Count != 0)
+                    comboMBcateg.SelectedIndex = 0;
             }
             else
             {
@@ -2149,7 +2153,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void dataGridMM_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+
 
 
         }
@@ -2187,7 +2191,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 dataGridID.SelectedRows[0].Cells["DueDate"].Value = dd.returndate;
                 textIDdd.Text = dd.returndate;
             }
-       
+
             //end of class MainForm
         }
 
@@ -2226,11 +2230,11 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             frmBookCopy bc = new frmBookCopy();
 
             DialogResult drs = bc.ShowDialog();
-            string id="";
+            string id = "";
             if (drs == DialogResult.OK)
             {
-              id = bc.returnid;
-                
+                id = bc.returnid;
+
             }
 
 
@@ -2239,16 +2243,16 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
 
 
-            object retval=null;
+            object retval = null;
             byte[] img = null;
 
             string price = "";
             if (String.IsNullOrEmpty(id))
             {
-                
+
                 return;
             }
-            string cmdtext = String.Format("select * from BookDetails where BookID={0};",id);
+            string cmdtext = String.Format("select * from BookDetails where BookID={0};", id);
             SQLiteCommand cmd = new SQLiteCommand(cmdtext, con);
 
             SQLiteDataReader dr = cmd.ExecuteReader();
@@ -2262,24 +2266,24 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             while (dr.Read())
             {
 
-              
+
                 textMBisbn.Text = dr["ISBN"].ToString();
                 textMBbookno.Text = dr["BookNo"].ToString();
                 textMBtitle.Text = dr["Title"].ToString();
                 textMBauthor.Text = dr["Author"].ToString();
-                comboMBcateg.Text= dr["Category"].ToString();
-               textMBdesc.Text= dr["Description"].ToString();
+                comboMBcateg.Text = dr["Category"].ToString();
+                textMBdesc.Text = dr["Description"].ToString();
 
-               textMByear.Text = dr["Year"].ToString();
-                textMBpub.Text= dr["Publisher"].ToString();
-               comboMBlang.Text = dr["Language"].ToString();
+                textMByear.Text = dr["Year"].ToString();
+                textMBpub.Text = dr["Publisher"].ToString();
+                comboMBlang.Text = dr["Language"].ToString();
                 price = dr["Price"].ToString();
-               textMBpage.Text= dr["Pages"].ToString();
-               textMBshelf.Text= dr["Shelf"].ToString();
-               MBcombobtype.Text = dr["Type"].ToString();
-               textMBdateadd.Text = dr["DateAdded"].ToString();
+                textMBpage.Text = dr["Pages"].ToString();
+                textMBshelf.Text = dr["Shelf"].ToString();
+                MBcombobtype.Text = dr["Type"].ToString();
+                textMBdateadd.Text = dr["DateAdded"].ToString();
                 retval = dr["Image"];
-               
+
 
             }
 
@@ -2289,11 +2293,11 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 img = (byte[])retval;
                 System.IO.MemoryStream myMemoryStream = new System.IO.MemoryStream(img);
                 System.Drawing.Image myImage = System.Drawing.Image.FromStream(myMemoryStream);
-               pictureMB.Image = myImage;
+                pictureMB.Image = myImage;
 
-               MemoryStream ms = new MemoryStream();
-               pictureMB.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
-               byteArrayMBimage = ms.GetBuffer();
+                MemoryStream ms = new MemoryStream();
+                pictureMB.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+                byteArrayMBimage = ms.GetBuffer();
                 /*
                ImageConverter converter = new ImageConverter();
                byteArrayMBimage=(byte[])converter.ConvertTo(pictureMB.Image, typeof(byte[]));
@@ -2303,15 +2307,15 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 if (pictureMB.SizeMode == PictureBoxSizeMode.Zoom)
                     labelMBenlarge.Text = "Click to Enlarge";
                 else
-                    labelMBenlarge.Text= "";
+                    labelMBenlarge.Text = "";
 
             }
             else
             {
                 labelMBenlarge.Text = "";
             }
-    
-            
+
+
 
             textBDprice.Text = price;
 
@@ -2349,8 +2353,8 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         }
 
-       
-        
+
+
         private void btnMenuExport_Click(object sender, EventArgs e)
         {
             frmExport ex = new frmExport();
@@ -2361,7 +2365,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
         {
             if (dataGridMM.RowCount == 0)
                 return;
-            textIDsearch.Text= dataGridMM.SelectedRows[0].Cells["MemberID"].Value.ToString();
+            textIDsearch.Text = dataGridMM.SelectedRows[0].Cells["MemberID"].Value.ToString();
             comboIDfield.Text = "MemberID";
             cmdIssueDetails_Click(null, null);
         }
@@ -2387,15 +2391,15 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void comboMBcateg_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
             if (string.IsNullOrEmpty(comboMBcateg.Text))
             {
                 return;
             }
-           
+
             SQLiteCommand com = new SQLiteCommand(con);
-            com.CommandText = String.Format("select Shelf from Categories where Category='{0}';",comboMBcateg.Text);
-         
+            com.CommandText = String.Format("select Shelf from Categories where Category='{0}';", comboMBcateg.Text);
+
 
             string shelf = com.ExecuteScalar().ToString();
             textMBshelf.Text = shelf;
@@ -2419,7 +2423,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void btnCategoryModal_Click(object sender, EventArgs e)
         {
-            lblStatus.Text = "Add new Category";
+            lblStatus.Text = "Añadir nueva categoría";
             pnlAddCateg.Show();
             pnlAddCateg.BringToFront();
             txtAddCateg.Focus();
@@ -2480,6 +2484,55 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         }
 
+        private void btnEBissret_Click_1(object sender, EventArgs e)
+        {
+            if (gridviewExplore.RowCount == 0)
+                return;
+            textISbid.Text = gridviewExplore.SelectedRows[0].Cells["BookID"].Value.ToString();
+            cmdIssueSubmitBook_Click(null, null);
+
+        }
+
+        private void btnEBviewall_Click_1(object sender, EventArgs e)
+        {
+            int res = fillGrid(selectallbooks + " ORDER BY BookID ");
+            lblStatus.Text = "Mostrar todo " + res + " Libros ";
+
+        }
+
+
+
+        private void textSearchTerm_TextChanged_1(object sender, EventArgs e)
+        {
+            explore_Search();
+        }
+
+        private void treeViewExplore_AfterSelect_1(object sender, TreeViewEventArgs e)
+        {
+            if (treeViewExplore.SelectedNode == null)
+            {
+                return;
+            }
+            if (treeViewExplore.SelectedNode.Text == "Categories")
+            {
+                return;
+            }
+            TreeNode selnode = treeViewExplore.SelectedNode;
+            int res = 0;
+
+            res = fillGrid(string.Format(selectallbooks + " where Category='{0}' ORDER BY BookID", selnode.Text));
+            if (res == 0)
+            {
+                lblStatus.Text = "No hay libros para mostrar en la categoría " + selnode.Text;
+            }
+            else
+            {
+                lblStatus.Text = "Displaying " + res + " Books in the Category " + selnode.Text;
+            }
+
+
+        }
+
         private void btnMMexploreMembers_Click(object sender, EventArgs e)
         {
             frmExploreMembers em = new frmExploreMembers();
@@ -2491,7 +2544,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             try
             {
                 string fpath;
-                fpath = @"\Ebooks\" ;
+                fpath = @"\Ebooks\";
 
                 //fpath = AppDomain.CurrentDomain.BaseDirectory + fpath;
                 fpath = datafolder + fpath;
@@ -2510,7 +2563,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
         {
             frmManageDatabase md = new frmManageDatabase();
             md.ShowDialog();
-          
+
         }
 
         private void pictureMB_MouseEnter(object sender, EventArgs e)
@@ -2532,8 +2585,8 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
 
         private void dpISIBissuedate_ValueChanged(object sender, EventArgs e)
         {
-         int dti = dbsettings.daysToIssue;
-         textISIBduedate.Text = dpISIBissuedate.Value.AddDays(dti).ToString("dd/MM/yyyy");
+            int dti = dbsettings.daysToIssue;
+            textISIBduedate.Text = dpISIBissuedate.Value.AddDays(dti).ToString("dd/MM/yyyy");
         }
 
         private void dpISSBsubmitdate_ValueChanged(object sender, EventArgs e)
@@ -2548,25 +2601,25 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
                 int fine = ts.Days * dailyFine;
                 textISSBfine.Text = fine.ToString();
 
-               // MessageBox.Show("Days:" + ts.Days + "  dailyfine:" + dailyFine + "  FineTotal:" + fine);
+                // MessageBox.Show("Days:" + ts.Days + "  dailyfine:" + dailyFine + "  FineTotal:" + fine);
             }
             else
             {
                 textISSBfine.Text = "0";
-               // MessageBox.Show("zero");
+                // MessageBox.Show("zero");
             }
         }
 
-       
 
-        
-        
+
+
+
 
 
     }
     public static class StringCipher
     {
-        public static string enckey="87hjsi$hs8jnglwoxhjk";
+        public static string enckey = "87hjsi$hs8jnglwoxhjk";
         // This constant string is used as a "salt" value for the PasswordDeriveBytes function calls.
         // This size of the IV (in bytes) must = (keysize / 8).  Default keysize is 256, so the IV must be
         // 32 bytes long.  Using a 16 character string here gives us 32 bytes when converted to a byte array.
@@ -2625,6 +2678,7 @@ VALUES(@bid,@bookno,@isbn,@title,@author,@desc,@categ,@pub,@lang,
             }
 
         }
+
     }
 }
 
